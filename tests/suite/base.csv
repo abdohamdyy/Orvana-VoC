@@ -1,0 +1,289 @@
+ticket_id,message_text,category,secondary_category,product_mentioned,store_mentioned,sentiment,urgency,lang,phenomenon,ambiguous,acceptable_categories,split
+S0000,بقالي أسبوع مستني الأوردر ومحدش معبرني,delivery_delay,,,,negative,2,egy,paraphrase,0,delivery_delay,dev
+S0001,الطلب كان المفروض يوصل الحد وإحنا النهارده الخميس,delivery_delay,,,,negative,2,egy,paraphrase,0,delivery_delay,dev
+S0002,لم يصلني الطلب حتى الآن رغم مرور خمسة أيام على موعد التسليم,delivery_delay,,,,negative,2,msa,paraphrase,0,delivery_delay,holdout
+S0003,el order bta3y lesa mawsalsh mn yom el sabt,delivery_delay,,,,negative,2,franco,paraphrase,0,delivery_delay,dev
+S0004,ana mestany el talab men esboo kamel w mafish rad,delivery_delay,,,,negative,2,franco,paraphrase,0,delivery_delay,holdout
+S0005,"Still waiting for my delivery, it's been 9 days",delivery_delay,,,,negative,2,en,paraphrase,0,delivery_delay,dev
+S0006,الـ delivery اتأخر جدا والـ tracking مش بيتحرك من يومين,delivery_delay,,,,negative,2,mixed,paraphrase,0,delivery_delay,holdout
+S0007,ايوه يا فندم انا طالب اوردر من يوم السبت ولحد دلوقتي ماجاش ولا حد كلمني,delivery_delay,,,,negative,2,voice,paraphrase,0,delivery_delay,holdout
+S0008,Where is my order? It said out for delivery yesterday,delivery_delay,,,,negative,2,en,paraphrase,0,delivery_delay,dev
+S0009,جالي شاحن غير اللي طلبته خالص,wrong_item,,,,negative,2,egy,paraphrase,0,wrong_item,dev
+S0010,الطلبية ناقصة كيس كامل وأنا دافع تمنه,wrong_item,,,,negative,2,egy,paraphrase,0,wrong_item,dev
+S0011,استلمت منتجًا مختلفًا عن الذي طلبته والمذكور في الفاتورة,wrong_item,,,,negative,2,msa,paraphrase,0,wrong_item,holdout
+S0012,el order gali na2es 7agten men el list,wrong_item,,,,negative,2,franco,paraphrase,0,wrong_item,holdout
+S0013,You sent me the wrong size and the wrong color,wrong_item,,,,negative,2,en,paraphrase,0,wrong_item,holdout
+S0014,طلبت Dove شامبو جالي conditioner بداله,wrong_item,,Dove,,negative,2,mixed,paraphrase,0,wrong_item,dev
+S0015,ana talabt zeit w gali samna badalo,wrong_item,,,,negative,2,franco,paraphrase,0,wrong_item,holdout
+S0016,الكرتونه وصلت فيها حاجات مش بتاعتي اصلا,wrong_item,,,,negative,2,voice,paraphrase,0,wrong_item,dev
+S0017,رجعت الحاجة من عشر أيام وفلوسي لسه ما رجعتش على الكارت,refund_request,,,,negative,2,egy,paraphrase,0,refund_request,dev
+S0018,عايز فلوسي اللي اتخصمت على أوردر اتلغى,refund_request,,,,negative,2,egy,paraphrase,0,refund_request,holdout
+S0019,أرجو استرداد المبلغ المدفوع للطلب الملغي في أقرب وقت,refund_request,,,,negative,2,msa,paraphrase,0,refund_request,holdout
+S0020,3ayez arga3 felousy 3ala el order elly et3amalo cancel,refund_request,,,,negative,2,franco,paraphrase,0,refund_request,dev
+S0021,I returned the Kiriazi fridge two weeks ago and still no refund,refund_request,,Kiriazi,,negative,2,en,paraphrase,0,refund_request,dev
+S0022,Please refund the 350 EGP you charged me twice,refund_request,,,,negative,2,en,paraphrase,0,refund_request,holdout
+S0023,الـ refund بتاعي متأخر أوي ومحدش بيرد,refund_request,,,,negative,2,mixed,paraphrase,0,refund_request,holdout
+S0024,المرتجع اتسلم للمندوب من اسبوعين والفلوس ماجتش لحد دلوقتي,refund_request,,,,negative,2,voice,paraphrase,0,refund_request,holdout
+S0025,التلاجة كريازي مش بتبرد خالص من أول يوم,product_quality,,Kiriazi,,negative,2,egy,paraphrase,0,product_quality,dev
+S0026,السماعة VoltX صوتها بيقطع كل شوية,product_quality,,VoltX,,negative,2,egy,paraphrase,0,product_quality,dev
+S0027,تعطلت المكواة بعد أسبوع واحد من الاستخدام,product_quality,,,,negative,2,msa,paraphrase,0,product_quality,dev
+S0028,el blender Tornado sotoh 3aly w bey2af lewa7do,product_quality,,Tornado,,negative,2,franco,paraphrase,0,product_quality,holdout
+S0029,The Persil detergent left white stains on all my clothes,product_quality,,Persil,,negative,2,en,paraphrase,0,product_quality,dev
+S0030,Samsung phone screen started flickering after 3 days,product_quality,,Samsung,,negative,2,en,paraphrase,0,product_quality,dev
+S0031,الـ power bank شاومي مش بيشحن خالص,product_quality,,Xiaomi,,negative,2,mixed,paraphrase,0,product_quality,dev
+S0032,الخلاط اشتغل يومين وبعدين الموتور وقف ومش راضي يدور تاني,product_quality,,,,negative,2,voice,paraphrase,0,product_quality,holdout
+S0033,الخصم اللي في الإعلان مش متطبق في الفرع,price_complaint,,,,negative,2,egy,paraphrase,0,price_complaint,holdout
+S0034,اتحاسبت على زيت Orvana Select بسعر أعلى من اللي على الرف,price_complaint,,Orvana Select,,negative,2,egy,paraphrase,0,price_complaint,dev
+S0035,السعر المعروض على الرف يختلف عن السعر المسجل في الفاتورة,price_complaint,,,,negative,2,msa,paraphrase,0,price_complaint,holdout
+S0036,el se3r 3al raf 120 w 7asbouny 150,price_complaint,,,,negative,2,franco,paraphrase,0,price_complaint,dev
+S0037,Prices in your stores are much higher than other supermarkets,price_complaint,,,,negative,2,en,paraphrase,0,price_complaint,dev
+S0038,The buy-one-get-one offer wasn't applied at the cashier,price_complaint,,,,negative,2,en,paraphrase,0,price_complaint,dev
+S0039,الـ discount اللي على الـ shelf مش ظاهر في الـ receipt,price_complaint,,,,negative,2,mixed,paraphrase,0,price_complaint,holdout
+S0040,الأسعار بقت نار كل أسبوع حاجة تغلى من غير سبب,price_complaint,,,,negative,2,voice,paraphrase,0,price_complaint,holdout
+S0041,الأبلكيشن بيعلق عند صفحة الدفع,app_issue,,,,negative,2,egy,paraphrase,0,app_issue,holdout
+S0042,مش عارف أغير العنوان من الأبلكيشن خالص,app_issue,,,,negative,2,egy,paraphrase,0,app_issue,dev
+S0043,لا يمكنني تسجيل الدخول إلى التطبيق منذ أمس,app_issue,,,,negative,2,msa,paraphrase,0,app_issue,dev
+S0044,el app msh bey3mel load khales,app_issue,,,,negative,2,franco,paraphrase,0,app_issue,holdout
+S0045,The app keeps logging me out every few minutes,app_issue,,,,negative,2,en,paraphrase,0,app_issue,dev
+S0046,Checkout button does nothing in the app,app_issue,,,,negative,2,en,paraphrase,0,app_issue,holdout
+S0047,الـ OTP مش بيوصل على الموبايل علشان أعمل login,app_issue,,,,negative,2,mixed,paraphrase,0,app_issue,dev
+S0048,كل ما افتح البرنامج يقفل لوحده ويطلعني بره,app_issue,,,,negative,2,voice,paraphrase,0,app_issue,dev
+S0049,الكاشير زعق في وشي علشان سألت على العرض,staff_behavior,,,,negative,2,egy,paraphrase,0,staff_behavior,holdout
+S0050,موظف خدمة العملاء قفل السكة في وشي,staff_behavior,,,,negative,2,egy,paraphrase,0,staff_behavior,dev
+S0051,تعامل الموظف معي بأسلوب غير لائق في فرع المعادي,staff_behavior,,,CAI-02,negative,2,msa,paraphrase,0,staff_behavior,holdout
+S0052,el security f far3 Tanta mesh mo7taram khales,staff_behavior,,,DLT-01,negative,2,franco,paraphrase,0,staff_behavior,dev
+S0053,The delivery guy was rude and demanded a tip,staff_behavior,,,,negative,2,en,paraphrase,0,staff_behavior,dev
+S0054,Staff at the Nasr City branch ignored me for 20 minutes,staff_behavior,,,CAI-01,negative,2,en,paraphrase,0,staff_behavior,dev
+S0055,الـ supervisor في فرع سموحة كان rude جدا معايا,staff_behavior,,,ALX-01,negative,2,mixed,paraphrase,0,staff_behavior,dev
+S0056,الراجل اللي على الباب اتريق عليا قدام الناس,staff_behavior,,,,negative,2,voice,paraphrase,0,staff_behavior,dev
+S0057,النقط بتاعة الشهر اللي فات ما نزلتش,loyalty_points,,,,negative,2,egy,paraphrase,0,loyalty_points,holdout
+S0058,حاولت أستبدل النقط في الكاشير قالولي مش هينفع,loyalty_points,,,,negative,2,egy,paraphrase,0,loyalty_points,holdout
+S0059,لم تُضف نقاط أورفانا بلس إلى حسابي بعد عملية الشراء,loyalty_points,,,,negative,2,msa,paraphrase,0,loyalty_points,dev
+S0060,el points bta3ty sab2a esboo w lesa ma nezletsh,loyalty_points,,,,negative,2,franco,paraphrase,0,loyalty_points,holdout
+S0061,My Orvana Plus balance dropped to zero without any redemption,loyalty_points,,,,negative,2,en,paraphrase,0,loyalty_points,holdout
+S0062,Points from my 900 EGP purchase never showed up,loyalty_points,,,,negative,2,en,paraphrase,0,loyalty_points,dev
+S0063,الـ points بتاعتي اتمسحت من غير ما أستخدمها,loyalty_points,,,,negative,2,mixed,paraphrase,0,loyalty_points,holdout
+S0064,انا كنت مجمع نقط كتير وفجأة لقيتها صفر,loyalty_points,,,,negative,2,voice,paraphrase,0,loyalty_points,holdout
+S0065,هو فرع الزمالك بيفتح الساعة كام؟,inquiry,,,CAI-06,neutral,1,egy,paraphrase,0,inquiry,dev
+S0066,ما هي مواعيد عمل فرع المنصورة يوم الجمعة؟,inquiry,,,DLT-02,neutral,1,msa,paraphrase,0,inquiry,dev
+S0067,emta el Samsung el gedid hayenzel 3andoko?,inquiry,,Samsung,,neutral,1,franco,paraphrase,0,inquiry,dev
+S0068,Do you have Juhayna milk in stock at the Dokki branch?,inquiry,,Juhayna,GIZ-02,neutral,1,en,paraphrase,0,inquiry,holdout
+S0069,What payment methods do you accept on delivery?,inquiry,,,,neutral,1,en,paraphrase,0,inquiry,holdout
+S0070,ينفع أدفع بالـ Instapay عند الاستلام؟,inquiry,,,,neutral,1,mixed,paraphrase,0,inquiry,dev
+S0071,لو سمحت عايز اعرف فيه فرع قريب من فيصل,inquiry,,,GIZ-04,neutral,1,voice,paraphrase,1,inquiry,dev
+S0072,إزاي أشترك في Orvana Plus؟,inquiry,,,,neutral,1,egy,paraphrase,1,inquiry|loyalty_points,holdout
+S0073,الأوردر متأخر 6 أيام وبرضو الأبلكيشن مش بيفتح,delivery_delay,app_issue,,,negative,2,egy,multi_issue,0,delivery_delay,dev
+S0074,الكاشير كان قليل الذوق و كمان العرض ما اتطبقش,staff_behavior,price_complaint,,,negative,2,egy,multi_issue,0,staff_behavior,dev
+S0075,استلمت منتج غلط، وغير كده النقط ما اتضافتش,wrong_item,loyalty_points,,,negative,2,egy,multi_issue,0,wrong_item,dev
+S0076,My refund is late. Also the app crashes when I open my orders.,refund_request,app_issue,,,negative,2,en,multi_issue,0,refund_request,dev
+S0077,Order arrived 5 days late plus one item was missing,delivery_delay,wrong_item,,,negative,2,en,multi_issue,0,delivery_delay,holdout
+S0078,el order et2a5ar w bardo el points ma nezletsh,delivery_delay,loyalty_points,,,negative,2,franco,multi_issue,0,delivery_delay,holdout
+S0079,بالإضافة لتأخير الطلب، الموظف اتكلم معايا بطريقة وحشة,delivery_delay,staff_behavior,,,negative,2,egy,multi_issue,0,delivery_delay,dev
+S0080,التلاجة باظت بعد يومين. والأسعار كمان غليت,product_quality,price_complaint,,,negative,2,egy,multi_issue,0,product_quality,dev
+S0081,"الطلب ما وصلش
+والفلوس اتخصمت مرتين 1500 جنيه",delivery_delay,refund_request,,,negative,2,egy,multi_issue,0,delivery_delay,dev
+S0082,"app crashes, wrong item delivered, and no points added",app_issue,wrong_item,,,negative,2,en,multi_issue,0,app_issue,holdout
+S0083,طلبت شامبو دوف جالي برسيل وكمان المندوب كان بيزعق,wrong_item,staff_behavior,Dove,,negative,2,egy,multi_issue,0,wrong_item,dev
+S0084,law sama7t el app bey2fel w kaman el order na2es,app_issue,wrong_item,,,negative,2,franco,multi_issue,0,app_issue,dev
+S0085,the cashier refused to apply my points and also she was rude,loyalty_points,staff_behavior,,,negative,2,en,multi_issue,0,loyalty_points,dev
+S0086,الزيت منتهي الصلاحية وكمان سعره أغلى من الرف,product_quality,price_complaint,,,negative,3,egy,multi_issue,0,product_quality,holdout
+S0087,The Molto was expired and also the receipt price was wrong,product_quality,price_complaint,Edita,,negative,3,en,multi_issue,0,product_quality,dev
+S0088,I also ordered milk but the whole order is 4 days late,delivery_delay,,,,negative,2,en,multi_issue,0,delivery_delay,dev
+S0089,عايز أطلب كمان حاجة بس الأوردر الأولاني لسه ما وصلش,delivery_delay,,,,negative,2,egy,multi_issue,0,delivery_delay,holdout
+S0090,لقد تأخر الطلب كثيرًا، كما أن التطبيق لا يعمل,delivery_delay,app_issue,,,negative,2,msa,multi_issue,0,delivery_delay,dev
+S0091,مش لاقي النقط بتاعتي + الكاشير ماطبقش الخصم,loyalty_points,price_complaint,,,negative,2,egy,multi_issue,0,loyalty_points,dev
+S0092,el refund mesh rage3 w el app kaman wa2ef,refund_request,app_issue,,,negative,2,franco,multi_issue,0,refund_request,dev
+S0093,السعر غلط في فرع ٦ أكتوبر,price_complaint,,,GIZ-05,negative,2,egy,entities,0,price_complaint,holdout
+S0094,staff at the October branch were rude,staff_behavior,,,GIZ-05,negative,2,en,entities,0,staff_behavior,dev
+S0095,f far3 el Maadi el se3r mesh mazboot,price_complaint,,,CAI-02,negative,2,franco,entities,0,price_complaint,dev
+S0096,فرع المنصوره ٢ الكاشير زعقلي,staff_behavior,,,DLT-06,negative,2,egy,entities,0,staff_behavior,holdout
+S0097,cai-3 store has wrong shelf prices,price_complaint,,,CAI-03,negative,2,en,entities,0,price_complaint,dev
+S0098,CAI 06 security guard shouted at me,staff_behavior,,,CAI-06,negative,2,en,entities,0,staff_behavior,holdout
+S0099,فرع أسيوط الجديدة مش بيقبل النقط,loyalty_points,,,UPE-05,negative,2,egy,entities,0,loyalty_points,dev
+S0100,The Heliopolis store didn't apply the discount,price_complaint,,,CAI-03,negative,2,en,entities,0,price_complaint,dev
+S0101,في فرع الغردقة اتعاملت بطريقة وحشة جدا,staff_behavior,,,,negative,2,egy,entities,0,staff_behavior,dev
+S0102,فرع مصر الجديده الأسعار فيه غير الفاتورة,price_complaint,,,CAI-03,negative,2,egy,entities,0,price_complaint,dev
+S0103,Sheikh Zayed branch put the wrong item in my bag,wrong_item,,,GIZ-01,negative,2,en,entities,0,wrong_item,holdout
+S0104,el far3 elly f Sidi Gaber mafihoush points redemption,loyalty_points,,,ALX-02,negative,2,franco,entities,0,loyalty_points,dev
+S0105,موبايل سامسونغ وقف بعد يومين,product_quality,,Samsung,,negative,2,egy,entities,0,product_quality,dev
+S0106,الباور بانك شاومى بيفصل لوحده,product_quality,,Xiaomi,,negative,2,egy,entities,0,product_quality,holdout
+S0107,سماعة فولت اكس صوتها واطي جدا,product_quality,,VoltX,,negative,2,egy,entities,0,product_quality,dev
+S0108,خلاط تورنيدو ريحته وحشة وهو شغال,product_quality,,Tornado,,negative,2,egy,entities,1,product_quality,dev
+S0109,لبن جهينه جالي مفتوح,product_quality,,Juhayna,,negative,2,egy,entities,0,product_quality,holdout
+S0110,بيرسيل الجديد مش بينضف خالص,product_quality,,Persil,,negative,2,egy,entities,0,product_quality,dev
+S0111,تلاجة كريازى صوتها عالي جدا,product_quality,,Kiriazi,,negative,2,egy,entities,0,product_quality,dev
+S0112,Ariel detergent I bought from you smells bad,product_quality,,,,negative,2,en,entities,0,product_quality,holdout
+S0113,the iPhone charger I bought stopped working,product_quality,,,,negative,2,en,entities,0,product_quality,dev
+S0114,طلبت مكواة فريش وموبايل سامسونج والمكواة ما وصلتش,delivery_delay,,Fresh,,negative,2,egy,entities,0,delivery_delay,dev
+S0115,Is the Kiriazi fridge available in the Mansoura 2 branch?,inquiry,,Kiriazi,DLT-06,neutral,1,en,entities,0,inquiry,holdout
+S0116,عايز أعرف مواعيد فرع العبور,inquiry,,,CAI-11,neutral,1,egy,entities,0,inquiry,holdout
+S0117,el kashier f far3 Port Said kan bey3amelny wa7esh,staff_behavior,,,CNL-02,negative,2,franco,entities,0,staff_behavior,holdout
+S0118,دي رابع مرة أشتكي والطلب لسه ما وصلش,delivery_delay,,,,negative,3,egy,urgency_edge,0,delivery_delay,holdout
+S0119,للمرة الثالثة أتواصل معكم بخصوص استرداد المبلغ,refund_request,,,,negative,3,msa,urgency_edge,0,refund_request,holdout
+S0120,this is my 4th complaint about the app logging me out,app_issue,,,,negative,3,en,urgency_edge,0,app_issue,holdout
+S0121,ريحة حريق طالعة من الشاحن VoltX وهو بيشحن,product_quality,,VoltX,,negative,3,egy,urgency_edge,0,product_quality,holdout
+S0122,الباور بانك شاومي طلع منه دخان,product_quality,,Xiaomi,,negative,3,egy,urgency_edge,0,product_quality,dev
+S0123,the iron sparks every time I plug it in,product_quality,,,,negative,3,en,urgency_edge,0,product_quality,dev
+S0124,جالي تسمم من لبن جهينة اللي اشتريته امبارح,product_quality,,Juhayna,,negative,3,egy,urgency_edge,0,product_quality,dev
+S0125,عايز استرد 1000 جنيه اتخصموا مرتين من الكارت,refund_request,,,,negative,3,egy,urgency_edge,0,refund_request,holdout
+S0126,"I was charged 999 EGP twice, please fix it",refund_request,,,,negative,2,en,urgency_edge,0,refund_request,dev
+S0127,اتخصم مني ألفين جنيه مرتين على نفس الأوردر,refund_request,,,,negative,3,egy,urgency_edge,0,refund_request,dev
+S0128,اتخصم 5000 جنيه مرتين على الفيزا,refund_request,,,,negative,3,egy,urgency_edge,0,refund_request,dev
+S0129,الطلب متأخر 20 يوم,delivery_delay,,,,negative,2,egy,urgency_edge,0,delivery_delay,holdout
+S0130,expired yogurt on the shelf at the Banha branch,product_quality,,,DLT-05,negative,3,en,urgency_edge,0,product_quality,holdout
+S0131,el zabady elly 3al raf f far3 Zagazig khlsan salahyto,product_quality,,,DLT-03,negative,3,franco,urgency_edge,0,product_quality,holdout
+S0132,انتهت صلاحية زيت Orvana Select قبل موعدها المكتوب,product_quality,,Orvana Select,,negative,3,msa,urgency_edge,0,product_quality,holdout
+S0133,اللبن جهينة طعمه حامض ومش طبيعي,product_quality,,Juhayna,,negative,2,egy,urgency_edge,1,product_quality,dev
+S0134,كل مرة أكلمكم محدش بيرد والأوردر متأخر,delivery_delay,,,,negative,2,egy,urgency_edge,1,delivery_delay,dev
+S0135,دي تالت مرة أسأل: فرع شبرا بيفتح امتى؟,inquiry,,,CAI-05,neutral,3,egy,urgency_edge,1,inquiry,dev
+S0136,شكرا جدا على التأخير الجميل ده 👏👏 أسبوعين بالظبط,delivery_delay,,,,negative,2,egy,sentiment_edge,0,delivery_delay,dev
+S0137,"great job, my order is only two weeks late 🙄",delivery_delay,,,,negative,2,en,sentiment_edge,0,delivery_delay,holdout
+S0138,لو سمحت بعد إذن حضرتك الطلب متأخر شوية,delivery_delay,,,,negative,2,egy,sentiment_edge,0,delivery_delay,holdout
+S0139,Not a big deal but the coupon didn't work in the app,app_issue,,,,negative,2,en,sentiment_edge,0,app_issue,dev
+S0140,برافو عليكم بجد، تالت مرة الأبلكيشن يقفل وأنا بدفع,app_issue,,,,negative,3,egy,sentiment_edge,0,app_issue,dev
+S0141,شكرا على الخدمة الممتازة في فرع سموحة,inquiry,,,ALX-01,positive,1,egy,sentiment_edge,1,inquiry,holdout
+S0142,"thank you, the delivery guy was very polite today",inquiry,,,,positive,1,en,sentiment_edge,1,inquiry,dev
+S0143,السلام عليكم,inquiry,,,,neutral,1,egy,out_of_scope,0,inquiry,dev
+S0144,test test,inquiry,,,,neutral,1,en,out_of_scope,0,inquiry,dev
+S0145,هو كارفور فاتح النهارده؟,inquiry,,,,neutral,1,egy,out_of_scope,0,inquiry,dev
+S0146,عايز أشتغل عندكم، أقدم فين؟,inquiry,,,,neutral,1,egy,out_of_scope,0,inquiry,dev
+S0147,اكسب 5000 جنيه في اليوم من البيت اضغط على اللينك,inquiry,,,,neutral,1,egy,out_of_scope,1,inquiry,holdout
+S0148,ok,inquiry,,,,neutral,1,en,out_of_scope,0,inquiry,dev
+S0149,بعد آخر تحديث للأبلكيشن الدفع بالفيزا مش بيكمل والفلوس بتتخصم,app_issue,,,,negative,2,egy,incident,1,app_issue|refund_request,dev
+S0150,since version 5.3 the app crashes on startup,app_issue,,,,negative,2,en,incident,0,app_issue,dev
+S0151,el website wa2e3 men embare7 w mesh 3aref atlob,app_issue,,,,negative,2,franco,incident,0,app_issue,dev
+S0152,Fawry payment failed in the app but the money was deducted,app_issue,,,,negative,2,en,incident,1,app_issue|refund_request,holdout
+S0153,الأبلكيشن الجديد مش بيظهر المنتجات خالص,app_issue,,,,negative,2,egy,incident,0,app_issue,holdout
+S0154,الطلب فين,delivery_delay,,,,negative,2,egy,style_noise,0,delivery_delay,dev
+S0155,refund??,refund_request,,,,negative,2,en,style_noise,0,refund_request,dev
+S0156,APP NOT WORKING!!!!!,app_issue,,,,negative,2,en,style_noise,0,app_issue,holdout
+S0157,انا عميل من 10 سنين وكنت بحب الخدمة جدا وبشتري كل حاجة منكم بس للأسف المرة دي زيت Orvana Select جالي منتهي الصلاحية,product_quality,,Orvana Select,,negative,3,egy,style_noise,0,product_quality,dev
+S0158,ايوه الو يعني انا كنت طالب حاجات من الابلكيشن والحاجات جت ناقصه حاجتين وانا دافع تمنهم,wrong_item,,,,negative,2,voice,style_noise,0,wrong_item,dev
+S0159,😡😡 الكاشير 😡😡 قليل الادب 😡😡,staff_behavior,,,,negative,2,egy,style_noise,0,staff_behavior,holdout
+S0160,plz el order bta3y fen??? 3 ayam!!!,delivery_delay,,,,negative,2,franco,style_noise,0,delivery_delay,dev
+S0161,"Hi, I hope you are doing well. I wanted to let you know that my Dove shampoo arrived with a broken cap and leaked everywhere. Thanks",product_quality,,Dove,,negative,2,en,style_noise,0,product_quality,dev
+S0162,أطلب منكم توضيح سبب تأخر شحنتي التي كان من المفترض أن تصل الأسبوع الماضي,delivery_delay,,,,negative,2,msa,paraphrase,0,delivery_delay,dev
+S0163,تجاوز الطلب موعد التوصيل المحدد بثلاثة أيام دون أي تواصل من جانبكم,delivery_delay,,,,negative,2,msa,paraphrase,0,delivery_delay,dev
+S0164,وصلتني سلعة لا تطابق الطلب، فقد طلبت خلاطًا فوصلتني مكواة,wrong_item,,,,negative,2,msa,paraphrase,0,wrong_item,dev
+S0165,الطرد ناقص منتجين رغم احتسابهما في الفاتورة,wrong_item,,,,negative,2,msa,paraphrase,0,wrong_item,dev
+S0166,لم يُرد إليّ ثمن المنتج المرتجع حتى تاريخه,refund_request,,,,negative,2,msa,paraphrase,0,refund_request,holdout
+S0167,خُصم المبلغ من بطاقتي مرتين، وأطلب استرداد المبلغ المكرر وقدره 800 جنيه,refund_request,,,,negative,2,msa,urgency_edge,0,refund_request,dev
+S0168,توقف جهاز سامسونج عن العمل بعد يومين من شرائه,product_quality,,Samsung,,negative,2,msa,paraphrase,0,product_quality,dev
+S0169,تنبعث رائحة احتراق من الشاحن عند توصيله بالكهرباء,product_quality,,,,negative,3,msa,urgency_edge,0,product_quality,dev
+S0170,تم احتساب سعر أعلى من السعر المعلن في العرض الترويجي,price_complaint,,,,negative,2,msa,paraphrase,0,price_complaint,holdout
+S0171,ارتفعت أسعار المنتجات بشكل غير مبرر خلال الشهر الماضي,price_complaint,,,,negative,2,msa,paraphrase,0,price_complaint,dev
+S0172,يتوقف التطبيق عن الاستجابة عند محاولة إتمام عملية الدفع,app_issue,,,,negative,2,msa,paraphrase,0,app_issue,dev
+S0173,لا تصلني رسالة رمز التحقق عند محاولة الدخول إلى حسابي,app_issue,,,,negative,2,msa,paraphrase,0,app_issue,dev
+S0174,تعرضت لمعاملة سيئة من موظف الأمن في فرع التجمع,staff_behavior,,,CAI-04,negative,2,msa,paraphrase,0,staff_behavior,holdout
+S0175,رفض الموظف استبدال المنتج دون إبداء أي سبب,staff_behavior,,,,negative,2,msa,paraphrase,0,staff_behavior,dev
+S0176,لا أستطيع استخدام نقاطي عند الشراء من الفرع,loyalty_points,,,,negative,2,msa,paraphrase,0,loyalty_points,holdout
+S0177,اختفت نقاط برنامج الولاء من حسابي فجأة,loyalty_points,,,,negative,2,msa,paraphrase,0,loyalty_points,dev
+S0178,هل يتوفر التوصيل إلى محافظة الإسكندرية؟,inquiry,,,,neutral,1,msa,paraphrase,0,inquiry,holdout
+S0179,ما هي سياسة الاسترجاع للأجهزة الكهربائية؟,inquiry,,,,neutral,1,msa,paraphrase,0,inquiry,dev
+S0180,تأخر الطلب أسبوعًا، بالإضافة إلى أن أحد المنتجات كان تالفًا,delivery_delay,product_quality,,,negative,2,msa,multi_issue,0,delivery_delay,holdout
+S0181,هذه هي المرة الرابعة التي أشتكي فيها من نفس المشكلة في التطبيق,app_issue,,,,negative,3,msa,urgency_edge,0,app_issue,dev
+S0182,الـ order اتأخر والـ customer service مش بيرد,delivery_delay,,,,negative,2,mixed,paraphrase,0,delivery_delay,holdout
+S0183,عملت return للـ Samsung phone ومستني الـ refund,refund_request,,Samsung,,negative,2,mixed,paraphrase,0,refund_request,holdout
+S0184,الـ app بيعمل crash كل ما أفتح الـ cart,app_issue,,,,negative,2,mixed,paraphrase,0,app_issue,dev
+S0185,الـ cashier في فرع الدقي was very rude,staff_behavior,,,GIZ-02,negative,2,mixed,entities,0,staff_behavior,dev
+S0186,الـ offer مكتوب 20% بس الـ system عند الكاشير ماطبقهوش,price_complaint,,,,negative,2,mixed,paraphrase,0,price_complaint,dev
+S0187,جالي item غلط في الـ delivery,wrong_item,,,,negative,2,mixed,paraphrase,0,wrong_item,dev
+S0188,الـ points بتاعة Orvana Plus مش بتتحسب صح,loyalty_points,,,,negative,2,mixed,paraphrase,0,loyalty_points,dev
+S0189,الـ charger بتاع VoltX بيسخن جامد,product_quality,,VoltX,,negative,3,mixed,urgency_edge,0,product_quality,holdout
+S0190,ممكن أعرف الـ working hours بتاعة فرع ستانلي؟,inquiry,,,ALX-06,neutral,1,mixed,paraphrase,0,inquiry,dev
+S0191,الـ refund اتعمل بس الـ amount ناقص,refund_request,,,,negative,2,mixed,paraphrase,0,refund_request,dev
+S0192,الـ delivery man رمى الشنطة على الباب,staff_behavior,,,,negative,2,mixed,paraphrase,0,staff_behavior,holdout
+S0193,الـ Molto كان expired,product_quality,,Edita,,negative,3,mixed,urgency_edge,0,product_quality,dev
+S0194,الو ايوه انا بكلمكم تاني بخصوص الاوردر اللي ما وصلش بقالي خمس ايام مستني,delivery_delay,,,,negative,2,voice,paraphrase,1,delivery_delay,dev
+S0195,بص يا باشا انا اشتريت التلاجه من عندكم وهي مش بتبرد خالص وعايز حد يجي يشوفها,product_quality,,,,negative,2,voice,paraphrase,0,product_quality,dev
+S0196,يعني ايه الفلوس تتخصم مني وانا ماخدتش حاجه انا عايز فلوسي,refund_request,,,,negative,2,voice,paraphrase,0,refund_request,dev
+S0197,الموظفه في الفرع كلمتني بطريقه مش كويسه خالص وانا ست كبيره,staff_behavior,,,,negative,2,voice,paraphrase,0,staff_behavior,holdout
+S0198,انا مش عارف ادخل على الحساب بتاعي في البرنامج من امبارح,app_issue,,,,negative,2,voice,paraphrase,0,app_issue,dev
+S0199,النقط اللي جمعتها راحت فين محدش فاهم حاجه,loyalty_points,,,,negative,2,voice,paraphrase,0,loyalty_points,dev
+S0200,عايز اسال على العروض اللي عندكم الاسبوع ده,inquiry,,,,neutral,1,voice,paraphrase,0,inquiry,holdout
+S0201,اللي حصل ان الكاشير حاسبني على حاجه انا ما اخدتهاش,price_complaint,,,,negative,2,voice,paraphrase,1,price_complaint|refund_request,dev
+S0202,الواد بتاع الدليفري قالي هجيلك بعد ساعه ومن ساعتها ماجاش,delivery_delay,,,,negative,2,voice,paraphrase,0,delivery_delay,dev
+S0203,ريحه الزيت غريبه وفيه حاجه عايمه فيه,product_quality,,,,negative,2,voice,urgency_edge,1,product_quality,dev
+S0204,el delivery et2akhar 3 ayam w mafeesh 7ad by2ool 7aga,delivery_delay,,,,negative,2,franco,paraphrase,0,delivery_delay,holdout
+S0205,gali el talaga Kiriazi maksoura,product_quality,,Kiriazi,,negative,2,franco,paraphrase,0,product_quality,dev
+S0206,msh 3aref asta5dem el coupon fel app,app_issue,,,,negative,2,franco,paraphrase,0,app_issue,dev
+S0207,el kashier 7asabny ghalat w zawed 50 geneh,price_complaint,,,,negative,2,franco,paraphrase,0,price_complaint,dev
+S0208,"3ayez felousy, el order etlagha mn 10 ayam",refund_request,,,,negative,2,franco,paraphrase,0,refund_request,dev
+S0209,el mandoob kan bey3ayatly fel telephone,staff_behavior,,,,negative,2,franco,paraphrase,0,staff_behavior,holdout
+S0210,el points mesh bt7sab 3la el moshtarayat,loyalty_points,,,,negative,2,franco,paraphrase,0,loyalty_points,dev
+S0211,far3 Mokattam byfta7 emta?,inquiry,,,CAI-09,neutral,1,franco,paraphrase,0,inquiry,dev
+S0212,el power bank Xiaomi beyskhan gamed,product_quality,,Xiaomi,,negative,3,franco,urgency_edge,0,product_quality,dev
+S0213,el app 3amal debit marteen 2000 geneh,refund_request,,,,negative,3,franco,urgency_edge,1,refund_request|app_issue,dev
+S0214,el order lesa mawsalsh w mafish had bayrod,delivery_delay,,,,negative,2,franco,paraphrase,0,delivery_delay,dev
+S0215,el shampoo Dove gali maftoo7,product_quality,,Dove,,negative,2,franco,paraphrase,0,product_quality,dev
+S0216,msh la2y el order fel history bta3 el app,app_issue,,,,negative,2,franco,paraphrase,0,app_issue,holdout
+S0217,el se3r fel app gher el se3r fel far3,price_complaint,,,,negative,2,franco,paraphrase,0,price_complaint,dev
+S0218,law sama7t fe far3 f Assiut?,inquiry,,,UPE-01,neutral,1,franco,paraphrase,1,inquiry,holdout
+S0219,اتخصم مني مرتين 1200 جنيه وكمان الأبلكيشن بيقفل,refund_request,app_issue,,,negative,3,egy,multi_issue,0,refund_request,holdout
+S0220,el kashier za3a2 w kaman ma rdeesh ydeeny el points,staff_behavior,loyalty_points,,,negative,2,franco,multi_issue,0,staff_behavior,holdout
+S0221,My Persil arrived opened and also the delivery was 3 days late,product_quality,delivery_delay,Persil,,negative,2,en,multi_issue,0,product_quality,dev
+S0222,النقط اختفت ومش بس كده الأسعار زادت,loyalty_points,price_complaint,,,negative,2,egy,multi_issue,0,loyalty_points,dev
+S0223,"The app doesn't load; in addition, my last refund never arrived",app_issue,refund_request,,,negative,2,en,multi_issue,0,app_issue,holdout
+S0224,الطلب جه ناقص وبرده المندوب اتأخر ساعتين,wrong_item,delivery_delay,,,negative,2,egy,multi_issue,0,wrong_item,holdout
+S0225,الكاشير ما طبقش العرض وبعدين زعقلي لما اعترضت,price_complaint,staff_behavior,,,negative,2,egy,multi_issue,0,price_complaint,holdout
+S0226,فرع الهرم الكاشير اتخانق معايا,staff_behavior,,,GIZ-03,negative,2,egy,entities,0,staff_behavior,holdout
+S0227,ALX5 had expired Juhayna milk on the shelf,product_quality,,Juhayna,ALX-05,negative,3,en,entities,0,product_quality,dev
+S0228,فرع ميت غمر السعر على الرف غلط,price_complaint,,,DLT-09,negative,2,egy,entities,0,price_complaint,holdout
+S0229,Mallawi branch didn't accept my points,loyalty_points,,,UPE-06,negative,2,en,entities,0,loyalty_points,dev
+S0230,فرع الاسماعيلية الموظف اتعامل معايا وحش,staff_behavior,,,CNL-01,negative,2,egy,entities,0,staff_behavior,dev
+S0231,زيت اورفانا سيليكت منتهي الصلاحية,product_quality,,Orvana Select,,negative,3,egy,entities,0,product_quality,dev
+S0232,شاحن فولتكس باظ بعد يومين,product_quality,,VoltX,,negative,2,egy,entities,0,product_quality,holdout
+S0233,مولتو بالشوكولاتة جالي مكسور ومفتوح,product_quality,,Edita,,negative,2,egy,entities,0,product_quality,dev
+S0234,صباح الخير,inquiry,,,,neutral,1,egy,out_of_scope,0,inquiry,holdout
+S0235,?,inquiry,,,,neutral,1,en,out_of_scope,0,inquiry,holdout
+S0236,Can I speak to a manager please?,inquiry,,,,neutral,1,en,out_of_scope,0,inquiry,holdout
+S0237,شكرا ليكم المشكلة اتحلت,inquiry,,,,positive,1,egy,sentiment_edge,1,inquiry,dev
+S0238,you guys are the worst,inquiry,,,,neutral,1,en,sentiment_edge,1,inquiry|staff_behavior,holdout
+S0239,انتو أحسن سوبر ماركت في مصر ❤️,inquiry,,,,positive,1,egy,sentiment_edge,1,inquiry,dev
+S0240,الطلبية بتاعتي لسه مجتش بقالها 6 أيام ومحدش بيرد على التليفون,delivery_delay,,,,negative,2,egy,paraphrase,0,delivery_delay,holdout
+S0241,يا جماعة الشحنة اتأخرت جدا والمفروض كانت توصل يوم الخميس,delivery_delay,,,,negative,2,egy,paraphrase,0,delivery_delay,dev
+S0242,my package was supposed to arrive on Sunday and it's Wednesday now,delivery_delay,,,,negative,2,en,paraphrase,0,delivery_delay,holdout
+S0243,el shohna lsa mawsletsh w el app bey2ool delivered,delivery_delay,,,,negative,2,franco,paraphrase,0,delivery_delay,dev
+S0244,برافو عليكم، الأوردر وصل بعد 10 أيام بس 👏,delivery_delay,,,,negative,2,egy,paraphrase,0,delivery_delay,holdout
+S0245,فتحت الكرتونة لقيت شامبو دوف بدل الزيت اللي طلبته,wrong_item,,Dove,,negative,2,egy,paraphrase,0,wrong_item,dev
+S0246,"the delivery had 3 items instead of 5, but I paid for all of them",wrong_item,,,,negative,2,en,paraphrase,0,wrong_item,holdout
+S0247,gali size ghalat fel order kollo,wrong_item,,,,negative,2,franco,paraphrase,0,wrong_item,dev
+S0248,طلبت تلاجة كريازي بيضا وجتلي فضي,wrong_item,,Kiriazi,,negative,2,egy,paraphrase,0,wrong_item,holdout
+S0249,I received someone else's order with a different name on it,wrong_item,,,,negative,2,en,paraphrase,0,wrong_item,dev
+S0250,لسه مستني فلوس المرتجع من 3 أسابيع,refund_request,,,,negative,2,egy,paraphrase,0,refund_request,holdout
+S0251,the refund for my returned Samsung phone still hasn't reached my card,refund_request,,Samsung,,negative,2,en,paraphrase,0,refund_request,holdout
+S0252,el felous bta3et el order el melghy lessa marga3etsh,refund_request,,,,negative,2,franco,paraphrase,0,refund_request,dev
+S0253,اتخصم مني 3000 جنيه مرتين على نفس الطلب عايز فلوسي,refund_request,,,,negative,3,egy,urgency_edge,0,refund_request,dev
+S0254,"I was charged twice for 200 EGP, please refund",refund_request,,,,negative,2,en,paraphrase,0,refund_request,dev
+S0255,المكواة فريش بتطلع شرار وريحتها محروقة,product_quality,,Fresh,,negative,3,egy,urgency_edge,0,product_quality,dev
+S0256,لبن جهينة طعمه بايظ ومنتهي الصلاحية من امبارح,product_quality,,Juhayna,,negative,3,egy,urgency_edge,0,product_quality,holdout
+S0257,the Xiaomi power bank is swollen and gets really hot while charging,product_quality,,Xiaomi,,negative,3,en,urgency_edge,0,product_quality,dev
+S0258,khalat Tornado el motor bta3o wa2ef,product_quality,,Tornado,,negative,2,franco,paraphrase,0,product_quality,dev
+S0259,Dove shampoo bottle arrived leaking,product_quality,,Dove,,negative,2,en,paraphrase,0,product_quality,dev
+S0260,الكاشير حاسبني على السعر القديم مع إن العرض شغال,price_complaint,,,,negative,2,egy,paraphrase,0,price_complaint,dev
+S0261,سعر برسيل في الفرع أغلى من الأبلكيشن ب 50 جنيه,price_complaint,,Persil,,negative,2,egy,paraphrase,0,price_complaint,holdout
+S0262,the price tag said 120 but I paid 150 at Smouha branch,price_complaint,,,ALX-01,negative,2,en,paraphrase,0,price_complaint,dev
+S0263,el as3ar f far3 Mokattam a3la men ay makan,price_complaint,,,CAI-09,negative,2,franco,paraphrase,0,price_complaint,dev
+S0264,why did the Molto price double in two weeks?,price_complaint,,Edita,,negative,2,en,paraphrase,0,price_complaint,dev
+S0265,الأبلكيشن مش بيفتح خالص بعد التحديث,app_issue,,,,negative,2,egy,paraphrase,0,app_issue,holdout
+S0266,"can't add items to the cart in the app, it keeps showing an error",app_issue,,,,negative,2,en,paraphrase,0,app_issue,dev
+S0267,el OTP mesh bywsal 3ashan a3mel login,app_issue,,,,negative,2,franco,paraphrase,0,app_issue,holdout
+S0268,الدفع بالفيزا في الأبلكيشن بيفشل كل مرة,app_issue,,,,negative,2,egy,paraphrase,0,app_issue,dev
+S0269,the app logged me out and deleted my saved addresses,app_issue,,,,negative,2,en,paraphrase,0,app_issue,holdout
+S0270,موظف الأمن في فرع الزمالك اتكلم معايا بقلة أدب,staff_behavior,,,CAI-06,negative,2,egy,paraphrase,0,staff_behavior,dev
+S0271,the delivery guy was rude and threw the bag at the door,staff_behavior,,,,negative,2,en,paraphrase,0,staff_behavior,holdout
+S0272,el kashier f far3 Tanta kan bytkalem fel mobile w sabni mestani,staff_behavior,,,DLT-01,negative,2,franco,paraphrase,0,staff_behavior,holdout
+S0273,مدير الفرع رفض يسمع الشكوى بتاعتي,staff_behavior,,,,negative,2,egy,paraphrase,0,staff_behavior,dev
+S0274,staff at the Maadi branch laughed at me when I asked for help,staff_behavior,,,CAI-02,negative,2,en,paraphrase,0,staff_behavior,holdout
+S0275,نقاط أورفانا بلس مش ظاهرة في الحساب من أسبوع,loyalty_points,,,,negative,2,egy,paraphrase,0,loyalty_points,dev
+S0276,"I can't use my points at checkout, it says insufficient balance",loyalty_points,,,,negative,2,en,paraphrase,0,loyalty_points,dev
+S0277,el points bta3et el shahr elly fat mat7asbetsh,loyalty_points,,,,negative,2,franco,paraphrase,0,loyalty_points,holdout
+S0278,"my Orvana Plus points expired early, they should last 12 months",loyalty_points,,,,negative,2,en,paraphrase,0,loyalty_points,dev
+S0279,اشتريت ب 2000 جنيه ومفيش ولا نقطة اتضافت دي تالت مرة أشتكي,loyalty_points,,,,negative,3,egy,urgency_edge,0,loyalty_points,holdout
+S0280,هل فيه فرع مفتوح 24 ساعة في المعادي؟,inquiry,,,CAI-02,neutral,1,egy,paraphrase,0,inquiry,dev
+S0281,do you sell Samsung phones with installments?,inquiry,,Samsung,,neutral,1,en,paraphrase,0,inquiry,holdout
+S0282,emta el offers bta3et el Black Friday hatebda2?,inquiry,,,,neutral,1,franco,paraphrase,0,inquiry,dev
+S0283,ممكن أعرف رقم خدمة العملاء لفرع طنطا؟,inquiry,,,DLT-01,neutral,1,egy,paraphrase,0,inquiry,dev
+S0284,is the Kiriazi fridge available in the October branch?,inquiry,,Kiriazi,GIZ-05,neutral,1,en,paraphrase,0,inquiry,dev
+S0285,الأوردر اتأخر 5 أيام وكمان لما وصل كان ناقص حاجة,delivery_delay,wrong_item,,,negative,2,egy,multi_issue,0,delivery_delay,holdout
+S0286,the app keeps crashing and also my points are gone,app_issue,loyalty_points,,,negative,2,en,multi_issue,0,app_issue,holdout

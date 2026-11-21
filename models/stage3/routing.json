@@ -1,0 +1,7 @@
+{
+ "threshold": 0.0,
+ "disagree": true,
+ "min_similarity": null,
+ "chosen_rule": "disagree with TF-IDF",
+ "chosen_on": "suite dev split"
+}

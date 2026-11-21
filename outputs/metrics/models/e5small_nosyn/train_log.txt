@@ -1,0 +1,14 @@
+device=cuda gpu=NVIDIA GeForce RTX 5050 Laptop GPU args={'data': 'data/processed/segments.csv', 'model': 'intfloat/multilingual-e5-small', 'out': 'models/e5small_nosyn', 'epochs': 6, 'lr': 5e-05, 'batch_size': 32, 'seed': 42, 'device': 'cuda', 'extra_data': None}
+train segments=6563 dev segments (held-out templates)=986
+{"epoch": 1, "train_loss": 1.6558, "seconds": 16.4, "dev_macro_f1": 0.9537, "select_score": 0.9537}
+{"epoch": 2, "train_loss": 0.2916, "seconds": 16.3, "dev_macro_f1": 1.0, "select_score": 1.0}
+{"epoch": 3, "train_loss": 0.0796, "seconds": 15.3, "dev_macro_f1": 1.0, "select_score": 1.0}
+{"epoch": 4, "train_loss": 0.0426, "seconds": 15.3, "dev_macro_f1": 1.0, "select_score": 1.0}
+{"epoch": 5, "train_loss": 0.0286, "seconds": 15.3, "dev_macro_f1": 1.0, "select_score": 1.0}
+{"epoch": 6, "train_loss": 0.0238, "seconds": 15.2, "dev_macro_f1": 1.0, "select_score": 1.0}
+best epoch = 2
+{"epoch": 1, "train_loss": 1.3787, "seconds": 17.6}
+{"epoch": 2, "train_loss": 0.3493, "seconds": 18.4}
+exported models\e5small_nosyn\model.int8.onnx (118 MB)
+ONNX int8 vs torch agreement on 500 texts: 1.0000
+total time 2.8 min

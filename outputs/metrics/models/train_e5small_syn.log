@@ -1,0 +1,45 @@
+W1120 03:50:18.028000 33660 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+device=cuda gpu=NVIDIA GeForce RTX 5050 Laptop GPU args={'data': 'data/processed/segments.csv', 'model': 'intfloat/multilingual-e5-small', 'out': 'models/e5small_syn', 'epochs': 6, 'lr': 5e-05, 'batch_size': 32, 'seed': 42, 'device': 'cuda', 'extra_data': 'data/processed/synthetic.csv'}
+train segments=6563 dev segments (held-out templates)=986
+extra synthetic: 609 train + 108 selection
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3755.82it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: intfloat/multilingual-e5-small
+Key               | Status  | 
+------------------+---------+-
+classifier.weight | MISSING | 
+classifier.bias   | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+{"epoch": 1, "train_loss": 1.6441, "seconds": 18.7, "dev_macro_f1": 0.8452, "synth_dev_macro_f1": 0.8644, "select_score": 0.8548}
+{"epoch": 2, "train_loss": 0.3121, "seconds": 17.2, "dev_macro_f1": 0.9992, "synth_dev_macro_f1": 0.926, "select_score": 0.9626}
+{"epoch": 3, "train_loss": 0.0922, "seconds": 16.6, "dev_macro_f1": 0.992, "synth_dev_macro_f1": 0.9621, "select_score": 0.977}
+{"epoch": 4, "train_loss": 0.0458, "seconds": 16.5, "dev_macro_f1": 0.997, "synth_dev_macro_f1": 0.9379, "select_score": 0.9674}
+{"epoch": 5, "train_loss": 0.0311, "seconds": 16.5, "dev_macro_f1": 0.9996, "synth_dev_macro_f1": 0.9439, "select_score": 0.9718}
+{"epoch": 6, "train_loss": 0.0255, "seconds": 16.5, "dev_macro_f1": 0.9996, "synth_dev_macro_f1": 0.9523, "select_score": 0.976}
+best epoch = 3
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4251.93it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: intfloat/multilingual-e5-small
+Key               | Status  | 
+------------------+---------+-
+classifier.weight | MISSING | 
+classifier.bias   | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+{"epoch": 1, "train_loss": 1.3765, "seconds": 19.4}
+{"epoch": 2, "train_loss": 0.2396, "seconds": 19.0}
+{"epoch": 3, "train_loss": 0.1008, "seconds": 19.0}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.91s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.91s/it]
+d:\egic\Orvana_AI_Challenge\scripts\train_transformer.py:150: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html
+  torch.onnx.export(model, (dummy["input_ids"], dummy["attention_mask"]), out / "model.onnx", dynamo=False, **kwargs)
+D:\egic\Orvana_AI_Challenge\.venv-train\Lib\site-packages\transformers\masking_utils.py:244: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  if (padding_length := kv_length + kv_offset - attention_mask.shape[-1]) > 0:
+D:\egic\Orvana_AI_Challenge\.venv-train\Lib\site-packages\transformers\integrations\sdpa_attention.py:159: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  is_causal = q_length > 1 and attention_mask is None and is_causal
+D:\egic\Orvana_AI_Challenge\.venv-train\Lib\site-packages\torch\onnx\_internal\torchscript_exporter\symbolic_opset11.py:954: UserWarning: Exporting aten::index operator of advanced indexing in opset 17 is achieved by combination of multiple ONNX operators, including Reshape, Transpose, Concat, and Gather. If indices include negative values, the exported graph will produce incorrect results.
+  return opset9.index(g, self, index)
+WARNING:root:Please consider to run pre-processing before quantization. Refer to example: https://github.com/microsoft/onnxruntime-inference-examples/blob/main/quantization/image_classification/cpu/ReadMe.md 
+exported models\e5small_syn\model.int8.onnx (118 MB)
+ONNX int8 vs torch agreement on 500 texts: 1.0000
+total time 3.4 min

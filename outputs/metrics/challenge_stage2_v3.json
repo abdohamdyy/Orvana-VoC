@@ -1,0 +1,34 @@
+{
+  "file": "challenge_stage2_v3.csv",
+  "category_macro_f1": 0.9365,
+  "category_accuracy": 0.9362,
+  "secondary_category_accuracy": 1.0,
+  "product_exact_match": 1.0,
+  "store_exact_match": 1.0,
+  "sentiment_accuracy": 0.9787,
+  "urgency_accuracy": 0.9574,
+  "overall": 0.965,
+  "overall_ci95": [
+    0.9134,
+    1.0
+  ],
+  "per_class_f1": {
+    "app_issue": 0.923,
+    "delivery_delay": 0.909,
+    "inquiry": 0.909,
+    "loyalty_points": 0.889,
+    "price_complaint": 0.889,
+    "product_quality": 0.909,
+    "refund_request": 1.0,
+    "staff_behavior": 1.0,
+    "wrong_item": 1.0
+  },
+  "errors_per_field": {
+    "category": 3,
+    "secondary_category": 0,
+    "product_mentioned": 0,
+    "store_mentioned": 0,
+    "sentiment": 1,
+    "urgency": 2
+  }
+}

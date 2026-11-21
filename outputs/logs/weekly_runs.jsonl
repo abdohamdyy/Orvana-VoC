@@ -1,0 +1,12 @@
+{"file": "tickets_2026-07-01_to_2026-07-07.csv", "week": "2026-07-01_to_2026-07-07", "at": "2026-11-20T02:26:12+00:00", "summary_source": "llm", "valid_tickets": 320, "status": "emailed"}
+{"file": "tickets_2026-07-08_to_2026-07-14.csv", "week": "2026-07-08_to_2026-07-14", "at": "2026-11-20T02:26:23+00:00", "summary_source": "llm", "valid_tickets": 324, "status": "emailed"}
+{"file": "tickets_2026-07-01_to_2026-07-07.csv", "week": "2026-07-01_to_2026-07-07", "at": "2026-11-20T02:26:37+00:00", "status": "skipped: already emailed"}
+{"file": "tickets_2026-07-08_to_2026-07-14.csv", "week": "2026-07-08_to_2026-07-14", "at": "2026-11-20T02:26:37+00:00", "status": "skipped: already emailed"}
+{"file": "tickets_2026-07-01_to_2026-07-07.csv", "week": "2026-07-01_to_2026-07-07", "at": "2026-11-21T21:06:36+00:00", "summary_source": "llm", "valid_tickets": 320, "status": "emailed"}
+{"file": "tickets_2026-07-08_to_2026-07-14.csv", "week": "2026-07-08_to_2026-07-14", "at": "2026-11-21T21:06:43+00:00", "summary_source": "llm", "valid_tickets": 324, "status": "emailed"}
+{"file": "tickets_2026-07-01_to_2026-07-07.csv", "week": "2026-07-01_to_2026-07-07", "at": "2026-11-21T22:25:57+00:00", "summary_source": "llm", "valid_tickets": 320, "status": "emailed"}
+{"file": "tickets_2026-07-08_to_2026-07-14.csv", "week": "2026-07-08_to_2026-07-14", "at": "2026-11-21T22:26:03+00:00", "summary_source": "llm", "valid_tickets": 324, "status": "emailed"}
+{"file": "tickets_2026-07-01_to_2026-07-07.csv", "week": "2026-07-01_to_2026-07-07", "at": "2026-11-21T22:27:34+00:00", "status": "skipped: already emailed"}
+{"file": "tickets_2026-07-08_to_2026-07-14.csv", "week": "2026-07-08_to_2026-07-14", "at": "2026-11-21T22:27:34+00:00", "status": "skipped: already emailed"}
+{"file": "tickets_2026-07-01_to_2026-07-07.csv", "week": "2026-07-01_to_2026-07-07", "at": "2026-11-21T22:28:34+00:00", "status": "skipped: already emailed"}
+{"file": "tickets_2026-07-08_to_2026-07-14.csv", "week": "2026-07-08_to_2026-07-14", "at": "2026-11-21T22:28:34+00:00", "status": "skipped: already emailed"}

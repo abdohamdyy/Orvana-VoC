@@ -1,0 +1,14 @@
+{
+  "n": 36,
+  "llm_reply_used_pct": 91.7,
+  "template_fallback_pct": 8.3,
+  "final_replies_passing_checks_pct": 100.0,
+  "problems_seen_in_rejected_drafts": [
+    "number 24 not in policy or complaint",
+    "number 700 not in policy or complaint",
+    "number 25 not in policy or complaint; number 25 not in policy or complaint"
+  ],
+  "policy": 3.56,
+  "tone": 3.97,
+  "helpful": 2.97
+}

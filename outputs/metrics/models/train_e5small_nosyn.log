@@ -1,0 +1,43 @@
+W1120 03:47:22.384000 32848 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+device=cuda gpu=NVIDIA GeForce RTX 5050 Laptop GPU args={'data': 'data/processed/segments.csv', 'model': 'intfloat/multilingual-e5-small', 'out': 'models/e5small_nosyn', 'epochs': 6, 'lr': 5e-05, 'batch_size': 32, 'seed': 42, 'device': 'cuda', 'extra_data': None}
+train segments=6563 dev segments (held-out templates)=986
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2598.97it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: intfloat/multilingual-e5-small
+Key               | Status  | 
+------------------+---------+-
+classifier.bias   | MISSING | 
+classifier.weight | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+{"epoch": 1, "train_loss": 1.6558, "seconds": 16.4, "dev_macro_f1": 0.9537, "select_score": 0.9537}
+{"epoch": 2, "train_loss": 0.2916, "seconds": 16.3, "dev_macro_f1": 1.0, "select_score": 1.0}
+{"epoch": 3, "train_loss": 0.0796, "seconds": 15.3, "dev_macro_f1": 1.0, "select_score": 1.0}
+{"epoch": 4, "train_loss": 0.0426, "seconds": 15.3, "dev_macro_f1": 1.0, "select_score": 1.0}
+{"epoch": 5, "train_loss": 0.0286, "seconds": 15.3, "dev_macro_f1": 1.0, "select_score": 1.0}
+{"epoch": 6, "train_loss": 0.0238, "seconds": 15.2, "dev_macro_f1": 1.0, "select_score": 1.0}
+best epoch = 2
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3441.95it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: intfloat/multilingual-e5-small
+Key               | Status  | 
+------------------+---------+-
+classifier.bias   | MISSING | 
+classifier.weight | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+{"epoch": 1, "train_loss": 1.3787, "seconds": 17.6}
+{"epoch": 2, "train_loss": 0.3493, "seconds": 18.4}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  2.26it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  2.26it/s]
+d:\egic\Orvana_AI_Challenge\scripts\train_transformer.py:150: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html
+  torch.onnx.export(model, (dummy["input_ids"], dummy["attention_mask"]), out / "model.onnx", dynamo=False, **kwargs)
+D:\egic\Orvana_AI_Challenge\.venv-train\Lib\site-packages\transformers\masking_utils.py:244: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  if (padding_length := kv_length + kv_offset - attention_mask.shape[-1]) > 0:
+D:\egic\Orvana_AI_Challenge\.venv-train\Lib\site-packages\transformers\integrations\sdpa_attention.py:159: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  is_causal = q_length > 1 and attention_mask is None and is_causal
+D:\egic\Orvana_AI_Challenge\.venv-train\Lib\site-packages\torch\onnx\_internal\torchscript_exporter\symbolic_opset11.py:954: UserWarning: Exporting aten::index operator of advanced indexing in opset 17 is achieved by combination of multiple ONNX operators, including Reshape, Transpose, Concat, and Gather. If indices include negative values, the exported graph will produce incorrect results.
+  return opset9.index(g, self, index)
+WARNING:root:Please consider to run pre-processing before quantization. Refer to example: https://github.com/microsoft/onnxruntime-inference-examples/blob/main/quantization/image_classification/cpu/ReadMe.md 
+exported models\e5small_nosyn\model.int8.onnx (118 MB)
+ONNX int8 vs torch agreement on 500 texts: 1.0000
+total time 2.8 min

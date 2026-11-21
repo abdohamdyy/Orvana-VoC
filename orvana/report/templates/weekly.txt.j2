@@ -1,0 +1,20 @@
+Orvana · Voice of the Customer
+Week {{ f.period.start }} -> {{ f.period.end }} ({{ f.week_key }})
+
+الملخص:
+{{ summary }}
+
+{% for k in kpis -%}
+- {{ k.label }}: {{ k.value }}{% if k.sub %} ({{ k.sub }}){% endif %}
+{% endfor %}
+Actions this week:
+{% for a in actions -%}
+- [{{ a.tag }}] {{ a.text }}
+{% endfor %}
+Complaints by category:
+{% for c in f.categories -%}
+- {{ c.category }}: {{ c.count }} ({{ c.share_pct }}%){% if has_prev %}, {{ "%+d"|format(c.change_vs_prev) }} vs last week{% endif %}, {{ "%+.1f"|format(c.vs_history_pp) }} pp vs history
+{% endfor %}
+Safety reports for the Quality team: {{ f.safety.confirmed }} confirmed, {{ f.safety.to_confirm }} to confirm with the customer ({{ f.safety.second_issue }} mentioned as a second problem)
+Urgent tickets: {{ f.urgent_tickets|length }} (full list in urgent_tickets.csv, with the safety reports)
+Data quality: {{ f.volume.rows_received }} rows received, {{ f.volume.duplicate_rows_removed }} duplicates removed, {{ f.volume.invalid_messages }} invalid, {{ f.volume.injection_attempts }} injection attempts.

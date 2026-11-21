@@ -1,0 +1,6 @@
+{
+  "backend": "tfidf-logreg",
+  "tickets": 47,
+  "total_s": 0.05,
+  "per_ticket_ms": 1.0
+}

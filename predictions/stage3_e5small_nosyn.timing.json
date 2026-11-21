@@ -1,0 +1,6 @@
+{
+  "backend": "finetuned:intfloat/multilingual-e5-small-int8",
+  "tickets": 150,
+  "total_s": 0.88,
+  "per_ticket_ms": 5.9
+}

@@ -1,0 +1,9 @@
+{
+  "backend": "ollama:qwen3:4b@359d7dd4bcda:v3",
+  "tickets": 150,
+  "total_s": 272.85,
+  "per_ticket_ms": 1819.0,
+  "llm_calls": 170,
+  "call_p50_ms": 2465.5,
+  "call_p95_ms": 5061.6
+}

@@ -1,0 +1,133 @@
+{
+  "base_model": "intfloat/multilingual-e5-small",
+  "extra_data": null,
+  "onnx_int8_parity": 1.0,
+  "selection_history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.6558,
+      "seconds": 16.4,
+      "dev_macro_f1": 0.9537,
+      "select_score": 0.9537
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.2916,
+      "seconds": 16.3,
+      "dev_macro_f1": 1.0,
+      "select_score": 1.0
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0796,
+      "seconds": 15.3,
+      "dev_macro_f1": 1.0,
+      "select_score": 1.0
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0426,
+      "seconds": 15.3,
+      "dev_macro_f1": 1.0,
+      "select_score": 1.0
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0286,
+      "seconds": 15.3,
+      "dev_macro_f1": 1.0,
+      "select_score": 1.0
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.0238,
+      "seconds": 15.2,
+      "dev_macro_f1": 1.0,
+      "select_score": 1.0
+    }
+  ],
+  "best_epoch": 2,
+  "dev_report": {
+    "app_issue": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 98.0
+    },
+    "delivery_delay": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "inquiry": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 183.0
+    },
+    "loyalty_points": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 14.0
+    },
+    "price_complaint": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 262.0
+    },
+    "product_quality": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 62.0
+    },
+    "refund_request": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 308.0
+    },
+    "staff_behavior": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 50.0
+    },
+    "wrong_item": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 986.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 986.0
+    }
+  },
+  "final_history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.3787,
+      "seconds": 17.6
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.3493,
+      "seconds": 18.4
+    }
+  ],
+  "train_minutes_total": 2.8,
+  "gpu": "NVIDIA GeForce RTX 5050 Laptop GPU"
+}

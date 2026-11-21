@@ -1,0 +1,6 @@
+{
+  "backend": "finetuned:FacebookAI/xlm-roberta-base-int8",
+  "tickets": 150,
+  "total_s": 2.3,
+  "per_ticket_ms": 15.3
+}

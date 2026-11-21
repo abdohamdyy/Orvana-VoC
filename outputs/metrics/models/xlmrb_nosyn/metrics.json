@@ -1,0 +1,136 @@
+{
+  "base_model": "FacebookAI/xlm-roberta-base",
+  "extra_data": null,
+  "onnx_int8_parity": 1.0,
+  "selection_history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.2429,
+      "seconds": 33.9,
+      "dev_macro_f1": 0.8364,
+      "select_score": 0.8364
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.032,
+      "seconds": 33.8,
+      "dev_macro_f1": 0.7835,
+      "select_score": 0.7835
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0145,
+      "seconds": 30.2,
+      "dev_macro_f1": 0.8848,
+      "select_score": 0.8848
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0059,
+      "seconds": 29.6,
+      "dev_macro_f1": 0.9512,
+      "select_score": 0.9512
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0035,
+      "seconds": 29.7,
+      "dev_macro_f1": 0.9512,
+      "select_score": 0.9512
+    }
+  ],
+  "best_epoch": 4,
+  "dev_report": {
+    "app_issue": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 98.0
+    },
+    "delivery_delay": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "inquiry": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 183.0
+    },
+    "loyalty_points": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 14.0
+    },
+    "price_complaint": {
+      "precision": 1.0,
+      "recall": 0.8091603053435115,
+      "f1-score": 0.8945147679324894,
+      "support": 262.0
+    },
+    "product_quality": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 62.0
+    },
+    "refund_request": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 308.0
+    },
+    "staff_behavior": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 50.0
+    },
+    "wrong_item": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "accuracy": 0.949290060851927,
+    "macro avg": {
+      "precision": 0.9444444444444444,
+      "recall": 0.9787955894826124,
+      "f1-score": 0.9512423816221285,
+      "support": 986.0
+    },
+    "weighted avg": {
+      "precision": 0.9746450304259635,
+      "recall": 0.949290060851927,
+      "f1-score": 0.9550671425270237,
+      "support": 986.0
+    }
+  },
+  "final_history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.0044,
+      "seconds": 34.9
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0244,
+      "seconds": 33.9
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0104,
+      "seconds": 34.0
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0046,
+      "seconds": 33.8
+    }
+  ],
+  "train_minutes_total": 6.4,
+  "gpu": "NVIDIA GeForce RTX 5050 Laptop GPU"
+}

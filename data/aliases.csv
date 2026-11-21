@@ -1,0 +1,97 @@
+kind,alias,value
+brand,سامسونغ,Samsung
+brand,فولت اكس,VoltX
+brand,فولتكس,VoltX
+brand,volt x,VoltX
+brand,اورفانا سيليكت,Orvana Select
+brand,اورفانا سلكت,Orvana Select
+brand,تورنيدو,Tornado
+brand,بيرسيل,Persil
+brand,ادفينا,Edita
+brand,ايديتا,Edita
+brand,فولتx,VoltX
+store,october city,GIZ-05
+store,6th of october,GIZ-05
+store,مدينة 6 اكتوبر,GIZ-05
+store,10th of ramadan city,DLT-08
+store,new assiut city,UPE-05
+store_ctx,madinet nasr,CAI-01
+store_ctx,mdinet nasr,CAI-01
+store_ctx,medinet nasr,CAI-01
+store_ctx,ma3adi,CAI-02
+store_ctx,m3adi,CAI-02
+store_ctx,masr el gedida,CAI-03
+store_ctx,masr el gdida,CAI-03
+store_ctx,masr elgedida,CAI-03
+store_ctx,misr el gedida,CAI-03
+store_ctx,tagamo3,CAI-04
+store_ctx,tagam3,CAI-04
+store_ctx,el tagamo,CAI-04
+store_ctx,shobra,CAI-05
+store_ctx,wust el balad,CAI-07
+store_ctx,west el balad,CAI-07
+store_ctx,wost el balad,CAI-07
+store_ctx,wust elbalad,CAI-07
+store_ctx,3en shams,CAI-08
+store_ctx,3ein shams,CAI-08
+store_ctx,ein shams,CAI-08
+store_ctx,mo2attam,CAI-09
+store_ctx,mo2atam,CAI-09
+store_ctx,mo2tam,CAI-09
+store_ctx,7elwan,CAI-10
+store_ctx,3obour,CAI-11
+store_ctx,el 3obour,CAI-11
+store_ctx,shei5 zayed,GIZ-01
+store_ctx,she5 zayed,GIZ-01
+store_ctx,sheikh zayd,GIZ-01
+store_ctx,zayed,GIZ-01
+store_ctx,do2i,GIZ-02
+store_ctx,do2y,GIZ-02
+store_ctx,do22i,GIZ-02
+store_ctx,smo7a,ALX-01
+store_ctx,smou7a,ALX-01
+store_ctx,sedi gaber,ALX-02
+store_ctx,sidi gabr,ALX-02
+store_ctx,sidy gaber,ALX-02
+store_ctx,mansheyya,ALX-03
+store_ctx,manshya,ALX-03
+store_ctx,el mansheya,ALX-03
+store_ctx,3agamy,ALX-04
+store_ctx,3agami,ALX-04
+store_ctx,agamy,ALX-04
+store_ctx,za2azi2,DLT-03
+store_ctx,zaqaziq,DLT-03
+store_ctx,shebin el kom,DLT-04
+store_ctx,shbin el kom,DLT-04
+store_ctx,shebeen el kom,DLT-04
+store_ctx,benha,DLT-05
+store_ctx,ma7alla,DLT-07
+store_ctx,ma7ala,DLT-07
+store_ctx,el ma7alla,DLT-07
+store_ctx,3ashr men ramadan,DLT-08
+store_ctx,el 3ashr men ramadan,DLT-08
+store_ctx,met ghamr,DLT-09
+store_ctx,mit 8amr,DLT-09
+store_ctx,met 8amr,DLT-09
+store_ctx,asyout,UPE-01
+store_ctx,asyut,UPE-01
+store_ctx,assiout,UPE-01
+store_ctx,menya,UPE-02
+store_ctx,el menya,UPE-02
+store_ctx,so7ag,UPE-03
+store_ctx,suhag,UPE-03
+store_ctx,lo2sor,UPE-04
+store_ctx,el o2sor,UPE-04
+store_ctx,losor,UPE-04
+store_ctx,asyout el gedida,UPE-05
+store_ctx,asyut el gedida,UPE-05
+store_ctx,malawy,UPE-06
+store_ctx,mallawy,UPE-06
+store_ctx,isma3ilia,CNL-01
+store_ctx,esma3ilia,CNL-01
+store_ctx,isma3eleya,CNL-01
+store_ctx,esma3eleya,CNL-01
+store_ctx,bor sa3id,CNL-02
+store_ctx,port sa3id,CNL-02
+store_ctx,bor said,CNL-02
+store_ctx,bor sa3eed,CNL-02

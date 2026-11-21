@@ -1,0 +1,82 @@
+{
+ "rule": "mean(suite-dev overall, internal-dev macro-F1), gold>=0.999, cheapest within 0.01",
+ "models": [
+  {
+   "model": "e5small_nosyn",
+   "base": "intfloat/multilingual-e5-small",
+   "synthetic": false,
+   "internal_dev_f1": 1.0,
+   "synth_dev_f1": NaN,
+   "gold_overall": 1.0,
+   "suite_dev_overall": 0.9243,
+   "suite_dev_ci95": [
+    0.8944109509511171,
+    0.9493583963789657
+   ],
+   "security_unaffected": 0.932,
+   "cpu_ms_per_ticket": 2.6,
+   "onnx_mb": 118,
+   "train_minutes": 2.8,
+   "onnx_parity": 1.0,
+   "score": 0.9622
+  },
+  {
+   "model": "e5small_syn",
+   "base": "intfloat/multilingual-e5-small",
+   "synthetic": true,
+   "internal_dev_f1": 0.992,
+   "synth_dev_f1": 0.9621,
+   "gold_overall": 1.0,
+   "suite_dev_overall": 0.9455,
+   "suite_dev_ci95": [
+    0.9201792520342793,
+    0.9670504509970342
+   ],
+   "security_unaffected": 0.932,
+   "cpu_ms_per_ticket": 2.3,
+   "onnx_mb": 118,
+   "train_minutes": 3.4,
+   "onnx_parity": 1.0,
+   "score": 0.9688
+  },
+  {
+   "model": "xlmrb_nosyn",
+   "base": "FacebookAI/xlm-roberta-base",
+   "synthetic": false,
+   "internal_dev_f1": 0.9512,
+   "synth_dev_f1": NaN,
+   "gold_overall": 1.0,
+   "suite_dev_overall": 0.9375,
+   "suite_dev_ci95": [
+    0.9133664110267133,
+    0.9575670146506671
+   ],
+   "security_unaffected": 0.949,
+   "cpu_ms_per_ticket": 6.7,
+   "onnx_mb": 279,
+   "train_minutes": 6.4,
+   "onnx_parity": 1.0,
+   "score": 0.9444
+  },
+  {
+   "model": "xlmrb_syn",
+   "base": "FacebookAI/xlm-roberta-base",
+   "synthetic": true,
+   "internal_dev_f1": 0.9509,
+   "synth_dev_f1": 0.9618,
+   "gold_overall": 1.0,
+   "suite_dev_overall": 0.9559,
+   "suite_dev_ci95": [
+    0.9350331787934735,
+    0.9742590483909858
+   ],
+   "security_unaffected": 0.949,
+   "cpu_ms_per_ticket": 6.8,
+   "onnx_mb": 279,
+   "train_minutes": 6.8,
+   "onnx_parity": 1.0,
+   "score": 0.9534
+  }
+ ],
+ "choice": "e5small_syn"
+}

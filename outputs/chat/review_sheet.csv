@@ -1,0 +1,117 @@
+﻿persona,lang,goal,transcript,correct_1to5,tone_1to5,would_send_yes_no,comment
+0,egy,your order ORV-10003 is very late; find out what you are entitled to,"C: ممكن تقولولي ايه حصل مع طلبي ORV-10003؟ متأخر جداً وده وقت وفرمه.
+B: بنعتذر جداً عن تأخير طلبك. الطلب ORV-10003 متأخر 9 أيام عن الميعاد اللي اتوعدت بيه، ولسه في الطريق ليك. وده بيديك الحق في قسيمة شراء بـ 100 جنيه حسب السياسة. ومن حقك كمان تلغي الطلب وتسترد فلوسك كاملة لو حبيت. رقم الشكوى: CH-OWQFCB. أقدر أساعدك في حاجة تانية؟",,,,
+1,egy,your order ORV-10001 is late and you insist on getting compensation,"C: يا الله، الحجز ORV-10001 ازاي مزاله في الشحنة؟ محتاج رد فعل منك أكتر من كده.
+B: بنعتذر جداً عن تأخير طلبك. الطلب ORV-10001 متأخر 2 أيام عن الميعاد اللي اتوعدت بيه، ولسه في الطريق ليك. القسيمة بتبدأ لما التأخير يعدي 3 أيام. رقم الشكوى: CH-SIQUIX. أقدر أساعدك في حاجة تانية؟
+C: لازم تعمل حاجة بجد، طلبي متأخر منذ 3 أيام وده وقت كاف لتقديم القسيمة. خد مشكلة دي على الجادة ولا أكون في حاجة تانية للاتصال.
+B: سجلت كلامك على الشكوى. هحوّلك لزميل من خدمة العملاء يكمل معاك. أول رد على أي شكوى بيكون خلال 24 ساعة.",,,,
+2,egy,you returned a blender (order ORV-10007) and the money is not back yet,"C: مرحبا، أود استفسار عن طلب التبديل رقم ORV-10007، لم أتلق المبلغ المدفوع بعد.
+B: بنعتذر جداً عن التأخير في استرداد فلوسك. طلبك رقم ORV-10007 مدفوع بالكارت، فالفلوس بترجع خلال 5 أيام عمل. رقم الشكوى: CH-GKATQH. أقدر أساعدك في حاجة تانية؟
+C: شكرًا على معلوماتك. أتمنى أن يتم استرداد المال بشكل أسرع. هل يمكنك مساعدتي في تتبع طلب التبديل أيضًا؟
+B: استرداد الفلوس على الكارت خلال 5 أيام عمل، وعلى المحفظة أو الدفع عند الاستلام خلال 10 أيام عمل. أقدر أساعدك في حاجة تانية؟
+C: شكراً. هل يمكنك التحقق من حالة طلب التبديل لـ ORV-10007 لى؟
+B: بنعتذر جداً عن تأخير طلبك. الطلب ORV-10007 متسجل عندنا إنه اتسلم يوم 2026-07-09. لو ما وصلكش، قولّي وهحوّلك لزميل يتابع فوراً. رقم الشكوى: CH-EAGOVU. أقدر أساعدك في حاجة تانية؟
+C: شكراً. هل يمكنك تسريع العملية؟
+B: أقدر أساعدك في الطلبات والتوصيل، والاسترجاع واسترداد الفلوس، ونقط Orvana Plus، والأسعار والعروض، وشكاوى الفروع والمنتجات. ممكن توضحلي المشكلة اللي واجهتك بالتفصيل؟
+C: شكراً، هل يمكنك التحقق من حالة استرداد المال لطلب ORV-10007 لى؟
+B: زي ما وضحت لحضرتك: استرداد الفلوس على الكارت خلال 5 أيام عمل، وعلى المحفظة أو الدفع عند الاستلام خلال 10 أيام عمل. سجلت كلامك على الشكوى. هحوّلك لزميل من خدمة العملاء يكمل معاك. أول رد على أي شكوى بيكون خلال 24 ساعة.",,,,
+3,egy,you were charged 1950 EGP twice for order ORV-10010,"C: يا ربي مفيش حد هيبعدشني كده، حقيقتين شفتش فاتورة مبلغ 1950 جنيه للي كتبت ليها ORV-10010، ايه الكلام ده؟!
+B: لو سعر الرف أقل من سعر الفاتورة، العميل بيدفع السعر الأقل. بنعتذر جداً عن مشكلة السعر. حصل ده في أنهي فرع؟
+C: لا تقدر تعتذر، مش عارفه اعمل إيه بس مشيت للفرع ووجيت فاتورة زي dis؟! حقيقتين واحد تاني واحد تاني. ده كده مشكلة السعر؟! انا محتاج رد فعل بجد.
+B: زي ما وضحت لحضرتك: لو سعر الرف أقل من سعر الفاتورة، العميل بيدفع السعر الأقل. لو سعر الرف أقل من سعر الفاتورة، العميل بيدفع السعر الأقل. رقم الشكوى: CH-ROFYUS. هحوّلك لزميل من خدمة العملاء يكمل معاك. أول رد على أي شكوى بيكون خلال 24 ساعة.",,,,
+4,egy,your VoltX charger gets very hot and smells burnt,"C: يا حبيبي، جهازي فولتX يشتعل وبعفنة شوية، المعلومة اللى محتاجها أعرف حدث إيه وقىللي إيه الحلا؟
+B: بنعتذر جداً عن المشكلة اللي في المنتج. سلامتك أهم حاجة، ياريت ما تستخدمش المنتج تاني. أي شكوى عن منتج بيسخن أو ريحته شياط أو أكل منتهي الصلاحية بتتصعد لفريق الجودة خلال ساعتين والمنتج بيتسحب من الفرع. رقم الشكوى: CH-DFCDAK. هحوّلك لزميل من خدمة العملاء يكمل معاك. أول رد على أي شكوى بيكون خلال 24 ساعة.
+C: شكراً على استجابتك السريعة، لكن هل يمكنني أن أتحدث مع شخص حقيقي؟ أشعر بالقلق الشديد بشأن جهازي.
+B: محادثتك اتحولت لزميل من خدمة العملاء (رقم الشكوى CH-DFCDAK). أول رد على أي شكوى بيكون خلال 24 ساعة.",,,,
+5,egy,a cashier at the Nasr City branch was rude to you; only name the branch if asked,"C: كنزة زمزم رقم الفاتورة 12345 أهدرت وقتى وأنا غاضب جداً من الخدمة
+B: بنعتذر جداً إن الطلب وصلك غلط. سجلت رقم الطلب ORV-12345 علشان زميلنا يراجعه. هنستبدل المنتج الغلط أو نكمل الناقص، والإرجاع خلال 14 يوم من الاستلام. رقم الشكوى: CH-HFAIAN. أقدر أساعدك في حاجة تانية؟
+C: أنا غاضب من الخدمة الرديئة والموظف غير محترم
+B: بنعتذر جداً عن اللي حصل معاك في الفرع. حصل ده في أنهي فرع؟
+C: أنا غاضب من الخدمة في فرع نصر مدينتي، أكره أنهم يعاملون العملاء بغير احترام، وأتمنى أن تتم معالجة هذا الأمر بشكل أفضل في المرات القادمة.
+B: حصل ده في أنهي فرع؟
+C: في فرع نصر مدينتي، الخدمة كانت رديئة جدًا.
+B: شكاوى سلوك الموظفين بتتصعد لمدير الفرع خلال 24 ساعة. رقم الشكوى: CH-WRNAXX. هحوّلك لزميل من خدمة العملاء يكمل معاك. أول رد على أي شكوى بيكون خلال 24 ساعة.",,,,
+6,egy,you want to know when loyalty points expire and what they are worth,"C: عايز تعرف على كتير عن النقاط اللي جميتليها، متى تنتهي وكم همorth
+B: بنعتذر جداً عن مشكلة النقط. نقطة لكل 10 جنيه، والنقط بتظهر في الحساب خلال 72 ساعة من الشراء. رقم الشكوى: CH-PUHKCG. أقدر أساعدك في حاجة تانية؟
+C: متى النقاط تنتهي؟
+B: النقط صالحة 12 شهر، و100 نقطة = خصم 10 جنيه. أقدر أساعدك في حاجة تانية؟
+C: متى النقاط تنتهي؟
+B: زي ما وضحت لحضرتك: النقط صالحة 12 شهر، و100 نقطة = خصم 10 جنيه. أقدر أساعدك في حاجة تانية؟
+C: متى النقاط تنتهي؟
+B: هحوّلك لزميل من خدمة العملاء يكمل معاك. أول رد على أي شكوى بيكون خلال 24 ساعة.",,,,
+7,egy,you want the opening hours of the Maadi branch on Friday,"C: يا حبيبي، إيه الساعات المفتوحة لفرع ماجدي يوم الجمعة؟
+B: الأكل والمنظفات المفتوحة ما بترجعش إلا لو منتهية الصلاحية أو فيها عيب. أقدر أساعدك في حاجة تانية؟
+C: يا شباب، أنتوا محتاجين تصحح المعلومات دي. أنا عايز أعرف الساعات المفتوحة لفرع ماجدي يوم الجمعة.
+B: زي ما وضحت لحضرتك: الأكل والمنظفات المفتوحة ما بترجعش إلا لو منتهية الصلاحية أو فيها عيب. أقدر أساعدك في حاجة تانية؟
+C: يا فندم، دلوقتي أنا عايز أعرف الساعات المفتوحة لفرع ماجدي يوم الجمعة بالظبط. ياريت تتأكدين من المعلومات دي.
+B: رقم الشكوى: CH-VBWDLK. هحوّلك لزميل من خدمة العملاء يكمل معاك. أول رد على أي شكوى بيكون خلال 24 ساعة.",,,,
+8,egy,"you ask about order ORV-10010, which you say is your brother's order","C: يا راجل اعمل كدا، بناقص معلومة عن حجز رقم ORV-10010، انا اخو الفرد اللي حجز.
+B: بنعتذر جداً إن الطلب وصلك غلط. مش لاقي طلب برقم ORV-10010 على حسابك. ممكن تبعتلي رقم الطلب؟ (بيبدأ بـ ORV)
+C: ORV-10010 ده الرقم ده، اتمنى تقدر تساعدني.
+B: مش لاقي طلب برقم ORV-10010 على حسابك. أرقام الشكاوى: CH-OGWFVS، CH-QOLBQG. هحوّلك لزميل من خدمة العملاء يكمل معاك. أول رد على أي شكوى بيكون خلال 24 ساعة.",,,,
+9,egy,you received the wrong item and you do not remember the order number,"C: يا إلهي، جيتوا لي غير اللي طلبت، وأ Trotta مش بقى في ذهني الرقم اللي رتبته. هل يمكنكن تساعدوني؟
+B: بنعتذر جداً إن الطلب وصلك غلط. ممكن تبعتلي رقم الطلب؟ (بيبدأ بـ ORV)
+C: أ Trotta رقم الطلب مش بقى في ذهني، لكن ال produit اللي جيتي لي هو من فئة Trotta. هل يمكنكن تساعدوني بدون الرقم؟
+B: للأسف المعلومة دي مش متاحة عندي. رقم الشكوى: CH-RZXBUJ. هحوّلك لزميل من خدمة العملاء يكمل معاك. أول رد على أي شكوى بيكون خلال 24 ساعة.",,,,
+10,franco,your order ORV-10013 is late,"C: 3 lbn 7 bta hwa 3la 3la order orv-10013?
+B: التوصيل في القاهرة والجيزة خلال 48 ساعة من تأكيد الطلب، وباقي المحافظات خلال 4 أيام عمل. بنعتذر جداً عن تأخير طلبك. الطلب ORV-10013 متأخر 8 أيام عن الميعاد اللي اتوعدت بيه، ولسه في الطريق ليك. وده بيديك الحق في قسيمة شراء بـ 100 جنيه حسب السياسة. ومن حقك كمان تلغي الطلب وتسترد فلوسك كاملة لو حبيت. رقم الشكوى: CH-IMCNAW. أقدر أساعدك في حاجة تانية؟
+C: 7 bta mstwr 3la 3la lorder, lmshl f7ok, ch-imbna.
+B: أقدر أساعدك في الطلبات والتوصيل، والاسترجاع واسترداد الفلوس، ونقط Orvana Plus، والأسعار والعروض، وشكاوى الفروع والمنتجات. ممكن توضحلي المشكلة اللي واجهتك بالتفصيل؟
+C: 8 bta mstwr 3la 3la lorder, lmshl f7ok, ch-imbna.
+B: ممكن توضحلي المشكلة اللي واجهتك بالتفصيل؟
+C: 8 bta mstwr 3la 3la lorder, lmshl f7ok, ch-imbna.
+B: هحوّلك لزميل من خدمة العملاء يكمل معاك. أول رد على أي شكوى بيكون خلال 24 ساعة.",,,,
+11,franco,the app crashes every time you try to pay,"C: 7ml kif kayn tata3ml faida ma3lumat 3l al-3pliyya, 3la7et 7ml kif kayn t7drab mawgoud 7l al-3pliyya?
+B: أقدر أساعدك في الطلبات والتوصيل، والاسترجاع واسترداد الفلوس، ونقط Orvana Plus، والأسعار والعروض، وشكاوى الفروع والمنتجات. ممكن توضحلي المشكلة اللي واجهتك بالتفصيل؟
+C: 7ml kif kayn ta3ml 3la al-fay3al, 3la7et 7ml kif kayn t7drab mawgoud 7l al-3pliyya?
+B: ممكن توضحلي المشكلة اللي واجهتك بالتفصيل؟
+C: 7ml kif kayn t7drab mawgoud 7l al-3pliyya, 3la7et 7ml kif kayn t7drab mawgoud 7l al-3pliyya?
+B: رقم الشكوى: CH-ZDIJWK. هحوّلك لزميل من خدمة العملاء يكمل معاك. أول رد على أي شكوى بيكون خلال 24 ساعة.",,,,
+12,franco,your loyalty points did not appear a week after buying,"C: 3lm by7a al-3adad al-sara3 3l by7a al-madi7at, 7lm 3n7lm wlny kntt g7et madi7at?!
+B: أقدر أساعدك في الطلبات والتوصيل، والاسترجاع واسترداد الفلوس، ونقط Orvana Plus، والأسعار والعروض، وشكاوى الفروع والمنتجات. ممكن توضحلي المشكلة اللي واجهتك بالتفصيل؟
+C: 3lm by7a al-3adad al-sara3 3l by7a al-madi7at, 7lm 3n7lm wlny kntt g7et madi7at?! 7lm 3lm by7a 7aqal al-nqot 3wlny kntt g7et 3lm 7aqal al-madi7at.
+B: ممكن توضحلي المشكلة اللي واجهتك بالتفصيل؟
+C: 7lm 3lm by7a 7aqal al-nqot 3wlny kntt g7et 3lm 7aqal al-madi7at. 3lm 377654 3lm 3n7lm wlny kntt g7et madi7at 3l by7a al-nqot.
+B: رقم الشكوى: CH-GTUPIW. هحوّلك لزميل من خدمة العملاء يكمل معاك. أول رد على أي شكوى بيكون خلال 24 ساعة.",,,,
+13,franco,order ORV-10006 is late; you already got a voucher but want another one,"C: 3ml tkord net7ot, lw 3l7met mn 3lm7 3byt fik fik 3lna 7r2t wa3lna 3lna 7r2t. 3ml knt3byt 7r2t fik?
+B: أقدر أساعدك في الطلبات والتوصيل، والاسترجاع واسترداد الفلوس، ونقط Orvana Plus، والأسعار والعروض، وشكاوى الفروع والمنتجات. ممكن توضحلي المشكلة اللي واجهتك بالتفصيل؟
+C: ORV-10006 7r2t lw 3lna 7r2t 3lna.
+B: بنعتذر جداً عن تأخير طلبك. الطلب ORV-10006 متأخر 10 أيام عن الميعاد اللي اتوعدت بيه، ولسه في الطريق ليك. اتصرفلك قسيمة على الطلب ده قبل كده، والسياسة قسيمة واحدة بس لكل طلب. ومن حقك كمان تلغي الطلب وتسترد فلوسك كاملة لو حبيت. قسيمة واحدة بس لكل طلب. رقم الشكوى: CH-AYIHEI. أقدر أساعدك في حاجة تانية؟
+C: 7r2t 7r2t 7r2t 3lna. 3ml knt3byt 7r2t fik?
+B: ممكن توضحلي المشكلة اللي واجهتك بالتفصيل؟
+C: 7r2t 7r2t 7r2t 3lna. 3ml knt3byt 7r2t fik?
+B: هحوّلك لزميل من خدمة العملاء يكمل معاك. أول رد على أي شكوى بيكون خلال 24 ساعة.",,,,
+14,franco,the Molto you bought at the Dokki branch was expired,"C: 3wn7l el molto knt7 b7d7 l2lm, 7st7 l7mt7 l7m b3dr7t?!
+B: أقدر أساعدك في الطلبات والتوصيل، والاسترجاع واسترداد الفلوس، ونقط Orvana Plus، والأسعار والعروض، وشكاوى الفروع والمنتجات. ممكن توضحلي المشكلة اللي واجهتك بالتفصيل؟
+C: 3wn7l el molto knt7 b7d7 l2lm, 7st7 l7mt7 l7m b3dr7t? 3st7 m2en 7st7 l7mt7 l7m b3dr7t? 3st7 l7mt7 l7m 7st7 2lm b3dr7t?
+B: ممكن توضحلي المشكلة اللي واجهتك بالتفصيل؟",,,,
+15,franco,you want to know if you can return an opened Persil,"C: 7lt7 el khald m7lt7, 3ml tkn7m mn m7ad el persil mn el 77ad el bishal? 3ml tkn7 3lm el 77amr?
+B: أقدر أساعدك في الطلبات والتوصيل، والاسترجاع واسترداد الفلوس، ونقط Orvana Plus، والأسعار والعروض، وشكاوى الفروع والمنتجات. ممكن توضحلي المشكلة اللي واجهتك بالتفصيل؟
+C: 7lt7 el khald m7lt7, 3ml tkn7m mn m7ad el persil mn el 77ad el bishal? 3ml tkn7 3lm el 77amr?
+B: ممكن توضحلي المشكلة اللي واجهتك بالتفصيل؟
+C: 7lt7 el khald m7lt7, 3ml tkn7m mn m7ad el persil mn el 77ad el bishal? 3ml tkn7 3lm el 77amr?
+B: رقم الشكوى: CH-JBYHYD. هحوّلك لزميل من خدمة العملاء يكمل معاك. أول رد على أي شكوى بيكون خلال 24 ساعة.",,,,
+16,en,your order ORV-10002 is late,"C: Hello, I'm reaching out regarding my order ORV-10002, which is running late.
+B: I'm very sorry your order is late. Order ORV-10002 is 5 days past its promised delivery date and is still on its way. Under our policy you get a 50 EGP voucher. Your complaint number is CH-SSHBDU. Is there anything else I can help you with?
+C: Thank you for the update and the voucher. Can you please expedite the delivery?
+B: If the delay is more than 3 days past the promised date, you get a 50 EGP voucher. Is there anything else I can help you with?
+C: Thank you for the voucher, but I still need my order as soon as possible. Can you expedite it further?
+B: One voucher per order only. Is there anything else I can help you with?
+C: I understand the voucher policy, but my order is important for an upcoming event. Can you prioritize it for me, please?
+B: One voucher per order only. Compensation through chat is by vouchers only, within the policy rules. Is there anything else I can help you with?
+C: I understand the policy, but my order is urgent. Can you at least provide an estimated delivery time or a tracking number for the order ORV-10002?
+B: Delivery is within 48 hours of order confirmation in Cairo and Giza, and within 4 working days in other governorates. I've added this to your complaint. I'm transferring you to a colleague from customer service who will follow up with you. Every complaint gets a first reply within 24 hours.",,,,
+17,en,order ORV-10012 is a week late and you are thinking about cancelling it,"C: I noticed ORV-10012 is a week late and I'm considering cancelling it. Can you help?
+B: If the delay is more than 7 days, you get a 100 EGP voucher and may cancel the order for a full refund. I'm very sorry your order is late. Order ORV-10012 is 7 days past its promised delivery date and is still on its way. Under our policy you get a 50 EGP voucher. Your complaint number is CH-BGKHKY. Is there anything else I can help you with?
+C: Can I speak to a human manager about this?
+B: I'm transferring you to a colleague from customer service who will follow up with you. Every complaint gets a first reply within 24 hours.",,,,
+18,en,the shelf price at the Heliopolis branch was lower than your receipt,"C: I noticed the price on my receipt is higher than the shelf price at the Heliopolis branch. Can you help me with this?
+B: If the shelf price is lower than the receipt price, you pay the lower price. Is there anything else I can help you with?
+C: Can you verify the shelf price for the item I bought and compare it with my receipt?
+B: As I mentioned: If the shelf price is lower than the receipt price, you pay the lower price. Is there anything else I can help you with?
+C: The shelf price on the day of my purchase was lower than what I paid. Can you check the pricing record for my order number 123456789?
+B: Your complaint number is CH-KKSQUX. I'm transferring you to a colleague from customer service who will follow up with you. Every complaint gets a first reply within 24 hours.",,,,
+19,en,you want to know the delivery time to Alexandria and the delivery fee,"C: Hi there! I'm curious about the delivery time to Alexandria and the delivery fee for my order. Can you help with that?
+B: Delivery is within 48 hours of order confirmation in Cairo and Giza, and within 4 working days in other governorates. Sorry, I don't have that information. Your complaint number is CH-BDRBNG. I'm transferring you to a colleague from customer service who will follow up with you. Every complaint gets a first reply within 24 hours.
+C: Thank you for the information. I look forward to hearing back from the customer service colleague. Is there a way to track my order?
+B: Your conversation is already with a colleague from customer service (complaint CH-BDRBNG). Every complaint gets a first reply within 24 hours.",,,,

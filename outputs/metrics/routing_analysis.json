@@ -1,0 +1,141 @@
+{
+ "temperature": 0.5,
+ "n": 161,
+ "rules": [
+  {
+   "rule": "never (fine-tuned only)",
+   "routed_pct": 0.0,
+   "category_acc": 0.882,
+   "ft_errors_caught": "0/19"
+  },
+  {
+   "rule": "always (LLM only)",
+   "routed_pct": 100.0,
+   "category_acc": 0.9441,
+   "ft_errors_caught": "19/19"
+  },
+  {
+   "rule": "disagree with TF-IDF",
+   "routed_pct": 25.5,
+   "category_acc": 0.9503,
+   "ft_errors_caught": "17/19"
+  },
+  {
+   "rule": "conf<0.5",
+   "routed_pct": 0.6,
+   "category_acc": 0.8758,
+   "ft_errors_caught": "0/19"
+  },
+  {
+   "rule": "conf<0.5 or disagree",
+   "routed_pct": 25.5,
+   "category_acc": 0.9503,
+   "ft_errors_caught": "17/19"
+  },
+  {
+   "rule": "conf<0.6",
+   "routed_pct": 1.9,
+   "category_acc": 0.8758,
+   "ft_errors_caught": "1/19"
+  },
+  {
+   "rule": "conf<0.6 or disagree",
+   "routed_pct": 26.7,
+   "category_acc": 0.9503,
+   "ft_errors_caught": "18/19"
+  },
+  {
+   "rule": "conf<0.7",
+   "routed_pct": 1.9,
+   "category_acc": 0.8758,
+   "ft_errors_caught": "1/19"
+  },
+  {
+   "rule": "conf<0.7 or disagree",
+   "routed_pct": 26.7,
+   "category_acc": 0.9503,
+   "ft_errors_caught": "18/19"
+  },
+  {
+   "rule": "conf<0.8",
+   "routed_pct": 3.7,
+   "category_acc": 0.8882,
+   "ft_errors_caught": "4/19"
+  },
+  {
+   "rule": "conf<0.8 or disagree",
+   "routed_pct": 26.7,
+   "category_acc": 0.9503,
+   "ft_errors_caught": "18/19"
+  },
+  {
+   "rule": "conf<0.9",
+   "routed_pct": 5.0,
+   "category_acc": 0.8944,
+   "ft_errors_caught": "5/19"
+  },
+  {
+   "rule": "conf<0.9 or disagree",
+   "routed_pct": 26.7,
+   "category_acc": 0.9503,
+   "ft_errors_caught": "18/19"
+  },
+  {
+   "rule": "conf<0.95",
+   "routed_pct": 7.5,
+   "category_acc": 0.9068,
+   "ft_errors_caught": "7/19"
+  },
+  {
+   "rule": "conf<0.95 or disagree",
+   "routed_pct": 27.3,
+   "category_acc": 0.9503,
+   "ft_errors_caught": "18/19"
+  },
+  {
+   "rule": "sim<0.26 (q10)",
+   "routed_pct": 9.9,
+   "category_acc": 0.8882,
+   "ft_errors_caught": "1/19"
+  },
+  {
+   "rule": "conf<0.8 or disagree or sim<0.26",
+   "routed_pct": 32.3,
+   "category_acc": 0.9503,
+   "ft_errors_caught": "18/19"
+  },
+  {
+   "rule": "sim<0.31 (q20)",
+   "routed_pct": 19.9,
+   "category_acc": 0.8944,
+   "ft_errors_caught": "3/19"
+  },
+  {
+   "rule": "conf<0.8 or disagree or sim<0.31",
+   "routed_pct": 37.9,
+   "category_acc": 0.9503,
+   "ft_errors_caught": "18/19"
+  },
+  {
+   "rule": "sim<0.36 (q30)",
+   "routed_pct": 29.8,
+   "category_acc": 0.9006,
+   "ft_errors_caught": "5/19"
+  },
+  {
+   "rule": "conf<0.8 or disagree or sim<0.36",
+   "routed_pct": 43.5,
+   "category_acc": 0.9503,
+   "ft_errors_caught": "18/19"
+  }
+ ],
+ "choice": {
+  "rule": "disagree with TF-IDF",
+  "routed_pct": 25.5,
+  "category_acc": 0.9503,
+  "ft_errors_caught": "17/19"
+ },
+ "ft_acc": 0.8819875776397516,
+ "llm_acc": 0.9440993788819876,
+ "tfidf_acc": 0.8198757763975155
+}

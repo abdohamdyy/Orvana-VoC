@@ -1,0 +1,1067 @@
+text,label,style,no_complaint,filter_label,kept,drop_reason,max_sim_to_suite
+أوي يا أبجد، بعت ماشينات وأتاني بعد أسبوع!,delivery_delay,egy,False,delivery_delay,True,,0.146
+فكرة تانية، إيه الراجل بتاع النافذة بتاع التوصيل؟,delivery_delay,egy,False,inquiry,False,,0.236
+حاططوا موعد التوصيل في الساعة دي؟ شوفوا التوقيت ده.,delivery_delay,egy,False,inquiry,False,,0.205
+مش عارفين تقولوا الناس إن التوصيل في نفس النهار؟,delivery_delay,egy,False,inquiry,False,,0.214
+إيه يا أورفانا، التوصيل كله يوم واحد؟ ده مش لازم تقولوه.,delivery_delay,egy,False,delivery_delay,True,,0.2
+"الراجل اللي أتاني قال إن التوصيل马上就来,您的问题已经记录,我们会尽快处理。请耐心等待我们的回复。感谢您的理解!——Orvana客户服务团队",delivery_delay,egy,False,delivery_delay,False,foreign script,0.128
+يا رب بعتولكم الجمل في السفينة دي كنا رايح نفناش بره يوم واحد، مفيش حاجة بتسويها بسرعة,delivery_delay,egy,False,delivery_delay,True,,0.113
+شوفوا اللي فعلتوه في按时转换为阿拉伯语:“شاهد ما فعلتموه في أوانى التوصيل دي، مفيش وقت واحد هيعدي!”,delivery_delay,egy,False,delivery_delay,False,foreign script,0.087
+ما بعرف حضرتك كنا جاي بس جينا على خدمة بطيئة في التوصيل,delivery_delay,egy,False,delivery_delay,True,,0.18
+أوعى تقولولي مفيش حاجة بتعملها سريعة، أنا متوقعتش يوم واحد زي ده,delivery_delay,egy,False,delivery_delay,True,,0.118
+الله يعافيك، التوصيل بتاعي كان بتاع شهر، كنت بتصوروا يومين,delivery_delay,egy,False,delivery_delay,True,,0.156
+يا شباب، أوعى تقولوا توصيل سريع، الفاتورة بتاعي كانت بالأسبوع الماضي، ومش قدش وصل,delivery_delay,egy,False,delivery_delay,True,,0.232
+يا بيت القصيد، التوصيل بتاعي أبطأ من رانك، أوعى تقولوا عن سرعة,delivery_delay,egy,False,delivery_delay,True,,0.13
+أوي أوي التوصيل بتاعي، الفاتورة بتاعي كانت بالأسبوع الفاتر، ومش قدش وصل,delivery_delay,egy,False,delivery_delay,True,,0.339
+أوعى تقولوا توصيل سريع، الفاتورة بتاعي كانت بالأسبوع الفاتر، ومش قدش وصل,delivery_delay,egy,False,delivery_delay,True,,0.244
+يا خواتي، التوصيل بتاعي أبطأ من الرمال في الصحراء، الفاتورة بتاعي كانت بالأسبوع الفاتر، ومش قدش وصل,delivery_delay,egy,False,delivery_delay,True,,0.221
+لقد انتظرت أسبوعا كاملا للحصول على طلبي، وأنا حقا أتساءل ماذا كان الوقت الذي ضاعفه الكون في ذلك الوقت؟,delivery_delay,msa,False,delivery_delay,True,,0.134
+في الصباح الباكر طلبت، وفي العصر أصبحت متساهلا. كيف يمكن أن يكون التوصيل هذا المتأخر؟,delivery_delay,msa,False,delivery_delay,True,,0.158
+بالرغم من أنني خصصت وقتا كافيا، فإن الشاحنة السريعة قد تأخرت وجعلت من يومي يوما طويلا جدا.,delivery_delay,msa,False,delivery_delay,True,,0.188
+في النهاية، حصلت على الشيء الذي طلبت، ولكنه جاء بعد أن كان الوقت قد انتهى.,delivery_delay,msa,False,delivery_delay,True,,0.146
+أعتذر، ولكن هل يمكنكم أن تسرعوا قليلا؟ لقد طلبت طلبية يوم 15، وأنا بحاجة إليها اليوم.,delivery_delay,msa,False,delivery_delay,True,,0.152
+من الصباح حتى المساء، مر وقت طويل جدا. كيف يمكن أن يتوقع المرء أن يصمد في الانتظار بهذا الشكل؟,delivery_delay,msa,False,delivery_delay,True,,0.133
+عذرا، ولكن هذا التأخير غير مقبول. هل يمكنكم تقديم توضيح حول سبب التأخير؟,delivery_delay,msa,False,delivery_delay,True,,0.264
+لقد استغرق التوصيل أسبوعا كاملا رغم أنني طلبت التوصيل السريع. كيف يمكن أن يكون هذا السرعة؟,delivery_delay,msa,False,delivery_delay,True,,0.182
+لقد أخبروني أن الشاحنة ستأتي في الظهيرة، ولكن حتى الآن لا أزال أنتظر. هل يمكنكم التأكد من وقت الوصول؟,delivery_delay,msa,False,delivery_delay,True,,0.147
+أنا في حاجة ماسة إلى هذا المنتج، ورغم ذلك تم تأخير التوصيل لأيام. كيف يمكن أن يكون هذا التأخير؟,delivery_delay,msa,False,delivery_delay,True,,0.209
+عذرا، تأخر توصيل طلبي منذ أكثر من أسبوع. هل يمكنكم مراجعة الأمر؟,delivery_delay,msa,False,delivery_delay,True,,0.187
+لقد طلبت منتجات في 10 ديسمبر، والآن هو 20 ديسمبر ولا توصلت بطلبي بعد!,delivery_delay,msa,False,delivery_delay,True,,0.112
+تم التأكيد على تأخير التوصيل لمدة أسبوع. هل يمكنكم تحديث معلوماتي حتى أعرف الحالة؟,delivery_delay,msa,False,delivery_delay,True,,0.218
+طلبنا وصل في الموعد المحدد، ولكن لم يصلنا بعد. هل هناك مشكلة؟,delivery_delay,msa,False,delivery_delay,True,,0.194
+طلبنا طلبيات في الأول من يناير واليوم الثاني من يناير لم تصل حتى الآن.,delivery_delay,msa,False,delivery_delay,True,,0.157
+أرسلت طلبي في الثالث من ديسمبر واليوم الثاني من يناير لا يزال لم يصل. كيف يمكنني البدء في البحث عن الحل؟,delivery_delay,msa,False,delivery_delay,True,,0.178
+طلبنا منتجات في 5 يناير وصمتكم يدل على أنكم تعانون من مشاكل في الشحن.,delivery_delay,msa,False,delivery_delay,True,,0.118
+طلبت طلبتي في الثالث من ديسمبر واليوم الثاني من يناير لا يزال في الانتظار. كيف يمكنني التحقق من الموقف؟,delivery_delay,msa,False,delivery_delay,True,,0.175
+طلبنا وصل في 10 ديسمبر وحاليا هو 20 ديسمبر ولم يصل. كيف يمكنني المساعدة في حل المشكلة؟,delivery_delay,msa,False,delivery_delay,True,,0.135
+طلبنا منتجات في 15 ديسمبر واليوم الثاني من يناير لا يزال لم يصل. كيف يمكنني الحصول على معلومات أكثر تفصيلا؟,delivery_delay,msa,False,delivery_delay,True,,0.129
+"3by2 el khamse l7od b3t nisht, 3ny khshsh ma3lomet! :(",delivery_delay,franco,False,inquiry,False,franco generation unusable,0.103
+"3ny khalwa l7od 7la 5lm, knt 3ny w3d 7la 2mlik! :(",delivery_delay,franco,False,price_complaint,False,franco generation unusable,0.067
+"Khlwa 7la 2mlik, nisht b7od 7la 5lm l7od, 3nby khshsh ma3lomet!",delivery_delay,franco,False,price_complaint,False,franco generation unusable,0.067
+"3ny 5lm 7la 5lm, knt 3ny 7awal khshsh ma3lomet! :(",delivery_delay,franco,False,product_quality,False,franco generation unusable,0.065
+"Khalwa l7od 2mlik, b7od 5lm 7la 2mlik, 3ny khshsh ma3lomet! :(",delivery_delay,franco,False,product_quality,False,franco generation unusable,0.08
+"Nisht b3t 3ny w3d, l7od 2mlik, 3ny khshsh ma3lomet! :(",delivery_delay,franco,False,product_quality,False,franco generation unusable,0.067
+"3ny 7awal 5lm 7la 2mlik, 3ny khshsh ma3lomet! :(",delivery_delay,franco,False,product_quality,False,franco generation unusable,0.067
+"Khalwa 2mlik, 3ny khalwa l7od 5lm 7la 2mlik, 3ny khshsh ma3lomet! :(",delivery_delay,franco,False,product_quality,False,franco generation unusable,0.111
+"3ny 5lm 7la 2mlik, knt 3ny 7awal 5lm 7la 2mlik, 3ny khshsh ma3lomet! :(",delivery_delay,franco,False,delivery_delay,False,franco generation unusable,0.058
+"3ny w3d 7la 2mlik, 3ny khalwa l7od 5lm 7la 2mlik, 3ny khshsh ma3lomet! :(",delivery_delay,franco,False,delivery_delay,False,franco generation unusable,0.07
+"3lm7l 3l ymn2l, 7ll t3b 7lt khl2! 3mn 1khld 2nd 5hr7t 7lt t3b. Khsh4 7n7f 7nt 7lt fsh2l, 7ysh7b 2l2l 7mn 7 2l2m 3ll. Y3mn 2ll 7lt khl2! Y3mn f5k 7lw2b 2lm7l!",delivery_delay,franco,False,app_issue,False,franco generation unusable,0.056
+"7ll t3b 2b3d bnd khsh4 l53ml. 55lm 7nt 3t3b 7lt khsh4 fsh2l, 2b3d 7ll 53m7l f5k 2lm7l 7lt 5hr7t! 7ll khl2 khrb 7n7f, 7ll 2l2l 3ll t3b 7lt khl2!",delivery_delay,franco,False,delivery_delay,False,franco generation unusable,0.051
+"53b2 7n7f 7lt t3b 7y 2khld, 7ll 2l2l 53m7l f5k 2lm7l 7lt 5hr7t. 3lm7l 2lw2 bnd khl2, 55lm 7nt 3t3b 7lt f5k 2lm7l 7lt 5hr7t! 3t3b 7l 7ll 2l2m 3ll t3b 7lt khl2!",delivery_delay,franco,False,delivery_delay,False,franco generation unusable,0.041
+"7ll 2l2l 2khld 3t3b 7lt khl2, 55lm 7nt 3lm7l 2lw2 bnd khl2 7n7f 7lt t3b! 53b2 7n7f 7lt 3lm7l 2lw2, 3lm7l 7y 2khld 2nd 5hr7t 7lt t3b 7l 7ll 2l2m 3ll t3b 7lt khl2!",delivery_delay,franco,False,product_quality,False,franco generation unusable,0.046
+"5hr7t 7lt t3b 7l 7ll 2l2m 3ll t3b 7lt khl2, 7y 3lm7l 2lw2 bnd khl2 7n7f 7lt 3lm7l 2lw2. 3t3b 7l 7ll 2b3d 55lm 7nt 2l2l 53m7l f5k 2lm7l 7lt 5hr7t! 53b2 7n7f 7lt t3b 7l 7ll 2l2m 3ll t3b 7lt khl2!",delivery_delay,franco,False,delivery_delay,False,franco generation unusable,0.048
+"5hr7t 7lt t3b 7l 7ll 2l2m 3ll t3b 7lt khl2, 7y 3lm7l 2lw2 bnd khl2 7n7f 7lt 3lm7l 2lw2 7l 7ll 2khld. 3t3b 7l 7ll 2b3d 55lm 7nt 2l2l 53m7l f5k 2lm7l 7lt 5hr7t! 53b2 7n7f 7lt t3b 7l 7ll 2l2m 3ll t3b 7lt khl2!",delivery_delay,franco,False,delivery_delay,False,franco generation unusable,0.05
+"7ll 2l2l 2khld 3t3b 7lt khl2, 55lm 7nt 3lm7l 2lw2 bnd khl2 7n7f 7lt 3lm7l 2lw2 7l 7ll 2khld. 3t3b 7l 7ll 2b3d 55lm 7nt 2l2l 53m7l f5k 2lm7l 7lt 5hr7t! 53b2 7n7f 7lt t3b 7l 7ll 2l2m 3ll t3b 7lt khl2!",delivery_delay,franco,False,delivery_delay,False,franco generation unusable,0.054
+"3lm7l 3l ymn2l, 7ll 2l2l 3t3b 7lt khl2 3l 7ll 2khld. 55lm 7nt 3lm7l 2lw2 bnd khl2 7n7f 7lt 3lm7l 2lw2 7l 7ll 2khld. 3t3b 7l 7ll 2b3d 55lm 7nt 2l2l 53m7l f5k 2lm7l 7lt 5hr7t! 53b2 7n7f 7lt t3b 7l 7ll 2l2m 3ll t3b 7lt khl2!",delivery_delay,franco,False,inquiry,False,franco generation unusable,0.057
+Delivery took ages! 7 days late and still no package. Thanks for your quick service!,delivery_delay,en,False,delivery_delay,True,,0.289
+What's the rush when you can take a month to deliver? Got anything to say to your courier?,delivery_delay,en,False,delivery_delay,True,,0.203
+Delivered after a week? You're faster than a snail in traffic. Hope it's worth the wait.,delivery_delay,en,False,delivery_delay,True,,0.216
+"Orvana, my patience is about to turn into a black hole. Delivery took a week. When do you plan to speed things up?",delivery_delay,en,False,delivery_delay,True,,0.194
+"Courier said he was on the way, but it took a week. I'm so thankful, it's like getting a week-long vacation!",delivery_delay,en,False,delivery_delay,True,,0.169
+Late again. This is more like delivery delay than delivery. When is this going to change?,delivery_delay,en,False,delivery_delay,True,,0.323
+"Expected it yesterday, got it today. Fast, right? I bet your delivery is quicker than my internet speed.",delivery_delay,en,False,delivery_delay,True,,0.379
+"Orvana, I'm not impressed. Delivery took longer than expected. When will you fix this?",delivery_delay,en,False,delivery_delay,True,,0.207
+"Courier said he'd be there, but it took a week. I could have baked a cake with the time I waited!",delivery_delay,en,False,delivery_delay,True,,0.209
+"Delivery should be instant for this price. But no, it took a week. How's that for speed?",delivery_delay,en,False,delivery_delay,True,,0.266
+"Why the heck is my order still not here? A week late and counting... Orvana, can we just be on the same page?",delivery_delay,en,False,delivery_delay,True,,0.251
+"Orvana, when are you going to realize that 'delivery' means getting the order to me on time, not a week later?",delivery_delay,en,False,delivery_delay,True,,0.209
+Did you guys forget about my order? I’m so sick of waiting. When will it finally arrive?,delivery_delay,en,False,delivery_delay,True,,0.244
+Thanks for the 'fast' delivery that took a whole week. I’m just gonna start calling it 'Snail' delivery now.,delivery_delay,en,False,delivery_delay,True,,0.318
+"Why the delay, Orvana? I’ve been waiting like a week! Is this some kind of joke?",delivery_delay,en,False,delivery_delay,True,,0.276
+"Orvana, my order is a week overdue, and I’m tired of waiting. When are you gonna sort this out?",delivery_delay,en,False,delivery_delay,True,,0.195
+"What are you playing at, Orvana? My order is a week late and still no sight of it. Seriously, what’s taking so long?",delivery_delay,en,False,delivery_delay,True,,0.224
+"Orvana, if my order doesn’t arrive within the next 24 hours, I’m going to throw my phone out the window!",delivery_delay,en,False,delivery_delay,True,,0.236
+"Delivered after a week? Please, can’t you guys just speed things up a bit?",delivery_delay,en,False,delivery_delay,True,,0.219
+"Orvana, this is ridiculous. My order is a week late and no one seems to care. What’s going on?",delivery_delay,en,False,delivery_delay,True,,0.276
+ال order اتأخر معاوي 7 ايام! وين اللي كنتم بتعبدوه كام يوم؟,delivery_delay,mixed,False,delivery_delay,True,,0.168
+مش كده يا مالك، ال order يجي بسرعة جدا؟ شوفو بس اتأخر من بكرة,delivery_delay,mixed,False,delivery_delay,True,,0.189
+أنا نسيت كم يوم اتأخر ال order؟ كل يوم تشكو من البريد، بس تنسى واحد في البيت!,delivery_delay,mixed,False,delivery_delay,True,,0.245
+عايز أعرف اتأخر ال order لأي سبب؟ بس بعده خمسة ايام علشان يوصل؟,delivery_delay,mixed,False,inquiry,False,,0.184
+أنا بعثت البارحة ومش وصل الحين؟ هاتولي من البيت مش هتروحي حاجة,delivery_delay,mixed,False,delivery_delay,True,,0.132
+مش فاهم شنو اللي كنتم كايدولو لي بال order؟ طلعت 7 ايام واحنا في اليوم التالت!,delivery_delay,mixed,False,delivery_delay,True,,0.163
+ال order كمان هو اتأخر 3 ايام؟ تقدروا تعالو تشيلو ايه ده من الباب؟,delivery_delay,mixed,False,delivery_delay,True,,0.186
+طبعا ال order هو اللى كنتم بتكلمو عنه بس كنا معاكم لليوم الثالث,delivery_delay,mixed,False,delivery_delay,True,,0.176
+وين ال order اللي كنتم بتقولو بعثتوه بس كنا نستلمه من بكرة؟,delivery_delay,mixed,False,delivery_delay,True,,0.098
+عايز اعرف ليه ال order كمان هو اللى كنتم كايدولو لي كنا بنستلمه من البارحة,delivery_delay,mixed,False,inquiry,False,,0.209
+ال order اتأخر الشوية، الكورير قال يجييييب و ما جاءش.,delivery_delay,mixed,False,delivery_delay,True,,0.17
+اذا كان التسليم سريع، ليش ببقي برضو أسبوع على ال order؟,delivery_delay,mixed,False,delivery_delay,True,,0.223
+كنت حابس رحمة الله على ال order، علشان بقى أسبوع.,delivery_delay,mixed,False,delivery_delay,True,,0.186
+ياالله، ال order بس طلع من ال warehouse، والكورير فرحاني!,delivery_delay,mixed,False,delivery_delay,True,,0.099
+أكيد ال order سبب لليوم ده وش علشان ما جي!,delivery_delay,mixed,False,delivery_delay,True,,0.192
+أنا متعب، ال order بقى أسبوع و ما جي بعد ما الكورير قال يجي.,delivery_delay,mixed,False,delivery_delay,True,,0.184
+ياخال، ال order جاب معاها شهر، ال warehouse مش عارفة؟,delivery_delay,mixed,False,delivery_delay,True,,0.105
+شوف كيتاني حابس على ال order، علشان ما جي بعد ما الكورير قال يجي.,delivery_delay,mixed,False,delivery_delay,True,,0.186
+أنا ما فهمت، ال order في ال warehouse، والكورير ما بجي!,delivery_delay,mixed,False,delivery_delay,True,,0.106
+أكيد ال order سبب لي ال week، علشان ما جي بعد ما الكورير قال يجي.,delivery_delay,mixed,False,delivery_delay,True,,0.162
+بص، التوصيل متأخر يعني، وظفت شركة جديدة يعني,delivery_delay,voice,False,delivery_delay,True,,0.226
+بص ايوه يعني الطلب اكيد ما وصل بعد أسبوع يعني,delivery_delay,voice,False,delivery_delay,True,,0.274
+الدليفري يعني ما اجيك بعد ال 4 عشان كده اتاعليش كوبات الماء يعني,delivery_delay,voice,False,delivery_delay,True,,0.256
+ايوه يعني اكيد طلب البيض ما هيعملش مخبوزات يعني,delivery_delay,voice,False,product_quality,False,,0.129
+بص يعني الطلب ما بيعملش هايروز يعني ما اكيد يعني,delivery_delay,voice,False,delivery_delay,True,,0.214
+طلب الأدوات الكهربائية ما وصل يعني برضو يعني ما قدرت أقوم البيت يعني,delivery_delay,voice,False,wrong_item,False,,0.244
+الدليفري ما اجي برضو يعني محدش ممكن يجيتي يعني,delivery_delay,voice,False,delivery_delay,True,,0.239
+أرسلت طلب الكحول يعني ما وصل يعني,delivery_delay,voice,False,wrong_item,False,,0.125
+الدليفري يعني ما قدم لي حتى الآن يعني اكيد عايز اعرف ليه يعني,delivery_delay,voice,False,delivery_delay,True,,0.224
+طلب الكوبونات بتاع بيك اتي ما وصل يعني,delivery_delay,voice,False,app_issue,False,,0.151
+بص يعني الطلب ما اجي اكيد يعني,delivery_delay,voice,False,delivery_delay,True,,0.32
+اللي حصل اني متلقيش الكاميرا اللي طلبت، بس متلقيت جهاز كومبيوتر اخر 🤦♀️,wrong_item,egy,False,wrong_item,True,,0.185
+طلبت حقيبة مدرسة لابنتي وديت في الطلب، بس بعتلي ساعة موبيل 🤯,wrong_item,egy,False,wrong_item,True,,0.169
+طلبت سلة غسيل اتانية غير انها طولت بس نصف سلة 🤔,wrong_item,egy,False,wrong_item,True,,0.117
+طلبت صندل ابيض بس ملصق عليه ازرق 🙄,wrong_item,egy,False,wrong_item,True,,0.104
+طلبت زجاجة ماء بس فتحتة مخلوطة بخلصانة 🤢,wrong_item,egy,False,product_quality,False,,0.119
+طلبت شنطه للرياضه بس متلقيت شنطة مدرسية 🤦♀️,wrong_item,egy,False,wrong_item,True,,0.127
+طلبت كحك رمضان بس بتاعته انتهاز 🤬,wrong_item,egy,False,product_quality,False,,0.097
+طلبت غطاء فراش بس متلقيت وش لاصق 🤦♀️,wrong_item,egy,False,wrong_item,True,,0.123
+طلبت ملابس رياضية بس خلصت بكتل صابون 🧼,wrong_item,egy,False,wrong_item,True,,0.097
+طلبت كوب شاي بس بتاعته مخلوطة بي سكر فات 🤦♀️,wrong_item,egy,False,wrong_item,True,,0.128
+قعد مرات في البيت و اشترى قهوة عشان الكافيتريا، والظبط سكر وبس!,wrong_item,egy,False,inquiry,False,,0.133
+شيلت جهاز كمبيوتر جدي و فوجئت إنه لابتوب عشان ما كناش طلبت لابتوب!,wrong_item,egy,False,wrong_item,True,,0.09
+طلبت غسالة صحون بس واتصلت من عند الباب و ما بجد غير صندوق قهوة!,wrong_item,egy,False,wrong_item,True,,0.131
+طلبت 3 حامضين وبعتونى 3 شوكولاتة! تاعب في ايه ده؟,wrong_item,egy,False,wrong_item,True,,0.195
+طلبت صينية خبز وبعتوني صينية بيض! أخاف أرجع البيت ميت شوية!,wrong_item,egy,False,wrong_item,True,,0.101
+طلبت شنطة حفاضات للطفل وأتت شنطة للرجل! حرام على راسى!,wrong_item,egy,False,wrong_item,True,,0.19
+طلبت حليب عشان كافيتريا البيت واتوا بالصودا بس!,wrong_item,egy,False,wrong_item,True,,0.11
+طلبت جهاز صوت وبعتوني جهاز صورة! حضرتك عارف التفاضل بين الكسات?,wrong_item,egy,False,wrong_item,True,,0.164
+طلبت صينية فطور وبعتوني صينية شوربة! بجد مش هاشتري منهم مرات قادمة!,wrong_item,egy,False,wrong_item,True,,0.078
+طلبت زجاجة شامبو وبعتوني زجاجة شامبو وشامبو آخر بس!,wrong_item,egy,False,wrong_item,True,,0.343
+أرسلت طلبا لاستبدال هاتف Samsung S21 الذي استلمته ب iPhone 12 بدلا منه، وإلا فماذا يعني التسليم الصحيح؟,wrong_item,msa,False,wrong_item,True,,0.2
+لم أتلق الغسالة الأتوماتيكية التي طلبتها، بل وصلت مفاتيح الكمبيوتر فقط. هل يمكن حل هذه المشكلة؟,wrong_item,msa,False,wrong_item,True,,0.227
+اتصلت بخدمة العملاء مرتين بسبب استلامي للصينية بدلا من الفرن، وللأسف لم يتم حل المشكلة بعد.,wrong_item,msa,False,wrong_item,True,,0.208
+طلبت مروحة مكتبية معززة لكن وصلت لدي بطارية الهاتف الذكي. أرجو منك التحقق من الطلب.,wrong_item,msa,False,wrong_item,True,,0.149
+أرجو فحص شكاويي مرة أخرى حول استلامي لحقيبة حذاء بدلا من جهاز الكمبيوتر المحمول، وأعلم أن هذه ليست المرة الأولى.,wrong_item,msa,False,wrong_item,True,,0.17
+طلبتك التي قمت بها لم تصل بها الماوس المرغوب، بل وصلت فيها لوحة مفاتيح. هل يمكن التحقق من ذلك؟,wrong_item,msa,False,wrong_item,True,,0.208
+أبلغت عن مشكلة في الطلب بعد استلامي لبطاقة الذاكرة بدلا من سماعات الأذن التي طلبتها، ولم أجد أي رد.,wrong_item,msa,False,wrong_item,True,,0.2
+أرسلت طلبا لاستبدال لابتوب فيراري بنظام التشغيل الويندوز ب لابتوب سامسونج، لكن استلمت لابتوب ميتروبوليس.,wrong_item,msa,False,wrong_item,True,,0.126
+رقم الطلب صحيح والمنتج الذي استلمته غير مطابق لطلبتي. هل يمكن التحقق والتصحيح؟,wrong_item,msa,False,wrong_item,True,,0.222
+أبلغت عن استلامي لحوض الاستحمام بدلا من غسالة صحون في الطلب الذي قمت به. هل تتمكن من التحقق؟,wrong_item,msa,False,wrong_item,True,,0.186
+أرسلت طلبية تحتوي على كود خصم، لكن وصلت بدون كود خصم. هل يمكنكم التحقق من الأمر؟,wrong_item,msa,False,wrong_item,True,,0.12
+أردت شراء لاب توب معينة ولكن وصلت موديل آخر. هل يمكن إعادة التسليم؟,wrong_item,msa,False,wrong_item,True,,0.151
+طلبتي تحتوي على مكبر صوت بينما كان مطلوبا سماعات إزعاج. ما العمل؟,wrong_item,msa,False,wrong_item,True,,0.133
+أحزمتي تحتوي على بطاقة ذاكرة أكبر مما تم حجزه. هل يمكن تبديلها؟,wrong_item,msa,False,wrong_item,True,,0.068
+طلبتي ضمنت ساعة ذكية، ووصلت فيها ساعة عادية. هل يمكن التوضيح؟,wrong_item,msa,False,wrong_item,True,,0.29
+أرسلتم موزع بودرة صحية، لكن وصلت موزع عطارة. هل يمكن التوضيح؟,wrong_item,msa,False,wrong_item,True,,0.074
+طلبتي ضمنت هاتف ذكي جديد لكن وصلت بطارية فقط. هل يمكن توضيح الأمر؟,wrong_item,msa,False,wrong_item,True,,0.144
+أردت سلة طعام صحية ولكن وصلت بها كميات زائدة من العسل. هل يمكن التوضيح؟,wrong_item,msa,False,wrong_item,True,,0.096
+طلبتي ضمنت فوطا لكن وصلت بها فوط مبللة فقط. هل يمكن توضيح ذلك؟,wrong_item,msa,False,wrong_item,True,,0.128
+أردت شراء كاميرا لكن وصلت كودا لتطبيقinstead. هل يمكن التوضيح؟,wrong_item,msa,False,wrong_item,True,,0.115
+"3lm 7lm7 b2thm khl7, 7bytn 5ndy b2thm b3ny b7thm.",wrong_item,franco,False,inquiry,False,franco generation unusable,0.034
+"7b7 2ndy w2l 2l7y b3ny b7thm, 3lm 7lm7 b2thm khl7!",wrong_item,franco,False,delivery_delay,False,franco generation unusable,0.038
+"2ndy 5ndy b7thm, khl7 3lm 7lm7 b2thm khl7!",wrong_item,franco,False,delivery_delay,False,franco generation unusable,0.06
+"7b7 2ndy b3ny khl7, 7lm 7lm7 b2thm 3lm b7thm 2n 5ndy.",wrong_item,franco,False,delivery_delay,False,franco generation unusable,0.036
+"3lm 7lm7 b2thm khl7, 7b7 2ndy w2l 2l7y b3ny b7thm!",wrong_item,franco,False,delivery_delay,False,franco generation unusable,0.039
+"5ndy b2thm b3ny 7b7, 3lm 7lm7 b2thm khl7, khl7 7b7 2ndy!",wrong_item,franco,False,delivery_delay,False,franco generation unusable,0.044
+"3lm 7lm7 b2thm khl7, 7b7 2ndy w2l 2l7y b3ny 7b7 b2thm!",wrong_item,franco,False,delivery_delay,False,franco generation unusable,0.034
+"7b7 2ndy 3lm 7lm7 b2thm khl7, 3lm 7lm7 b2thm 5ndy 3lm b7thm.",wrong_item,franco,False,delivery_delay,False,franco generation unusable,0.034
+"3lm 7lm7 b2thm khl7, 7b7 2ndy w2l 2l7y b3ny 7b7 b2thm khl7.",wrong_item,franco,False,delivery_delay,False,franco generation unusable,0.045
+"5ndy b2thm 3lm 7lm7 b2thm khl7, 3lm 7lm7 b2thm 2n 5ndy w2l 2l7y b3ny b7thm!",wrong_item,franco,False,delivery_delay,False,franco generation unusable,0.035
+"3lw7 3lm n53rd mn 3dd5r l7dr, t72r n3n khl3t. 3n3 khl3t 5dr t2b 2dr 23dr?! 7b2b khl3t 2dr 23dr l5dr n3n khl3t?!",wrong_item,franco,False,inquiry,False,franco generation unusable,0.041
+"7b3n khl3t m7ddr 7lr5 2lw2, 7b2b 3bdr 2lw2 2dr 23dr l5dr?! 5dr 2lw2 7b2b n53rd 2dr 23dr l5dr?!",wrong_item,franco,False,inquiry,False,franco generation unusable,0.042
+"2lw2 n53rd 7b3n khl3t 2dr 23dr l5dr, 3n3 khl3t 5dr 7b2b 2lw2 7b2b 7lr5?! 7b2b 7lr5 7b3n khl3t 2dr 23dr l5dr?!",wrong_item,franco,False,inquiry,False,franco generation unusable,0.028
+"2lw2 3n3 khl3t 7b2b 7lr5 7b2b 2dr 23dr l5dr, 3n3 khl3t 5dr 7b3n khl3t 2dr 23dr l5dr?! 7b2b 2dr 23dr l5dr 7b2b 2lw2 7b2b 7lr5?!",wrong_item,franco,False,app_issue,False,franco generation unusable,0.024
+"2lw2 3n3 khl3t 7b2b 7lr5 7b2b 2dr 23dr l5dr, 3n3 khl3t 5dr 7b3n khl3t 2dr 23dr l5dr?! 2lw2 2dr 23dr l5dr 7b2b 2lw2 7b2b 7lr5?!",wrong_item,franco,False,inquiry,False,franco generation unusable,0.027
+"7b3n khl3t m7ddr 7lr5 2lw2, 7b2b 3bdr 2lw2 2dr 23dr l5dr?! 5dr 2lw2 7b2b n53rd 2dr 23dr l5dr?! 3lw7 3lm n53rd mn 3dd5r l7dr, t72r n3n khl3t.",wrong_item,franco,False,inquiry,False,franco generation unusable,0.047
+"2lw2 3n3 khl3t 7b2b 7lr5 7b2b 2dr 23dr l5dr, 3n3 khl3t 5dr 7b3n khl3t 2dr 23dr l5dr?! 7b2b 2dr 23dr l5dr 7b2b 2lw2 7b2b 7lr5?! 3lw7 3lm n53rd mn 3dd5r l7dr, t72r n3n khl3t.",wrong_item,franco,False,inquiry,False,franco generation unusable,0.035
+"2lw2 3n3 khl3t 7b2b 7lr5 7b2b 2dr 23dr l5dr, 3n3 khl3t 5dr 7b3n khl3t 2dr 23dr l5dr?! 2lw2 2dr 23dr l5dr 7b2b 2lw2 7b2b 7lr5?! 3lw7 3lm n53rd mn 3dd5r l7dr, t72r n3n khl3t.",wrong_item,franco,False,inquiry,False,franco generation unusable,0.038
+"3lw7 3lm n53rd mn 3dd5r l7dr, t72r n3n khl3t. 7b3n khl3t 2dr 23dr l5dr 7b2b 3bdr 2lw2 2dr 23dr l5dr?! 5dr 2lw2 7b2b n53rd 2dr 23dr l5dr?! 7b2b 2lw2 7b2b 7lr5?! 7b2b 7lr5 7b3n khl3t 2dr 23dr l5dr?!",wrong_item,franco,False,inquiry,False,franco generation unusable,0.036
+"7b3n khl3t 7lr5 2lw2 2dr 23dr l5dr, 3n3 khl3t 5dr 7b3n khl3t 2dr 23dr l5dr?! 2lw2 2dr 23dr l5dr 7b2b 2lw2 7b2b 7lr5?! 7b2b 7lr5 7b3n khl3t 2dr 23dr l5dr?! 7b2b 3bdr 2lw2 2dr 23dr l5dr?! 3lw7 3lm n53rd mn 3dd5r l7dr, t72r n3n khl3t.",wrong_item,franco,False,inquiry,False,franco generation unusable,0.036
+"Ordered some batteries, got AA instead. Now my remote control won't work!",wrong_item,en,False,wrong_item,True,,0.164
+What the heck! Ordered toothpaste and got shampoo in the box. Are you serious?,wrong_item,en,False,wrong_item,True,,0.272
+Missing a couple of pens in my order. Can't write my name now!,wrong_item,en,False,wrong_item,True,,0.292
+"Got a charger for my iPhone, but it's for an Android. What the!",wrong_item,en,False,wrong_item,True,,0.336
+"Ordered rice, got lentils instead. How am I supposed to cook?",wrong_item,en,False,wrong_item,True,,0.216
+Wrong item again! Sent me a blender when I ordered a toaster. Really?,wrong_item,en,False,wrong_item,True,,0.323
+Got a bottle of water with a broken seal. How did that even ship?,wrong_item,en,False,product_quality,False,,0.272
+Received a pair of sunglasses instead of a pair of socks. Can't believe it!,wrong_item,en,False,wrong_item,True,,0.323
+Ordered 5 light bulbs but got 3. Can't light my room now!,wrong_item,en,False,wrong_item,True,,0.177
+Got a different brand of coffee when I ordered the exact same one. So frustrating!,wrong_item,en,False,wrong_item,True,,0.312
+"Sent my order but got some random headphones instead of the speakers I asked for. What's next, a water bottle?",wrong_item,en,False,wrong_item,True,,0.269
+"Ordered a new oven but got a toaster. Same name, totally different thing. So glad I ordered this.",wrong_item,en,False,wrong_item,True,,0.345
+Why did I get a toaster when I ordered an oven? Not even close. I’m burning now!,wrong_item,en,False,wrong_item,True,,0.19
+"Got a blender when I ordered a rice cooker. I’m not making smoothies, I’m making risotto.",wrong_item,en,False,wrong_item,True,,0.156
+"Delivered the wrong item! Instead of my new blender, got a waffle maker. Looks like I’m making pancakes now.",wrong_item,en,False,wrong_item,True,,0.3
+Ordered a vacuum cleaner and got a hairdryer. Are you serious? Now I can’t clean my house properly.,wrong_item,en,False,wrong_item,True,,0.172
+"Instead of the coffee maker, I got a toaster. This is a new low. #WrongItemJokeOver",wrong_item,en,False,wrong_item,True,,0.277
+"Order for a new fridge, got a microwave. My house is getting really hot. #WrongItemMadness",wrong_item,en,False,wrong_item,True,,0.176
+"Got a toaster when ordered a kettle. Can't make tea, but can make toast. #WrongItemFailure",wrong_item,en,False,wrong_item,True,,0.168
+"Expected a washing machine, got a toaster. Now I can’t clean my clothes, but can fry eggs.",wrong_item,en,False,wrong_item,True,,0.181
+يا رب، احنا ردنا الشي من فضلك نرجعه ييجي حلوين ولا ياخد 3 ايام,wrong_item,mixed,False,refund_request,False,,0.135
+يا خالق، انا ردت المنتج بس حصلت علي كرت الشاشة ولا المنتج اللي طلبت,wrong_item,mixed,False,wrong_item,True,,0.215
+لماذا جيت البيت وسطر علي بوراوه ولا الموبيل اللي طلبت؟,wrong_item,mixed,False,wrong_item,True,,0.152
+بعت كرت الشاشة وحصلت على كرت الليش، فعلا وراوه!,wrong_item,mixed,False,wrong_item,True,,0.11
+ردت كاميرا وجيتي كاميرا بجودة أقل ولا مسموحش نرد,wrong_item,mixed,False,wrong_item,True,,0.08
+لما ردت الشنطة الحمراء، جيت الشنطة الصفراء، يا حظي!,wrong_item,mixed,False,wrong_item,True,,0.344
+ردت سماعة سوداء وجيتي برتقالية، انا عايز أرجع الشي ولا كفايتك!,wrong_item,mixed,False,wrong_item,True,,0.152
+ردت كاميرا وجيتي كرت الشاشة، وخلاص تاني مشتري,wrong_item,mixed,False,wrong_item,True,,0.101
+ردت هاتف فوجئت بكتابات عربية ولا كان هاتفي,wrong_item,mixed,False,wrong_item,True,,0.062
+ردت كاميرا ولا فوجئت بكاميرا قديمة، يا هلا!,wrong_item,mixed,False,wrong_item,True,,0.07
+أرسلوا ميزر ومش ليا! بعتلي موبايل لون غامق، وال اوى راح بيا ملون كله صفر.,wrong_item,mixed,False,wrong_item,True,,0.181
+أنا بعتلي رفقة لازم يديني كروما! طالعتني كرومنج صفرية.,wrong_item,mixed,False,wrong_item,True,,0.075
+الميزة دي كانت مش هتحصل عليها! حصلت على حاسوب ناقص المفاتيح.,wrong_item,mixed,False,wrong_item,True,,0.169
+شويتو عالمي! أرسلوا لي كاميرا 3 كاميرات، بعتلك 4!,wrong_item,mixed,False,wrong_item,True,,0.072
+الميزة دي كانت مش هتحصل عليها! حصلت على صندل واحد بدلا من الأربعة اللي بعتلي.,wrong_item,mixed,False,wrong_item,True,,0.143
+أرسلوا لي كاميرا بعدها بيوم واحده! مين اللي هيدور في شركة النقل دي؟,wrong_item,mixed,False,delivery_delay,False,,0.141
+لقيت كرومو ليا مكسورة ومفيش الشمعة اللي بعتلي!,wrong_item,mixed,False,product_quality,False,,0.189
+أرسلوا لي نظارات شمسية وراحت النظارة العلويه!,wrong_item,mixed,False,wrong_item,True,,0.121
+أرسلوا لي كرومه مكسورة! بعتلك كرومه نموذج جديد。,wrong_item,mixed,False,wrong_item,True,,0.11
+أرسلوا لي جهاز غسالة بياعطش من الصابون! بعتلك أقراص صابون.,wrong_item,mixed,False,wrong_item,True,,0.1
+بص، ايوه يعني نزلت مشروب غازي غير اللي طلبت، بص، ايوه يعني فات الحساب نزل فيه، يعني مش عارفين تاني نعمل ايه يعني,wrong_item,voice,False,wrong_item,True,,0.209
+بص، ايوه يعني استلمت سماعة سماعات الأذن والأسلاك مش في الطرد، يعني اللي أخذته من فات الحساب,wrong_item,voice,False,wrong_item,True,,0.208
+بص، ايوه يعني طلبت شمسي بيكريز وصلت لي بيكريز مكسورة يعني,wrong_item,voice,False,product_quality,False,,0.111
+بص، ايوه يعني بعتلي لوحي ذكي وصل غير اللي طلبت يعني اللي بيعمل شو في هذا,wrong_item,voice,False,wrong_item,True,,0.24
+بص، ايوه يعني البوتات غاب من الطرد، يعني فات الحساب كتب فيه انه فيه,wrong_item,voice,False,wrong_item,True,,0.18
+بص، ايوه يعني طلبت فرن الكاز وصلت لي فرن كوكا غير اللي طلبت، يعني,wrong_item,voice,False,wrong_item,True,,0.213
+بص، ايوه يعني خريطة الشحن اللي باقي بس وصلت لي بريئة يعني,wrong_item,voice,False,delivery_delay,False,,0.165
+بص، ايوه يعني طلبت مكيف هواء واصلت لي مكيف هواء جاف يعني,wrong_item,voice,False,wrong_item,True,,0.109
+بص، ايوه يعني طلبت تلفزيون LED وصلت لي تلفزيون LCD يعني,wrong_item,voice,False,wrong_item,True,,0.1
+بص، ايوه يعني طلبت ميكروويف وصلت لي توماتو يعني,wrong_item,voice,False,wrong_item,True,,0.126
+بص ايوه يعني الاجهزة الكهربائية الوصلت بتاعتها مش بتاعتها يعني! ايوه!,wrong_item,voice,False,wrong_item,True,,0.28
+يا بيت النجوم، رد الفلوس اللي قبضتها من إيصال التبادل قبل أسبوع!,refund_request,egy,False,refund_request,True,,0.139
+خلاص يا أورفانا، دلوقتي جيت استرد الفلوس اللي باعدي مش جايبينها!,refund_request,egy,False,refund_request,True,,0.212
+يا دماغ قاعد، اللي قبضتها من إيصال التبادل دايما زياد؟!,refund_request,egy,False,delivery_delay,False,,0.075
+يا سلام يا أورفانا، رد الفلوس اللي قبضتها من إيصال التبادل ده خمس أيام!,refund_request,egy,False,refund_request,True,,0.19
+يا رب، رد الفلوس اللي باعدي من إيصال التبادل، خمسة أيام ولا حاجة!,refund_request,egy,False,refund_request,True,,0.225
+يا خليني أروح أعمل حاجة حلوة، رد الفلوس اللي باعدي من إيصال التبادل!,refund_request,egy,False,refund_request,True,,0.172
+يا بيت النجوم، رد الفلوس اللي باعدي من إيصال التبادل دلوقتي بس اللي عايزه إيه؟!,refund_request,egy,False,refund_request,True,,0.208
+يا حرامي، رد الفلوس اللي باعدي من إيصال التبادل بس الخدمة ممكن تتوقف؟!,refund_request,egy,False,refund_request,True,,0.159
+يا عرب يا أورفانا، رد الفلوس اللي باعدي من إيصال التبادل، مش كمان يومين ولا ما ترد!,refund_request,egy,False,refund_request,True,,0.203
+يا خليني أعمل أي حاجة حلوة، رد الفلوس اللي باعدي من إيصال التبادل، خمسة أيام ولا حاجة!,refund_request,egy,False,refund_request,True,,0.206
+يا شباب اوورانا، بعت اللي زايد على أسبوع وأنتوا ما ردفتنيش الأموال، حضرتك راجل تاني؟,refund_request,egy,False,refund_request,True,,0.176
+يا محتاج صبر، بعت كاميرا اليوتيوب وحدة وليست برا، واللي صرحتوني مش هاتردف,refund_request,egy,False,wrong_item,False,,0.076
+يا شباب، الكافيهات بتتشرب نقودي وحدة وحدة وأنا عندي أوراق قانونية تانية,refund_request,egy,False,inquiry,False,,0.102
+محتاج جبارة إندي، اللي بعتوه محطم ومنتهي الصلاحية وأنتوا مش ردفتني,refund_request,egy,False,product_quality,False,,0.334
+يا اخوي، شراء الوجهة العالمية وردفته مرتين، حضرتك ليك مشكلة,refund_request,egy,False,refund_request,True,,0.17
+يا عيال اوورانا، الكومبيوتر بتاعي فات الشحن وهمينيتشوا، ومش ردفتني الأموال,refund_request,egy,False,app_issue,False,,0.126
+يا فندم اوورانا، طلبت ردف البندقية وحدة وبعتولي اللي ما أردفتنيش الودائع,refund_request,egy,False,wrong_item,False,,0.158
+يا شباب، شرحت موبيل وهمينيتشوا ومش ردفتني الأموال على اللي اردفتنيه مرات تانية,refund_request,egy,False,refund_request,True,,0.113
+يا عيال اوورانا، شراء الكاميرا فات الشحن وأنتوا مش ردفتني الأموال,refund_request,egy,False,refund_request,True,,0.122
+يا فندم، قطع غيار السيارة فات الشحن وأنا عندي إيصالات تانية,refund_request,egy,False,wrong_item,False,,0.114
+عزيزي فريق الخدمة، لقد قمت بإرجاع أحد المنتجات ورفضتم استرداد الثمن لمدة أسبوعين. متى سنتلقى المبلغ المستحق؟,refund_request,msa,False,refund_request,True,,0.242
+إلى فريق الخدمة: تم إرجاع منتج غير مطلوب وتقسيط المبلغ مره أخرى. عندما يتم الاسترداد النهائي؟,refund_request,msa,False,refund_request,True,,0.229
+لدي سؤال مهم: قمت بإرجاع منتج وطلبت استرداد الثمن، وأنا لا أستطيع فهم لماذا لا تستجيبون.,refund_request,msa,False,refund_request,True,,0.225
+شكرا على ردكم على رسالتي السابقة حول استرداد الثمن. هل يمكنك توفير التفاصيل حتى نتمكن من فهم سبب التأخير؟,refund_request,msa,False,refund_request,True,,0.241
+أود أن أعرب عن عدم رضاي بشأن استرداد الثمن. قمت بإرجاع منتج من شهرين وللأسف لا يزال البحث جاريا.,refund_request,msa,False,refund_request,True,,0.138
+لماذا لا يتم استرداد الثمن بعد إرجاع منتج؟ لقد مر أسبوعان منذ أن تم تقديم طلب الاسترداد.,refund_request,msa,False,refund_request,True,,0.214
+أرسلت طلب استرداد الثمن منذ أسبوعين ورغم محاولاتي المتكررة لا أجد أي رد فعل.,refund_request,msa,False,refund_request,True,,0.172
+لدي سؤال حول استرداد الثمن. هل يمكنني الحصول على توضيح حول سبب تأخر استرداد المبلغ؟,refund_request,msa,False,refund_request,True,,0.3
+رغم تقديم طلب استرداد الثمن منذ شهر كامل لا تزال هناك مشكلة.,refund_request,msa,False,refund_request,True,,0.167
+تفضلوا استرداد الثمن الذي تم خصمته عن منتج تم إرجاعه منذ أسبوعين.,refund_request,msa,False,refund_request,True,,0.158
+لقد تم طلب رد فعل منذ أسابيع ولم يرد لي أي رد. كيف يمكن أن أثق بالخدمة إذا لا يرد على طلباتي؟,refund_request,msa,False,refund_request,True,,0.187
+تم تقييم سعر مختلف عن السعر الذي تم دفعه، وقد تم طلب رد فعل من المرجحات منذ أسبوع كامل و لا يوجد أي رد.,refund_request,msa,False,price_complaint,False,,0.228
+لقد تم طلب رد فعل عن عرض خصم غير منطبق وأرسلت طلبي مرتين دون رد حتى الآن.,refund_request,msa,False,refund_request,True,,0.178
+أنا مراسل لطلب رد فعل لم ترد عليه حتى الآن، وأرغب في الحصول على استرداد كامل.,refund_request,msa,False,refund_request,True,,0.218
+تم تحصيل رسوم غير مبررة من خلال الطلب وتم طلب رد فعل لكن لم يتلق أي رد.,refund_request,msa,False,refund_request,True,,0.25
+تم دفع رسوم من خلال الطلب ولكن لم يتم تقديم المنتج، وطلبت رد الفعل ولكن لم يتم الرد.,refund_request,msa,False,refund_request,True,,0.197
+تم تحصيل رسوم مرتين على نفس الطلب، لكن لم يتم استرداد الرسوم المردودة.,refund_request,msa,False,refund_request,True,,0.241
+تم طلب رد فعل عن عرض خصم غير مطبق وتم طلب الاسترداد مرتين ولكن لم يتم الرد.,refund_request,msa,False,refund_request,True,,0.193
+تم طلب رد فعل عن منتج تم استرداده، وعذرا، لم أتلق أي رد حتى الآن.,refund_request,msa,False,refund_request,True,,0.19
+تم تحصيل رسوم من خلال الطلب ولكن المنتج لم يتم تسليمه، وقد تم طلب رد الفعل ولكن لم يتم الرد.,refund_request,msa,False,refund_request,True,,0.207
+"3l 7ml knt3lm 32rty, 2by l7n 3st5b bsh ntn l7n? 7ml 3ty b3kty b2sh 2by b3ty 3lw bsh knt3lm, 2ty 7ty w2l 7ml ntkty b2sh yby 3byt!",refund_request,franco,False,inquiry,False,franco generation unusable,0.101
+"2ty n3hm, b2sh knt3lm l7n 3st5b bsh ntn l7n 32rty, 2ty 7ty n2l knt3lm bsh yby 3byt bsh 2by 3st5b ntn l7n 3lw?",refund_request,franco,False,inquiry,False,franco generation unusable,0.057
+"7ml 3ty n3hm, knt3lm bsh 2by 3lw, 7ml knt3lm 2ty n2l l7n 3st5b, 2ty 7ty knt3lm bsh yby 3byt bsh 2by 3st5b ntn l7n 3lw?",refund_request,franco,False,inquiry,False,franco generation unusable,0.063
+"3ty n3hm, 2by knt3lm 32rty 7ml 7ty n2l knt3lm bsh yby 3byt bsh 2by 3st5b ntn l7n 3lw, 7ml 3st5b 7ty b3kty b2sh knt3lm 3lw?",refund_request,franco,False,inquiry,False,franco generation unusable,0.07
+"2ty 7ty w2l 7ml knt3lm 32rty 7ml 7ty n2l knt3lm bsh yby 3byt bsh 2by 3st5b ntn l7n 3lw, 2ty 7ty 2ty w2l 7ml knt3lm 3lw?",refund_request,franco,False,inquiry,False,franco generation unusable,0.066
+"3l 3st5b 7ml 32rty b3kty b2sh 2ty 7ty n2l knt3lm bsh yby 3byt, 7ml 7ty b3kty b2sh knt3lm 3lw?",refund_request,franco,False,inquiry,False,franco generation unusable,0.07
+"3l 3st5b 7ml 32rty b3kty b2sh 2ty 7ty n2l knt3lm bsh yby 3byt, 7ml knt3lm 32rty b3kty b2sh 2ty 7ty n2l l7n 3st5b bsh ntn l7n 3lw?",refund_request,franco,False,inquiry,False,franco generation unusable,0.075
+"3l 7ml 3st5b b3kty b2sh 2ty 7ty n2l knt3lm bsh yby 3byt, 2ty 7ty 2ty w2l 7ml 32rty 7ml 7ty n2l knt3lm bsh yby 3byt bsh 2by 3st5b ntn l7n 3lw?",refund_request,franco,False,inquiry,False,franco generation unusable,0.072
+"7ml 3st5b 7ml 32rty b3kty b2sh 2ty 7ty n2l knt3lm bsh yby 3byt bsh 2by 3st5b ntn l7n 3lw, 2ty 7ty knt3lm 2ty n2l l7n 3st5b, 7ml 3lw b3kty b2sh knt3lm 7ml 32rty b3kty b2sh 2ty 7ty n2l l7n 3st5b bsh ntn l7n 3lw?",refund_request,franco,False,inquiry,False,franco generation unusable,0.073
+"2ty 7ty n2l knt3lm 3lw 7ml knt3lm 32rty 7ml 7ty n2l knt3lm bsh yby 3byt bsh 2by 3st5b ntn l7n 3lw, 2ty 7ty knt3lm 2ty n2l l7n 3st5b bsh ntn l7n 3lw?",refund_request,franco,False,inquiry,False,franco generation unusable,0.059
+"3ady lw 7lo b2t wa kn 3la b3tn, 3la3 5lo b3dn 7d7 2ty khsh khsh! خلوني اعادوني علشان كده بنتكلم عشان 5لو حلو!",refund_request,franco,False,refund_request,False,franco generation unusable,0.101
+"3lm lw 7lo l3lm 2ty, 5lo b3dn 3ady 7ml 2by khsh khsh. خليني اعادوني علشان كده بنتكلم.",refund_request,franco,False,product_quality,False,franco generation unusable,0.098
+"7lo 7ml 2by khsh khsh, 3ady 7ml 2by khsh khsh. فلوسنا ضايعت 5لو بجد حنا محتاجينها!",refund_request,franco,False,refund_request,False,franco generation unusable,0.079
+"3ady 3la b3tn, 3la3 5lo b3dn 7d7 2ty khsh khsh. مش هتقدر تقولش حاجة ده حصل!",refund_request,franco,False,delivery_delay,False,franco generation unusable,0.082
+"5lo b3tn 3la b3tn, 7lo 3la b3tn 7ml 2by khsh khsh. بس شوية اتعدي بجد.",refund_request,franco,False,price_complaint,False,franco generation unusable,0.082
+"5lo b3tn 3la b3tn 7lo 3la b3tn, 3ady 7ml 2by khsh khsh. حنا شايلين فلوس علشان 3لو بجد!",refund_request,franco,False,refund_request,False,franco generation unusable,0.094
+"3ady 7ml 2by khsh khsh, 3la3 5lo b3dn 7d7 2ty khsh khsh. بس شوية اتعدي.",refund_request,franco,False,inquiry,False,franco generation unusable,0.082
+"5lo b3tn 7lo b3tn, 3ady 7ml 2by khsh khsh. خليني اعادوني علشان كده بنتكلم.",refund_request,franco,False,product_quality,False,franco generation unusable,0.095
+"3ady 7ml 2by khsh khsh, 3la3 5lo b3dn 7d7 2ty khsh khsh. حنا مش قادرين نعيش بلا فلوس!",refund_request,franco,False,price_complaint,False,franco generation unusable,0.068
+"3ady 7ml 2by khsh khsh, 3la3 5lo b3dn 7d7 2ty khsh khsh. حنا بحاجة لياك بجد!",refund_request,franco,False,inquiry,False,franco generation unusable,0.06
+Sent my return but Orvana still hasn't refunded me. When are they going to get their act together?,refund_request,en,False,refund_request,True,,0.394
+Gave back the toaster but where's my money? It's been weeks and no sign of it!,refund_request,en,False,refund_request,True,,0.208
+"Returned the item and it's been two months, not one day. When are they going to refund me?",refund_request,en,False,refund_request,True,,0.391
+Called multiple times about my refund and still nothing. I need this money back!,refund_request,en,False,refund_request,True,,0.24
+Orvana Plus points were supposed to be credited after my return but they're still missing.,refund_request,en,False,loyalty_points,False,,0.252
+"Sent back the item, paid twice, and they still haven't refunded the second charge. This is ridiculous.",refund_request,en,False,refund_request,True,,0.322
+"Used the promo code but it didn't apply. Got the item back, now they owe me.",refund_request,en,False,refund_request,True,,0.347
+"Delivered the goods, got the refund, but my credit card still has the second charge. Why?",refund_request,en,False,refund_request,True,,0.317
+Orvana said they'd refund me but it's been over a month. Where's my money?,refund_request,en,False,refund_request,True,,0.224
+"Got the refund, but the second charge is still there. This is such a hassle.",refund_request,en,False,refund_request,True,,0.279
+"Guys, why is my refund still hanging? I sent back the items last week! When will this be over?",refund_request,en,False,refund_request,True,,0.25
+"Seriously, Orvana, what’s the deal? I paid for this stuff and they didn’t even deliver. Now I’m stuck with a refund request. Can someone fix this mess?",refund_request,en,False,delivery_delay,False,,0.219
+"Orvana, can I get a refund or not? I returned everything, but the money still isn’t showing up. What’s going on?",refund_request,en,False,refund_request,True,,0.315
+"Had a bad experience. Paid for items that were never delivered, and now I’m waiting for a refund. When will I see that money back in my account?",refund_request,en,False,refund_request,True,,0.337
+"Can you please, please, please send my refund? I returned the items two days ago and still nothing. Can’t believe this!",refund_request,en,False,refund_request,True,,0.361
+"Orvana, refund request still no action. I returned the goods and now I’m just waiting. This is such a pain.",refund_request,en,False,refund_request,True,,0.368
+Why is my refund still not coming? I returned the items and now I’m just waiting. How hard can it be to give a refund?,refund_request,en,False,refund_request,True,,0.404
+"Orvana, please refund me. I returned the items and now I’m waiting. Why is this so difficult?",refund_request,en,False,refund_request,True,,0.317
+"Orvana, why isn’t my refund coming? I sent back the items a week ago. This is getting frustrating.",refund_request,en,False,refund_request,True,,0.219
+"Orvana, refund still not coming. I returned the items and now I’m just waiting. Can someone help me get this sorted?",refund_request,en,False,refund_request,True,,0.345
+أنا فاقد الاحترام، استخدمت خدمة الام dåن وهم، وسددت الأموال وبقيت يداي فارغتان!,refund_request,mixed,False,app_issue,False,,0.111
+رجعت الشي�أص الى المتجر وكنت اتمنى أرجع التاشيرات الام dåن بدل�أها!,refund_request,mixed,False,refund_request,True,,0.193
+أنا بحاجة لرد أموال من الام dåن، لكن الخدمة متوقفة ولا يمكنني الوصول اليهم.,refund_request,mixed,False,refund_request,True,,0.16
+مشكلة كبيرة، سددت الام dåن ونسيت انهم يأخذوا الاشياء مني!,refund_request,mixed,False,price_complaint,False,,0.099
+أبلغ عن مشكلة التاشيرات الام dåن، لم أستلم رد الأموال حتى الآن!,refund_request,mixed,False,refund_request,True,,0.185
+أنا مستعد لغمر المكان بأكوام من الام dåن إذا لم يستلموا رداتي!,refund_request,mixed,False,inquiry,False,,0.133
+تفضلوا على الام dåن التي لم أستلم رد فعلهم بعد.,refund_request,mixed,False,delivery_delay,False,,0.123
+طلبت رد الام dåن منذ أسبوعين ولم أستلم أي رد فعل حتى الآن.,refund_request,mixed,False,refund_request,True,,0.2
+الام dåن لم تصل بعد، بانتظار رد فعلهم من الام dåن.,refund_request,mixed,False,delivery_delay,False,,0.115
+أنا متعب جدا وطالما انتظرت رد الام dåن وهم ما زالوا يبصمون على الهاتف.,refund_request,mixed,False,delivery_delay,False,,0.099
+يا رب يعوضك الأكتر، بعتلي حاسوب نانو ووصلو جهاز صندل!أرجو رد المال اللي باعت عليه، خليني أشتري حاسوب REAL!,refund_request,mixed,False,wrong_item,False,,0.116
+ال order اتأخرت وصحتي اللي ضايعت عشان كده أحتاج رجعة جاية السعر، يعني ارجعوا مالي بالظبط!,refund_request,mixed,False,refund_request,True,,0.146
+ايه اللي جوا؟! جيت اطلب رد الفلوس ووصلوا لي بطاقة نون، مش فاهم ايه المشكلة!,refund_request,mixed,False,refund_request,True,,0.221
+شوية أيام حابة رد الفلوس اللي باعت عليه حافظة السوشيال ميديا اللي ضايعت!,refund_request,mixed,False,refund_request,True,,0.152
+أنا بس اشتريت نظارات ووصلو نظارات حجر، رد لي الفلوس، مش قادر اشتري نظارات أكتر بدها!,refund_request,mixed,False,wrong_item,False,,0.141
+بس حابة رد الفلوس اللي باعت عليه كوبونات الشوبينج اللي ضايعت!,refund_request,mixed,False,refund_request,True,,0.164
+أرسلت المنتج واشترطت رد الفلوس، لكن حتى المنتج ما وصل ومش بيفهموا اللي حابة!,refund_request,mixed,False,delivery_delay,False,,0.222
+أكيد اللي حابة هو رد الفلوس اللي باعت عليه عربة السوبر ماركت اللي ضايعت!,refund_request,mixed,False,refund_request,True,,0.233
+أول مرة أشتري من أوورانا وهم يقعدوا معي على رجعة الفلوس اللي باعت عليه جهاز الديب فريزر اللي ضايعت!,refund_request,mixed,False,refund_request,True,,0.172
+أرجو رد الفلوس اللي باعت عليه الحقيبة اللي ضايعت، بس حتى المنتج ما وصل بالظبط!,refund_request,mixed,False,refund_request,True,,0.159
+بص مش عارف يهنا نشتغل، الكروشية ما ردتلي بعد البنجية، ايوه لازم اعمل شيحة في البيت يعني,refund_request,voice,False,inquiry,False,,0.125
+بص، ما أبقيت الرجعت ولا أصلح، بس حبيت أقول لك بص، ما أبقيت الريجستري的钱文本:{,refund_request,voice,False,refund_request,False,foreign script,0.109
+يا ايه الحكاية، جابيني هواز عايز يخرب البيت 😡,product_quality,egy,False,product_quality,True,,0.149
+الموبايل بتقعد على الشحن، بس بس العيب محتاج إصلاح 🤦♂️,product_quality,egy,False,product_quality,True,,0.247
+الجبن فاسد بعتوه، كفاية ما أعرف حدا بيعيلش حاجة ضارة 🤦♀️,product_quality,egy,False,product_quality,True,,0.098
+شاتر زيت عشان تخلي شعر ناعم، بس زيت بقى خنزير 🤮,product_quality,egy,False,product_quality,True,,0.166
+خزنة تاني على الباب ورحت جربت، فتحت وجدت علبة أرز شمعة 🤣,product_quality,egy,False,wrong_item,False,,0.155
+الشوفة بتتقلص كل يوم، ممكن أقفل عيني وشوف معها 🤦♂️,product_quality,egy,False,inquiry,False,,0.088
+شريت توكار عشان اقطع لحم، اكتشفت إنه بيعمل صوت كله خنافس 🤨,product_quality,egy,False,product_quality,True,,0.11
+شتر كافيار عشان حظ حسن، بس كان شيت قديم من الخزينة 😂,product_quality,egy,False,wrong_item,False,,0.098
+شريت كاميرا تاني بس ما فكرت إنها بتتكدس الصور تلقائي، ما قدرت أعرف عدد الصور اللي رحتت 🤦♀️,product_quality,egy,False,product_quality,True,,0.117
+شريت دواء عشان أكمل رحلتي، بس كان بعجالة، ممكن أحتاج حمام ديرمي 🤢,product_quality,egy,False,product_quality,True,,0.096
+يا غلطان! جهازي الكهربا ماتعمل حاجة، مفيش شغيل وراها، هعمل شكوى بس محتاج راجع من الورشة في حد чات,product_quality,egy,False,product_quality,False,foreign script,0.116
+يا شو صار؟ خبرتي في سلة البياضة مارضية وده غير صحي، مش هعمل حاجة بس محتاج رد بس بسرعة,product_quality,egy,False,product_quality,True,,0.125
+يا جدعان! أشعلوا الكهربا على الطاير، ده بيع حرق وبيصدر رائحة كريهة، هعيدوه,product_quality,egy,False,product_quality,True,,0.197
+مش هتجيب مفتاح من الباب، مش هعمل شغلة ههه، جهازي اليوتيوب مفتوح بالكامل وده مش كدا، محتاج حل,product_quality,egy,False,app_issue,False,,0.219
+يا عيني، حصلت في مشكلة مع بطاقة الشحن اللي حصلت عليه، مفيش شحن فيها وده غير ساري، مش هعمل حاجة,product_quality,egy,False,loyalty_points,False,,0.174
+يا فاشلين، جهازي اليوتيوب مسخن جدا ويحترق اليد اللي بتلمسه، هعيدوه,product_quality,egy,False,product_quality,True,,0.114
+يا حرامي، صندوق البوتاجاز ما فيه نصف الحليب اللي حصلت عليه، هعيدوه ومسترد الرسوم,product_quality,egy,False,wrong_item,False,,0.13
+يا كده، جهازي الحاسوب بيعطي خطا مستمر وبعدها يشعل، هعمل شكاوي لحد ما تشتغل,product_quality,egy,False,product_quality,True,,0.113
+يا صاحبي، اشتريت دواء وده غير صحي، بيعطشني ومفيش نفع، هعيدوه في يوم واحد,product_quality,egy,False,product_quality,True,,0.218
+يا لصوص، الصندوق كان فارغ، مش هعمل حاجة، هعيدوه ومسترد الرسوم,product_quality,egy,False,wrong_item,False,,0.105
+لقد تلقينا محول الكهرباء المختل، فقد أثارت التحويلات الكهربائية شمعا من اللهب. نرجو فحص الأمر على وجه السرعة.,product_quality,msa,False,product_quality,True,,0.246
+عثرنا على سجق ملوث في الأجبان التي تم شرائها مؤخرا. هل يمكنك التحقق منه؟,product_quality,msa,False,product_quality,True,,0.137
+تلقينا نسخة فاسدة من معلقة الأطعمة المجمدة. هل يمكن تبديلها؟,product_quality,msa,False,product_quality,True,,0.067
+جهاز التكييف الذي وصل ينبعث منه رائحة كحول مزعجة. هل يمكن تبديله؟,product_quality,msa,False,product_quality,True,,0.228
+لم تعمل الكاميرا في الهاتف الذكي الذي حصلنا عليه حديثا. ما هي الخطوات لحل هذا المشكلة؟,product_quality,msa,False,inquiry,False,,0.201
+عثرت على علبة من الشوكولاتة المعلبة مسدودة بالحشرات. هل يمكنك استبدالها؟,product_quality,msa,False,product_quality,True,,0.242
+تم التوصيل بجهاز تلفزيون مكسور. كيف يمكن إعادته؟,product_quality,msa,False,product_quality,True,,0.134
+لم يعمل جهاز الكمبيوتر اللوحي بعد فتحه. هل يمكن تبديله؟,product_quality,msa,False,product_quality,True,,0.162
+تلقينا نسخة من ملء بطارية الهاتف الذكي تتوقف عند تحميل التطبيقات. هل يمكنك معاونتنا؟,product_quality,msa,False,app_issue,False,,0.161
+الثلاجة التي تم شراؤها تظهر علامات فساد الأطعمة في غضون أيام. كيف يمكن إلغاء البيع؟,product_quality,msa,False,product_quality,True,,0.107
+أبلغتكم عن مشكلة كرت الشاشة الذي استلمته، ولكنه لم يعمل على الجهاز بعد مرور أسبوع. هل يمكن تبديله؟,product_quality,msa,False,product_quality,True,,0.16
+صحيح أن المنتج توصيل، لكنه فشل فور استخدامه. كيف يمكن تصحيح هذا الخطأ؟,product_quality,msa,False,product_quality,True,,0.144
+باعترف أن الصندوق كان مليء، لكن ماذا عن الجهاز الذي جاء فاسدا؟ هل يمكن استبداله أو رد المبلغ؟,product_quality,msa,False,product_quality,True,,0.186
+استلمت جهاز الكمبيوتر، وفور فتحه، ظهرت رائحة كريهة. هل يمكن تبديله؟,product_quality,msa,False,product_quality,True,,0.143
+أنا متأكد أن البروتاتي أنجزت الشحن، لكن الشاشة لا تعمل بعد مرور أيام. كيف يمكنني حل هذه المشكلة؟,product_quality,msa,False,product_quality,True,,0.176
+استلمت الجهاز، وخلال دقائق بدأ يعمل ببطء شديد. هل يمكن تبديله؟,product_quality,msa,False,product_quality,True,,0.114
+عثرت على منتج فاسد في صندوق الشحن. هل يمكنكم استبداله أو رد الثمن؟,product_quality,msa,False,product_quality,True,,0.219
+استلمت الجهاز، والصوت داخله مستمر رغم أنني قمت بإيقاف الصوت. كيف يمكنني تصحيح هذا؟,product_quality,msa,False,product_quality,True,,0.118
+استلمت الجهاز وأعدته، لكنه بدأ في الغليان بعد فترة قصيرة. كيف يمكنني تبديله؟,product_quality,msa,False,product_quality,True,,0.12
+استلمت الصندوق الذي كان يفترض أن يكون محملا بالبطاريات، لكنهم لم يضيفوها. كيف يمكن تبديله؟,product_quality,msa,False,wrong_item,False,,0.139
+"phone 53lb 3l 7t3b, 3l 7t3b 3n khalef 7a2l b2n3d. 7t3b l3byb l2lb 5l3f!",product_quality,franco,False,inquiry,False,franco generation unusable,0.084
+"7a2l 7t3b khalef 3a2l, 3n7t2b 3a2l 3l2f 53lb 7t3b. 3a2l 3l3byb 7b khalef!",product_quality,franco,False,inquiry,False,franco generation unusable,0.129
+"shoes 3n7t2b 7t3b, 3l3byb l2lb 7t3b 3l 7a2l b2n3d! 3l 7a2l 53lb 3l 7t3b!",product_quality,franco,False,product_quality,False,franco generation unusable,0.068
+"television 7t3b, 3a2l 53lb 3l 7a2l 3n2lb. 3l3byb 3l 7a2l 53lb 3l 7t3b!",product_quality,franco,False,product_quality,False,franco generation unusable,0.072
+"tablet 7t3b, 3l3byb 3l 53lb 3l 7a2l 3n2lb. 3a2l 7t3b 3l2f 53lb 7t3b!",product_quality,franco,False,product_quality,False,franco generation unusable,0.072
+"laptop 3n7t2b 7t3b, 3l3byb 3l 53lb 3l 7a2l b2n3d. 7b khalef 3a2l 53lb 7t3b!",product_quality,franco,False,product_quality,False,franco generation unusable,0.089
+"air conditioner 3n7t2b 7t3b, 3l3byb 3l 53lb 3l 7a2l 3n2lb. 7b khalef 3a2l 53lb 7t3b!",product_quality,franco,False,product_quality,False,franco generation unusable,0.227
+"washing machine 3n7t2b 7t3b, 3l3byb 3l 53lb 3l 7a2l b2n3d. 7t3b 3l2f 3a2l 53lb 7t3b!",product_quality,franco,False,product_quality,False,franco generation unusable,0.079
+"microwave 3n7t2b 7t3b, 3l3byb 3l 53lb 3l 7a2l 3n2lb. 3a2l 3l2f 3a2l 53lb 7t3b!",product_quality,franco,False,product_quality,False,franco generation unusable,0.057
+"speaker 7t3b, 3l3byb 3l 53lb 3l 7a2l b2n3d. 3a2l 3l2f 53lb 7t3b, 3l 7t3b 3a2l 3l2f 3l 7a2l!",product_quality,franco,False,product_quality,False,franco generation unusable,0.073
+"3lekh 7lekk bish7ar 3sh ma 3mlak, 2mlak khlod kholod!",product_quality,franco,False,inquiry,False,franco generation unusable,0.071
+"3sh malak 2n2n f sh7ara, 3mlak khlod n3ml bish7ara7!",product_quality,franco,False,inquiry,False,franco generation unusable,0.064
+5lmak bish7ara 3sh malak 3lm7 bish7ara!,product_quality,franco,False,inquiry,False,franco generation unusable,0.069
+"7sh malak bish7ara, 3mlak khlod n3ml 3sh!",product_quality,franco,False,inquiry,False,franco generation unusable,0.075
+"3sh 5lm7 bish7ara, 2mlak 3sh 5lmak khlod!",product_quality,franco,False,inquiry,False,franco generation unusable,0.06
+"7sh malak 3sh 5lm7 bish7ara, 2mlak khlod n3ml 3sh!",product_quality,franco,False,delivery_delay,False,franco generation unusable,0.084
+"3sh 5lmak khlod, 2mlak 3sh 5lm7 2n2n f sh7ara!",product_quality,franco,False,inquiry,False,franco generation unusable,0.056
+"5lmak 2n2n f sh7ara, 2mlak 3sh 5lm7 khlod!",product_quality,franco,False,delivery_delay,False,franco generation unusable,0.053
+"3sh 5lmak khlod, 2mlak 3sh 5lm7 3mlak 2n2n f sh7ara!",product_quality,franco,False,price_complaint,False,franco generation unusable,0.061
+"3sh 5lmak khlod, 2mlak 3sh 5lm7 2n2n f sh7ara, 2mlak 3sh 5lm7 khali3!",product_quality,franco,False,staff_behavior,False,franco generation unusable,0.075
+This air conditioner started making a weird noise after only a week! How is that supposed to work?,product_quality,en,False,product_quality,True,,0.261
+"Took me two days to realize this milk was expired. I swear, Orvana, this is the last time I buy milk from you!",product_quality,en,False,product_quality,True,,0.331
+Got a toaster that stopped working after just a month. Can't believe it! You guys should be ashamed.,product_quality,en,False,product_quality,True,,0.296
+"Received this blender, and it's overheating every time I use it. Can't even blend a simple smoothie without it breaking down.",product_quality,en,False,product_quality,True,,0.229
+"Ordered a coffee maker, got a different one with a broken filter holder. Seriously, how did that even make it to the shelves?",product_quality,en,False,wrong_item,False,,0.307
+The bread I bought from you smelled weird and burnt. I'm not sure if I should eat it or just throw it away.,product_quality,en,False,product_quality,True,,0.332
+"This yogurt was past its expiration date by three days. I paid full price for it, Orvana, and got a rotten product.",product_quality,en,False,product_quality,True,,0.252
+"Purchased a bottle of olive oil, and it's already going bad. I've complained about this before, why is it still happening?",product_quality,en,False,product_quality,True,,0.296
+"Got a new vacuum cleaner, and it's not working at all. Is this the same model you sold me last week? What gives?",product_quality,en,False,product_quality,True,,0.204
+"Received a box of pasta, but it was already in the package for a while. It didn't look fresh at all, Orvana.",product_quality,en,False,product_quality,True,,0.24
+Got a toaster that's constantly overheating. Can't even make a sandwich without it burning down the kitchen!,product_quality,en,False,product_quality,True,,0.183
+"Bought a fridge, and within a week it stopped working. Now my ice cream is out in the sun!",product_quality,en,False,product_quality,True,,0.446
+Received a blender that just makes noise but no puree. Looks like I'm back to hand-mashing my fruits.,product_quality,en,False,product_quality,True,,0.171
+"Ordered cheese that had a weird burnt smell. Tried to return it, but they said it's expired. Ugh, what am I supposed to do now?",product_quality,en,False,product_quality,True,,0.23
+"Got a blender, and it broke after a few uses. Thought it was just a one-off, but it happens with a few other products too.",product_quality,en,False,product_quality,True,,0.165
+"Toasted bread from the new toaster turns into charcoal. I need a new one, or at least a refund.",product_quality,en,False,product_quality,True,,0.178
+"Bought a water purifier, but it's not purifying the water at all. Looks like I'm stuck drinking tap water.",product_quality,en,False,product_quality,True,,0.176
+Received a coffee maker that only makes half a cup of coffee. Might as well be making tea.,product_quality,en,False,product_quality,True,,0.178
+"Ordered a vacuum cleaner, and it stopped working after just one use. So much for cleaning the house.",product_quality,en,False,product_quality,True,,0.304
+"Got a rice cooker, but it's leaking water all over the counter. Seems like I need to clean the counter every time I make rice.",product_quality,en,False,product_quality,True,,0.201
+폰ي قدييييييييييييييييييييييييييييييييييييييييييييييييييييييييم!,product_quality,mixed,False,product_quality,False,too short,0.002
+مشيل صوت، شو اللي حصل في ال speaker؟,product_quality,mixed,False,product_quality,True,,0.173
+ايش طعم البقالة اللي بتبيعوها؟,product_quality,mixed,False,inquiry,False,,0.112
+الثلاجة اتسبح في الماء بس!,product_quality,mixed,False,product_quality,True,,0.094
+"ايه اللي حصل في الكوفي MAK, يطحش كل يوم!",product_quality,mixed,False,product_quality,True,,0.149
+المicrowave مش كايدعمل! اتجهت ال milk على النار!,product_quality,mixed,False,product_quality,True,,0.123
+ايه اللي حصل في ال milk، اتغرق في القمامة!,product_quality,mixed,False,product_quality,True,,0.137
+المشغلي اتمنفخ و اتخرج حرق!,product_quality,mixed,False,product_quality,True,,0.084
+ايش رحت اشترى و رجعلي كرتون ماء فارغ؟,product_quality,mixed,False,wrong_item,False,,0.114
+طلعت اولادي من ال oven و مشلشين اكلهم!,product_quality,mixed,False,product_quality,True,,0.071
+حاسبتوني اللي اتوصيلها شو فين؟ تاني بيتبع طيار كاملا في الكهربا!,product_quality,mixed,False,wrong_item,False,,0.179
+مشغل الكورنتي جاي بحرق، طالبي صيانة ممكن تشتري واحد جديد.,product_quality,mixed,False,product_quality,True,,0.1
+ألف شكر على المنتج القابل للاندلاع اللي ادريش تاني.,product_quality,mixed,False,product_quality,True,,0.126
+كشطة المكواة بتضيق تاني بس، هتعودلها؟,product_quality,mixed,False,product_quality,True,,0.25
+الكابتشينو machine بتوقف عند نقرة واحدة، هعمل كودا في السوبر مااركット?,product_quality,mixed,False,product_quality,False,foreign script,0.106
+ال TV بيتقاسمني في الراوتر، أعمل مشكلة جيزة من فضلك!,product_quality,mixed,False,product_quality,True,,0.163
+هاني الشوكولاتة احتوت على قطعة بلاستيكية، بعتها للشرطة!,product_quality,mixed,False,product_quality,True,,0.258
+ال blender ما احترق في أول استخدام، بحب تاخد مسؤوليتك.,product_quality,mixed,False,product_quality,True,,0.165
+ال rice cooker بتوبخ وتضيع الريسة، اعمل استرجاع.,product_quality,mixed,False,product_quality,True,,0.14
+ال washing machine بتلكأ ومشغلة ببطء جدا، محتاج مساعدة!,product_quality,mixed,False,product_quality,True,,0.115
+الهاتف سخن يعني سخن جدا، أرسلو لي جهاز قديم بص,product_quality,voice,False,product_quality,True,,0.137
+الثلاجة بتوقف تعمل كل يوم يعني مشكلة بالصوت بص,product_quality,voice,False,product_quality,True,,0.179
+الميوزيك بارست، أصوات مزعجة يعني بس صحيت من النوم بص,product_quality,voice,False,product_quality,True,,0.07
+البسكويت كسر في الصندوق يعني فعلا بس صندوق واحد يعني,product_quality,voice,False,wrong_item,False,,0.099
+البطارية تفقت يعني نص البطارية خرجت بص,product_quality,voice,False,product_quality,True,,0.072
+المراة بتتسخ يعني تتسخ بنفسها بص,product_quality,voice,False,inquiry,False,,0.084
+الحليب مرت سعتي يعني طالع من الثلاجة بص,product_quality,voice,False,product_quality,True,,0.111
+المنشفة عديت يعني تلفتت بص,product_quality,voice,False,product_quality,True,,0.073
+الغسالة تدوس الملابس يعني تدوسهم بقوة بص,product_quality,voice,False,product_quality,True,,0.079
+الحوض بتتسرب يعني كل مكان متسرب يعني,product_quality,voice,False,product_quality,True,,0.092
+الجهاز بياخد الحرارة يعني شغال عالي جدا بص,product_quality,voice,False,product_quality,True,,0.217
+يا إيه بيرضوا على السعر ده؟ شايلهم زي الورق، نفسي أشتري من غيرهم!,price_complaint,egy,False,price_complaint,True,,0.158
+بعتهم هدية عيد ميلاد فاتح وهم يبيعونه 50% أقل! إيه اللي حصل؟,price_complaint,egy,False,price_complaint,True,,0.121
+عايز أعرف ليه السعر في المتجر بتاعكم هيبقى ضعف السعر في التطبيق!,price_complaint,egy,False,price_complaint,True,,0.325
+بعتهم شنطة فضية عشان 300 جنيه، محتاج يرجعولي الفارق,price_complaint,egy,False,refund_request,False,,0.142
+قلت إنهم بيعوا السكر بتلك الاسعار من فاتح، بس بس في الجملة دي,price_complaint,egy,False,price_complaint,True,,0.125
+معقول السعر ده يبقى اللي مكتوب بالظبط؟ بعتهم منتجات ب 50% أكتر,price_complaint,egy,False,price_complaint,True,,0.212
+مش عارفين تقليل الأسعار يبقي تجربة جيدة؟ بعتهم شاشه بلاك بيري ب 1500 جنيه,price_complaint,egy,False,price_complaint,True,,0.195
+شيلوا السعر ده من المتجر بتاعكم، احنا بس نعرف الشغلة دي,price_complaint,egy,False,price_complaint,True,,0.206
+أنا عايز أعرف ليه السعر في المتجر بتاعكم أكبر من المتجر التاني,price_complaint,egy,False,price_complaint,True,,0.225
+قلت لهم هديتي بتلك الأسعار، بس دلوقتي السعر بتاع المتجر بتاعكم,price_complaint,egy,False,price_complaint,True,,0.171
+يا رب يخليكوا، الأسعار في المتجر مختلفة تماما عن الفاتورة!,price_complaint,egy,False,price_complaint,True,,0.32
+يا جماعة، بتكلم عن خصم؟ ما فيش حاجة على الكاشير!,price_complaint,egy,False,price_complaint,True,,0.229
+مش قادرة أصدق أن الأسعار ارتفعت علشان كده?,price_complaint,egy,False,price_complaint,True,,0.256
+إيييي، ارتفاع الأسعار في متجر واحد؟,price_complaint,egy,False,price_complaint,True,,0.196
+يا إلهي، فاتورة بتظهر الأسعار القديمة!,price_complaint,egy,False,price_complaint,True,,0.308
+مين اللي قرر إن الأسعار هتحس بده؟,price_complaint,egy,False,price_complaint,True,,0.234
+محتاجة توضيح، الأسعار متفاوتة بين المتاجر!,price_complaint,egy,False,price_complaint,True,,0.197
+عايزاكم تعرفوا الأسعار في المتجر مقلوبة!,price_complaint,egy,False,price_complaint,True,,0.197
+أيوه، الأسعار صارت مخيبة للآمال حقا!,price_complaint,egy,False,price_complaint,True,,0.184
+يا سلام، محتاجة تغيير الأسعار بتاع الكاشير!,price_complaint,egy,False,price_complaint,True,,0.265
+لقد لاحظت أن السعر المدون على الرسوميتي مختلف تماما عن السعر المكتوب على الرف. كيف يمكنني التأكد من أن أقوم بالشراء بالسعر الصحيح؟,price_complaint,msa,False,price_complaint,True,,0.398
+عندما طلبت خصما معينا خلال الشراء، لم يتم تطبيقه. كيف يمكنني إعادة النظر في ذلك؟,price_complaint,msa,False,price_complaint,True,,0.139
+وجدت أن السعر على الرف أعلى بكثير من السعر المعروض على الشاشة عند الدفع. هل هناك شيء خاطئ في نظام التسعير؟,price_complaint,msa,False,price_complaint,True,,0.443
+أنا متأكد أنني تمكنت من الحصول على عرض خاص، لكنني رأيت السعر الكامل عند الدفع. هل يمكن التحقق من هذا؟,price_complaint,msa,False,price_complaint,True,,0.193
+عندما ذهبت لشراء منتج بخصم، تم سحب المبلغ الكامل. كيف يمكنني إعادة التحقق من ذلك؟,price_complaint,msa,False,price_complaint,True,,0.186
+أنا مرتفع الجبين أنني دفعت أكثر مما يجب. كيف يمكنني التأكد من أن التسعير صحيح؟,price_complaint,msa,False,price_complaint,True,,0.132
+عندما طلبت الخصم المقدم من خلال التطبيق، لم يتم تطبيقه أثناء الدفع. كيف يمكنني حل هذه المسألة؟,price_complaint,msa,False,price_complaint,True,,0.217
+رأيت خصما كبيرا أثناء التسوق لكنه لم يتم تطبيقه في وقت الشراء. كيف يمكنني الحصول على الخصم؟,price_complaint,msa,False,price_complaint,True,,0.157
+عندما ذهبت لشراء منتج، اكتشفت أن السعر على الرف أعلى بكثير مما ذكر في التطبيق. كيف يمكنني التأكد من سلامة التسعير؟,price_complaint,msa,False,price_complaint,True,,0.226
+وجدت أن السعر المعلن على الرف مبالغ فيه بمقدار 50 جنية مصري. كيف يمكنني إعادة النظر في ذلك؟,price_complaint,msa,False,price_complaint,True,,0.248
+بسم الله، هل يمكن إعطائي توضيحا حول سبب زيادة السعر على نفس المنتج في المحل مقابل موقعكم الإلكتروني؟,price_complaint,msa,False,price_complaint,True,,0.182
+أنا مراسل مرة أخرى حول السعر الخاطئ لمنتجي. لماذا لا تواكب الأسعار المتغيرات في السوق؟,price_complaint,msa,False,price_complaint,True,,0.187
+لماذا يتم تظليل العروض على موقعكم الإلكتروني بينما لا أجد نفس الخصم عند الشراء المباشر من المتجر؟,price_complaint,msa,False,price_complaint,True,,0.232
+رغم وجود خصم 20% في الإعلان، لماذا قام الخصم الفعلي في المتجر بخصم فقط 15%؟,price_complaint,msa,False,price_complaint,True,,0.398
+أرجو توضيح سبب زيادة الأسعار على منتجات الهواتف المحمولة التي تم بيعها في المتجر مقابل الموقع الإلكتروني.,price_complaint,msa,False,price_complaint,True,,0.233
+من فضلك، تفضلوا بمراجعة الأسعار المتاحة على الموقع الإلكتروني فهي مختلفة تماما عن الأسعار الحالية في المتجر.,price_complaint,msa,False,price_complaint,True,,0.23
+لماذا تم تطبيق سعر أعلى لمنتج معين في متجركم بينما هو متوفر بسعر أقل في موقعكم الإلكتروني؟,price_complaint,msa,False,price_complaint,True,,0.217
+عثرت على خصم إضافي عند استخدام التطبيق بينما تم فرض سعر أكبر في المتجر، ما هو السبب؟,price_complaint,msa,False,price_complaint,True,,0.229
+لقد قرأت أنه يوجد خصم على منتجات معينة، لكنني لاحظت أن الأسعار غير محدثة في المتجر. كيف يمكنني التحقق من الأسعار الصحيحة؟,price_complaint,msa,False,price_complaint,True,,0.261
+رغم أنني شاهدت عرضا على موقعكم الإلكتروني، تم فرض سعر أعلى من المتوقع في المتجر. كيف يمكن توضيح هذه الفوارق؟,price_complaint,msa,False,price_complaint,True,,0.22
+"3lsh fl 7rd3t 2lny msa7al, 3ml5l msh b2n mn m3kn7t. 7lsh f3k 2lny f7k?!",price_complaint,franco,False,inquiry,False,franco generation unusable,0.104
+"3lny b2n mn t57l, knt mn m3kn7t! 3ml5l knt 3n5l f3k! 5k7b 3lny fl 3lny t57l?",price_complaint,franco,False,delivery_delay,False,franco generation unusable,0.074
+"77b2n mn m3kn7t kh7r! 3lny b2n mn 5lsh f7k mn 7rd3t, 3lny b2n mn m3kn7t?! 3ml5l knt 5k7b!",price_complaint,franco,False,delivery_delay,False,franco generation unusable,0.107
+"77b2n mn 5lsh f7k kh7r, 3lny b2n mn m3kn7t 2lny. 5k7b kh7r, 3lny b2n mn m3kn7t 2lny f7k!",price_complaint,franco,False,inquiry,False,franco generation unusable,0.081
+"77b2n mn 5lsh f7k kh7r, 3lny b2n mn m3kn7t 2lny. 3lny b2n mn 5lsh f7k 5k7b!",price_complaint,franco,False,delivery_delay,False,franco generation unusable,0.111
+"3lny b2n mn 5lsh f7k 5k7b, 3lny b2n mn m3kn7t kh7r. 77b2n mn m3kn7t, 3ml5l kh7r!",price_complaint,franco,False,inquiry,False,franco generation unusable,0.091
+"77b2n mn 5lsh f7k 5k7b, 3lny b2n mn m3kn7t 2lny. 3lny b2n mn 5lsh f7k, 5k7b 3lny b2n mn m3kn7t!",price_complaint,franco,False,delivery_delay,False,franco generation unusable,0.106
+"77b2n mn 5lsh f7k 5k7b, 3lny b2n mn m3kn7t 2lny. 77b2n mn 5lsh f7k 5k7b, 3lny b2n mn m3kn7t!",price_complaint,franco,False,inquiry,False,franco generation unusable,0.105
+"77b2n mn 5lsh f7k 5k7b, 3lny b2n mn m3kn7t 2lny. 3lny b2n mn 5lsh f7k, 5k7b 3lny b2n mn m3kn7t 5k7b!",price_complaint,franco,False,inquiry,False,franco generation unusable,0.101
+"77b2n mn 5lsh f7k 5k7b, 3lny b2n mn m3kn7t 2lny. 77b2n mn 5lsh f7k 5k7b, 3lny b2n mn m3kn7t 5k7b!",price_complaint,franco,False,delivery_delay,False,franco generation unusable,0.1
+shelf 53 price 125$ but receipt 150$ keda3 l3rd?,price_complaint,franco,False,price_complaint,False,franco generation unusable,0.253
+3lm 7lo7 el offer 4lm 73mel el 2y? lm3n 7lo7 el khadma!,price_complaint,franco,False,price_complaint,False,franco generation unusable,0.197
+3nsh 3an 2y el price khud 5lm el khadma?,price_complaint,franco,False,price_complaint,False,franco generation unusable,0.147
+3lm el 2y keda3 el offer? 7la3al 2y el 3lm3n,price_complaint,franco,False,price_complaint,False,franco generation unusable,0.238
+3lm el 3lm el 2y el offer 2y m7a? 3y2m 3nsh 3an 2y el 3lm3n,price_complaint,franco,False,price_complaint,False,franco generation unusable,0.233
+7lo7 el 2y el offer m7a? 7lo7 2y el offer 3ml el 2y,price_complaint,franco,False,price_complaint,False,franco generation unusable,0.234
+3lm el 2y el offer 2y m7a? 3lm el 2y el 3lm3n keda3 2y el 3lm3n,price_complaint,franco,False,price_complaint,False,franco generation unusable,0.254
+3lm el 3lm el 2y khud 5lm el 3lm3n? 7la3al 2y el 3lm3n,price_complaint,franco,False,inquiry,False,franco generation unusable,0.205
+3lm 2y el 2y el offer 2y m7a? 7lo7 el 2y el offer 3ml el 2y,price_complaint,franco,False,price_complaint,False,franco generation unusable,0.271
+3lm el 3lm el 2y el offer 2y m7a? 7lo7 2y el offer 3ml el 2y,price_complaint,franco,False,price_complaint,False,franco generation unusable,0.271
+Why is the tomato sauce 50% more expensive than last month? 🤔,price_complaint,en,False,price_complaint,True,,0.209
+"I asked for a discount on the rice, but they just smiled and said no. 🙄",price_complaint,en,False,price_complaint,True,,0.284
+"Why do onions cost more than gold in here? I'm serious, Orvana! 💰",price_complaint,en,False,price_complaint,True,,0.133
+"I saw 20% off on apples, but the till didn't do the maths. 😡",price_complaint,en,False,price_complaint,True,,0.343
+"Same meat, different price. I swear I saw it cheaper in another shop. 🤔",price_complaint,en,False,price_complaint,True,,0.265
+Why do I see different prices for the same thing in different stores? 🤔,price_complaint,en,False,price_complaint,True,,0.409
+"I asked for the discount, but the cashier just ignored me. 😠",price_complaint,en,False,staff_behavior,False,,0.298
+"The receipt says 100 EGP, but the item cost 120 EGP. How's that supposed to work? 😠",price_complaint,en,False,price_complaint,True,,0.236
+"The app says 15% off, but the till doesn't show it. #FakeNews 🤖",price_complaint,en,False,price_complaint,True,,0.22
+Why are prices going up every week? It's like they're making it harder for us to buy essentials. 😩,price_complaint,en,False,price_complaint,True,,0.181
+"Why does the price on the shelf say 50 EGP, but the receipt shows 60 EGP? And don't give me that 'special offer' bullseye!",price_complaint,en,False,price_complaint,True,,0.289
+"Guys, how much more can we take? I asked for the discount, and the cashier still rings up 10 EGP extra. Can't we get a break here?",price_complaint,en,False,price_complaint,True,,0.237
+"I swear, Orvana, the price is going up every time I shop here. Last time it was 35 EGP, now it's 40 EGP. What gives?",price_complaint,en,False,price_complaint,True,,0.297
+"Orvana, why are the shelf prices different from the receipt? I see 45 EGP here, but get charged 50 EGP at the till. Can you explain this?",price_complaint,en,False,price_complaint,True,,0.362
+"I saw a 20% discount on your website, but the cashier didn't apply it. Now I'm out 10 EGP. You guys really know how to keep my money, huh?",price_complaint,en,False,price_complaint,True,,0.349
+"Price went up again? I mean, come on. Last month it was 40 EGP, now 45 EGP. Do you seriously expect me to keep buying this stuff?",price_complaint,en,False,price_complaint,True,,0.192
+"Why is the shelf price 30 EGP, but the receipt shows 35 EGP? I'm starting to think the prices are going up just to keep us guessing!",price_complaint,en,False,price_complaint,True,,0.327
+"Guys, I was looking at a product, and the shelf price was 35 EGP. But when I went to pay, it was 40 EGP. Why the double standard?",price_complaint,en,False,price_complaint,True,,0.321
+"Orvana, the shelf price is 45 EGP, but the receipt shows 50 EGP. How many times do I have to tell you this?",price_complaint,en,False,price_complaint,True,,0.299
+"Price went up on my favorite snack! Last week it was 30 EGP, now it's 35 EGP. I just wanted a little extra for my money, not a hike in prices.",price_complaint,en,False,price_complaint,True,,0.212
+يا ريت السعه بتكون حلوه زي المكتوب على الاجليزيه!,price_complaint,mixed,False,price_complaint,True,,0.201
+ال سعه السبوزر عشان خمسة جنيهات ده بس؟,price_complaint,mixed,False,price_complaint,True,,0.141
+ال خصم الكوبون ما بيعملش نفيس!,price_complaint,mixed,False,app_issue,False,,0.149
+ال سعه الكولا ارتفعت من خمسة جنيهات لستة، شنو الفرق!,price_complaint,mixed,False,price_complaint,True,,0.179
+ال سعر في اللائحة مختلف عن الورقة الي ريت من الفاتورة!,price_complaint,mixed,False,price_complaint,True,,0.331
+ديرة يا ايه السعر في المكتب؟,price_complaint,mixed,False,inquiry,False,,0.269
+ديرة الخصم الي وعدتموني بالكوبون ما بيعملش!,price_complaint,mixed,False,app_issue,False,,0.147
+ال سعه الخبز ارتفعت عشان كلام، بس ده غير عادل!,price_complaint,mixed,False,price_complaint,True,,0.236
+ال سعه الصندل ارتفعت قوي، من ثلاثين جنيه لخمسين!,price_complaint,mixed,False,price_complaint,True,,0.161
+يا ريت تردحو ع بدل السعر الي وعدتوها,price_complaint,mixed,False,price_complaint,True,,0.186
+ال سعر بالصورة بتاع الخضروات خلي السعر الكاشير خلص عليه اه؟,price_complaint,mixed,False,price_complaint,True,,0.282
+يا أربوانا، بس خليني أعرف مين اللي حدد السعر عالجبنه دة، كاتبهم بالمشغل,price_complaint,mixed,False,price_complaint,True,,0.157
+أنا فاهم إن سعر الخضروات بتاع الخضرة فصل، لكن بس لازم تبيط على السعر اللي بتكتبونه,price_complaint,mixed,False,price_complaint,True,,0.199
+يا سلام يا راجل، دلوقتي السعر بتاع الدجاج في الفاتورة خلي بالصورة بس,price_complaint,mixed,False,price_complaint,True,,0.312
+أنا اشتريت الخضروات بتاع الصورة ب50 قرش، لكن الكاشير كتبها 70 قرش,price_complaint,mixed,False,price_complaint,True,,0.186
+أنا فاهم إنك ارتاحتك السعر بتاع الخضروات، لكني فاهم إنك خليت السعر زي ما في الصورة,price_complaint,mixed,False,price_complaint,True,,0.247
+يا راجل، دلوقتي السعر بتاع الكحول بتاع الصورة خلي بالصورة,price_complaint,mixed,False,price_complaint,True,,0.19
+أنا اشتريت الخضروات بتاع الصورة ب50 قرش، لكني بكيت الفاتورة 70 قرش,price_complaint,mixed,False,price_complaint,True,,0.19
+يا راجل، دلوقتي السعر بتاع الدجاج بتاع الصورة خلي بالصورة بس,price_complaint,mixed,False,price_complaint,True,,0.185
+أنا فاهم إنك بتاعتك سعر الخضروات بتاع الصورة، لكني بكيت الفاتورة بسعر كاشير آخر,price_complaint,mixed,False,price_complaint,True,,0.226
+السعر اللي شفت في المتجر مختلف عن السعر اللي في الفاتورة يعني فعلا بيتغير السعر بلا مبرر,price_complaint,voice,False,price_complaint,True,,0.53
+يعني الأسعار باللائحة بتكون مختلفه عن الفاتورة يعني حسيت غضبان,price_complaint,voice,False,price_complaint,True,,0.309
+بص، ايوه، ارتفع السعر يعني ارتفع على الرف وعند الدفع,price_complaint,voice,False,price_complaint,True,,0.258
+مش معقول السعر بتاع العرض ما بيدخل في الفاتورة يعني عرض ناقص,price_complaint,voice,False,price_complaint,True,,0.337
+يعني فين الخصم اللي كتبوا عنه يعني فين الخصم؟,price_complaint,voice,False,price_complaint,True,,0.29
+بص، ايوه، ارتفع السعر يعني من أول الفاتورة,price_complaint,voice,False,price_complaint,True,,0.384
+المتجر بيعلي الأسعار بدون إشعار يعني أسعار تقلب,price_complaint,voice,False,price_complaint,True,,0.301
+بص، ايوه، ارتفعت الأسعار يعني ارتفع السعر يعني خاصية الخصم ما تعمل,price_complaint,voice,False,price_complaint,True,,0.307
+يعني فين الخصم اللي كتبوا عنه يعني الخصم اللي كتبوا في اللائحة,price_complaint,voice,False,price_complaint,True,,0.303
+بص، ايوه، ارتفعت الأسعار يعني من الرف,price_complaint,voice,False,price_complaint,True,,0.322
+يعني الخصم ما بيدخل في الفاتورة يعني الخصم ما بيدخل يعني سعر عادي,price_complaint,voice,False,price_complaint,True,,0.231
+يا الله، التطبيق بيتوقف كل دقيقة! عايز أعرف تاني كمان كننتا؟,app_issue,egy,False,app_issue,True,,0.198
+الكوبون ما يعملش، شرحت ال50% على السلة وشو؟,app_issue,egy,False,app_issue,True,,0.125
+أنا بعمل صفقة وبيغلق التطبيق بعد التسجيل، حضرتك بتبعدني عن الليل في الحقيقة,app_issue,egy,False,app_issue,True,,0.213
+أكيد في تحديث حديث جاي، محتاج نعاون، الطلب بيحصل من الأول,app_issue,egy,False,app_issue,True,,0.222
+شوفوا تطبيقكم في الحالت، كمان بيحطولي مبلغ خاص، بس مش بيعمل الطلب,app_issue,egy,False,app_issue,True,,0.208
+أنا طلع بيتتجر على الشوب، التطبيق بيحطلي بدلا من التوصيل,app_issue,egy,False,app_issue,True,,0.171
+التطبيقة بتغلق على الشاشة دي ومش بتعمل حاجة، هانقاش فعلا؟,app_issue,egy,False,app_issue,True,,0.122
+أنا هعمل استرجاع ومش بعمل حاجة في التطبيق، شو الورتة دي,app_issue,egy,False,refund_request,False,,0.18
+أكيد تحديث التطبيقة بيبخلني على شوية بوصات، يارب تفضل في الواجهة دي,app_issue,egy,False,app_issue,True,,0.135
+تطبيق التوصيل بيحطلي وأنا في البيت، كملو يا جماعة,app_issue,egy,False,app_issue,True,,0.179
+خايف القهوة تغلق على فؤادي 🤢، مش كان في اتصال، مافهمش إيه اللي حصل!,app_issue,egy,False,product_quality,False,,0.117
+لاقيت موبايلى مغلق، بس تطبيق Orvana بيفتح ويفتح، محتاج حل بس!,app_issue,egy,False,app_issue,True,,0.189
+ألف سلام عليك، بس التطبيق يغلق على شوية ومحتاج أدخل القسيمة اللى فاتتلي!,app_issue,egy,False,app_issue,True,,0.19
+الموبيل بيكيفش وبيلباع، بس التطبيق مش بيعمل حاجة، هايله مشكلة,app_issue,egy,False,app_issue,True,,0.188
+أنا طلبت حجم كبير ومش هيتقاضي عشان كده، والتطبيق بتاع Orvana بتاع مشكلة!,app_issue,egy,False,app_issue,True,,0.157
+طبعا التطبيق بتاع Orvana بياخد الأموال، وبعدين بيعمل خطأ وتقدر تشتري مش بتعمل!,app_issue,egy,False,app_issue,True,,0.164
+لاقيت التطبيق بتاع Orvana هالمرة يباع شراءاتي بسعر بس من الحقيقة، كنشوف!,app_issue,egy,False,app_issue,True,,0.192
+أنا طلبت أرجاع سلعة ومش كان عندى نقاط ليرجعنى، مشكلة التطبيق!,app_issue,egy,False,app_issue,True,,0.166
+مش دايما التطبيق بتاع Orvana بيعمل حاجة، ومش هأعمل شراءات جديدة。,app_issue,egy,False,app_issue,True,,0.181
+أنا طلبت كوبون ومش كان فعال في التطبيق، بس في الخصم اللى كان شغال.,app_issue,egy,False,app_issue,True,,0.235
+مرحبا، قمت بتحميل التطبيق الجديد لكنني لا أستطيع الدخول. هل يمكنكم مساعدتي؟,app_issue,msa,False,app_issue,True,,0.329
+لماذا لا يعمل التطبيق بعد التحديث الأخير؟ لقد دفعني وأنا لا أستطيع استخدامه.,app_issue,msa,False,app_issue,True,,0.361
+عذرا، هل يمكنكم توضيح كيفية استخدام الكوبون في التطبيق؟,app_issue,msa,False,inquiry,False,,0.217
+لقد أجريت عملية دفع في التطبيق ولكن الطلب لم يصل بعد.,app_issue,msa,False,delivery_delay,False,,0.295
+هل هناك طريقة لحل مشكلة التحديث الذي فاجأني وإجباري على إعادة تثبيت التطبيق؟,app_issue,msa,False,app_issue,True,,0.177
+عذرا، التطبيق يغلق على نفسه فور فتحه. هل يمكنكم توضيح كيفية تجنب ذلك؟,app_issue,msa,False,app_issue,True,,0.15
+لقد دفعت في التطبيق ولكنني لم أستلم الطلب. أين المشكلة؟,app_issue,msa,False,delivery_delay,False,,0.274
+لماذا يظهر التطبيق لي السعر الأعلى من السعر الذي ذكرته في المتجر؟,app_issue,msa,False,price_complaint,False,,0.329
+عذرا، التطبيق يطلب معلومات الدفع مرتين. كيف يمكنني تجنب هذا؟,app_issue,msa,False,app_issue,True,,0.221
+عذرا، عندما حاولت استرجاع النقاط من برنامج Orvana Plus، لم يسترجع شيء. ما السبب؟,app_issue,msa,False,loyalty_points,False,,0.226
+عذرا، هل يمكنكم توضيح سبب فشل معالجة طلبي في تطبيق Orvana؟ لقد دفعت من خلال التطبيق ولكن لم يتلقى النظام التأكيد.,app_issue,msa,False,app_issue,True,,0.214
+أواجه مشكلة في تطبيق Orvana حيث لا يمكنني تسجيل الدخول. أرجو المساعدة في حل هذه المشكلة.,app_issue,msa,False,app_issue,True,,0.425
+لقد انتهى الدعم الفني في التطبيق ولم أتمكن من الوصول إلى خدمة العملاء. هل يمكنكم حل مشكلة التطبيق بالسرعة الممكنة؟,app_issue,msa,False,app_issue,True,,0.277
+لم يتم تحديث تطبيق Orvana بعد بدء العمل، وعند حاولت الدفع في المتجر تمت خصم المبلغ من حسابي دون قدرتي على الشراء. ما هو الحل؟,app_issue,msa,False,app_issue,True,,0.225
+عند تجربتي الأخيرة في التطبيق، ظهرت صورة الخصم على كرت الخصم ولكن لم يتم خصم المبلغ من سدادي. كيف يمكنني حل هذه المشكلة؟,app_issue,msa,False,app_issue,True,,0.246
+لقد أرسلت طلبا للدعم الفني في التطبيق قبل يومين ولكن لم أتلقى ردا حتى الآن. هل يمكنكم الإسراع في حل مشكلتي؟,app_issue,msa,False,app_issue,True,,0.164
+عند التحقق من نقاط Orvana Plus في التطبيق، أجد أن النقاط غير موجودة رغم أنني كنت أملك نقاطا في الأيام السابقة.,app_issue,msa,False,loyalty_points,False,,0.169
+تعرضت لمشكلة في تطبيق Orvana حيث لا يمكنني استخدام كود الخصم الذي وفرته الشركة. هل يمكنكم مساعدتي في حل هذه المشكلة؟,app_issue,msa,False,app_issue,True,,0.275
+عند محاولة الدفع في تطبيق Orvana، ظهرت رسالة أن العملية قد فشلت ولكني تم خصم المبلغ من حسابي. كيف يمكنني استرداد المبلغ؟,app_issue,msa,False,app_issue,True,,0.335
+لقد قمت بإرسال طلب استبدال ولكن لم أتلق ردا في التطبيق. هل يمكنني الحصول على تحديث حول طلبي؟,app_issue,msa,False,inquiry,False,,0.201
+"3ady w7lt 3l app 3la khams 7lm, y3ml 3n3sh?! 3ln7ml 2by7t khubra 3nh!",app_issue,franco,False,app_issue,False,franco generation unusable,0.112
+"3ln7ml 3w2t3n 3sh 3n3sh f app, w2 b2t 3la khams 7lm. 7nh 3ny2d?",app_issue,franco,False,app_issue,False,franco generation unusable,0.087
+3n3sh 3ln7ml 2by7t 27ml 7w7lt w b2t khubra 2by7t khubra!,app_issue,franco,False,price_complaint,False,franco generation unusable,0.044
+"7nh 3ln7ml 3sh 3n3sh w b2t 3la 2by7t, 7lm 3ady w7lt 3l app!",app_issue,franco,False,app_issue,False,franco generation unusable,0.089
+"7nh 3ln7ml 3w2t3n 3sh 3n3sh f app, 3ln7ml 3byt 27ml 7w7lt.",app_issue,franco,False,app_issue,False,franco generation unusable,0.067
+"3ady b2t 3la 2by7t khubra 3nh, 3ln7ml 3w2t3n 3sh 3n3sh 3la 7w7lt 3l app!",app_issue,franco,False,app_issue,False,franco generation unusable,0.111
+"3ady 3ln7ml 2by7t 27ml 7w7lt w b2t 3la 3n3sh f app, 3ln7ml 3w2t3n 3n7ml 7w7lt!",app_issue,franco,False,app_issue,False,franco generation unusable,0.061
+"3n3sh 3ln7ml 3w2t3n 3sh 3n3sh f app, 7lm 3ady 7w7lt 3l app 3la khams 7lm.",app_issue,franco,False,app_issue,False,franco generation unusable,0.107
+"3ady b2t 3la 3n3sh f app, 3ln7ml 3w2t3n 3sh 3n3sh 3la 7w7lt w 3ln7ml 3byt 27ml 7w7lt!",app_issue,franco,False,app_issue,False,franco generation unusable,0.095
+"3ady 3ln7ml 2by7t 27ml 7w7lt w b2t 3la 3n3sh f app, 3ln7ml 3w2t3n 3sh 3n3sh 3la 3l 2by7t!",app_issue,franco,False,app_issue,False,franco generation unusable,0.099
+"app 7la3la3 5sh2a, 5ml 7sh2 2na3ml 5an y37al 3na3l2 b7a3la?",app_issue,franco,False,app_issue,False,franco generation unusable,0.085
+"5na5la koll 5ml 2na3m3 f 3pp, 7ml 5sh2a 2na5la 5sh2 2na3m3 koll 5ml 5na5la?",app_issue,franco,False,app_issue,False,franco generation unusable,0.114
+5an 2na5la 5sh2 3an 3pp 5ml 2na5la 5sh2 2na3l2 koll 5ml 5na5la 5ml 2na5la?,app_issue,franco,False,price_complaint,False,franco generation unusable,0.059
+"5na5la 3pp 5ml 2na5la 5sh2 2na3l2, 5na5la 5ml 2na5la 5sh2a koll 5ml 5na5la 5ml 2na5la?",app_issue,franco,False,app_issue,False,franco generation unusable,0.049
+5na5la koll 5ml 3pp 5sh2a 3na3l2 5ml 2na5la 5sh2 2na3l2 koll 5ml 5na5la 5ml 2na5la?,app_issue,franco,False,price_complaint,False,franco generation unusable,0.099
+"3pp 5ml 2na5la 5ml 5na5la 5sh2a 2na3l2, 5na5la 5ml 2na5la 5sh2 3na3l2 5ml 5na5la 5ml 2na5la?",app_issue,franco,False,app_issue,False,franco generation unusable,0.034
+"5na5la 3pp 5ml 2na5la 5sh2 2na3l2, 5ml 5na5la 5sh2a 3na3l2 5ml 2na5la 5sh2 2na3l2 koll 5ml 5na5la 5ml 2na5la?",app_issue,franco,False,price_complaint,False,franco generation unusable,0.043
+"5na5la 3pp 5ml 2na5la 5sh2 2na3l2, 5na5la 5ml 2na5la 5sh2 3na3l2 5ml 5na5la 5ml 2na5la?",app_issue,franco,False,app_issue,False,franco generation unusable,0.034
+"Guys, my app keeps crashing! Every time I try to order, it just closes. Can't even shop without glitches now.",app_issue,en,False,app_issue,True,,0.307
+Really? The app won't let me use my coupon code. It's like the developers hate me or something.,app_issue,en,False,app_issue,True,,0.303
+Why does the app keep logging me out? I just picked up my order and now I can't check it.,app_issue,en,False,app_issue,True,,0.381
+"The payment failed, but I already paid. This app update is making my life a nightmare.",app_issue,en,False,app_issue,True,,0.327
+Can someone please fix the app? I can't even place an order without the cart crashing.,app_issue,en,False,app_issue,True,,0.321
+Coupon code doesn't work? You got to be kidding me. I'm not going to buy anything if it doesn't apply.,app_issue,en,False,app_issue,True,,0.302
+"I just bought something, but the app won't let me track my order. What the heck?",app_issue,en,False,app_issue,True,,0.247
+"Every time I try to log in, it says 'server error.' Am I the only one having this issue?",app_issue,en,False,app_issue,True,,0.276
+"Payment failed, but it took my money. Now I can't buy anything. What's going on?",app_issue,en,False,app_issue,True,,0.365
+Why is the app so glitchy? I can't even see if I have enough points to redeem anything. Ugh!,app_issue,en,False,app_issue,True,,0.201
+"App keeps freezing every time I try to pay. Seriously, is it 2000 or 2023?",app_issue,en,False,app_issue,True,,0.268
+"Can't log in, even tried restarting my phone. Isn't this thing supposed to work on modern devices?",app_issue,en,False,app_issue,True,,0.197
+Why does the app crash every time I try to use a coupon? It's like it's out to sabotage me.,app_issue,en,False,app_issue,True,,0.24
+"Payment failed, but my card still got charged. Can't even buy a box of cereal this way.",app_issue,en,False,app_issue,True,,0.3
+Updating the app just made it worse. Now it won't even let me order anything.,app_issue,en,False,app_issue,True,,0.198
+"Got a coupon code in the email, but it doesn't work in the app. What’s the point of that?",app_issue,en,False,app_issue,True,,0.473
+Trying to order online but the app crashes every time. When will Orvana get their act together?,app_issue,en,False,app_issue,True,,0.318
+"App update broke everything. Can't log in, can't order, can't even check the price. Typical!",app_issue,en,False,app_issue,True,,0.253
+Need to order some batteries but the app won't let me. It's like it's punishing me for updating.,app_issue,en,False,app_issue,True,,0.215
+"The app is so unreliable, I end up ordering in the store. Is this even worth the hassle?",app_issue,en,False,app_issue,True,,0.222
+ال app محتاج يصلح، كل مرة فتحه يهجم على phone!,app_issue,mixed,False,app_issue,True,,0.115
+مفيش تانسيبت يا كود الكوبون، مفيش قيمة على order,app_issue,mixed,False,app_issue,True,,0.131
+اتry واتry لكن application مايفهمش، كملت من الجلوس,app_issue,mixed,False,app_issue,True,,0.061
+مش عارف أفتح ال app ولا أعمل الشرطه في الخروج!,app_issue,mixed,False,app_issue,True,,0.242
+طلب ال cashback فش في ال app، خسرت نفسي ووقتي,app_issue,mixed,False,app_issue,True,,0.105
+هذا ال order في ال app بيرجع تفاصيل غير موجودة,app_issue,mixed,False,app_issue,True,,0.122
+ال app يكسر كل ما هو مفتوح، عايز آمان في الشراء,app_issue,mixed,False,app_issue,True,,0.189
+اشتريت من ال app ودفعت بس غير متصل بالطلب,app_issue,mixed,False,app_issue,True,,0.227
+ال app راح يغلق بنفسه، كأنه عامل شغل باله,app_issue,mixed,False,app_issue,True,,0.082
+ماكنش على ال app حتى ال order فات! بقال شهرين!,app_issue,mixed,False,app_issue,True,,0.109
+ال app حطمت جهازي، ومش عارف أعمل إيه بعدين!,app_issue,mixed,False,app_issue,True,,0.134
+أكيد، حانقين من عندكم، ال order اتأخر و applicاه ده غلط,app_issue,mixed,False,wrong_item,False,,0.198
+مشيت عشان تبندلي كوبون، وال app اغلق على واحش,app_issue,mixed,False,app_issue,True,,0.098
+رد على، ال order اتأخر و ال app شايف إنه بانdel، ممكن تعيد النظر؟,app_issue,mixed,False,delivery_delay,False,,0.174
+لليوم الثالث ده دايما هتلاقي ال app مشغل ومش عايز تحصل على كوبونات,app_issue,mixed,False,app_issue,True,,0.174
+عذروني، ال order حطمت و applicاه اغلق، بدي اتصل بدعمكم عاجلا,app_issue,mixed,False,app_issue,True,,0.084
+مش عارف اعمل إيه، applicاه ده لازم يعمل كل حاجة زي ما بيعمل,app_issue,mixed,False,app_issue,True,,0.24
+ال order اتأخر، وال app اغلق على واحش، و مش عارف أعمل إيه,app_issue,mixed,False,app_issue,True,,0.213
+ال order اتأخرت و applicاه مش عامل حاجة، تفضلوا تردوا,app_issue,mixed,False,delivery_delay,False,,0.178
+ال order اتأخر، وال app اغلق و مش عارف أعمل إيه باللي خسرته,app_issue,mixed,False,app_issue,True,,0.201
+التطبيق بيغلق نفسه تاني يعني مش قابل للموثوقية,app_issue,voice,False,app_issue,True,,0.178
+بص مش قادر أسجل دخول بص، التطبيق مليان المشاكل,app_issue,voice,False,app_issue,True,,0.244
+الكود الترويجي مايعمل يعني شراء بس مش مستفيد من الخصم,app_issue,voice,False,price_complaint,False,,0.288
+في تحميل التطبيق بيتوقف بص بص مش قادر اكمل التحميل,app_issue,voice,False,app_issue,True,,0.192
+الدفع في التطبيق مايتم يعني دفع ومش فاتورة تانية,app_issue,voice,False,price_complaint,False,,0.285
+بص التطبيق حصل على تحديث جديد يعني مشكلة جديدة,app_issue,voice,False,app_issue,True,,0.208
+بيظهر التطبيق أنني حصلت على نقاط Orvana Plus يعني غير صحيح,app_issue,voice,False,loyalty_points,False,,0.216
+أحاول نسبه قيمة في التطبيق يعني مش قابله للتحديث,app_issue,voice,False,app_issue,True,,0.203
+بص استخدم كود خصم ومش بتاع يعني نسيت أحيله,app_issue,voice,False,loyalty_points,False,,0.138
+التطبيق يغلق نفسه كل مرة أفتحه يعني مش قابل للموثوقية,app_issue,voice,False,app_issue,True,,0.195
+بص أو فانكا تتحطم كل يوم يعني مين بيدخل البيت عالها ايوه,app_issue,voice,False,product_quality,False,,0.144
+يا رب النعمة، دلهم فلوس و خلوني أشتكى على ناس زى دي؟!,staff_behavior,egy,False,staff_behavior,True,,0.124
+بصراحة، لو كنت مكانهم، قعدت معهم فلوس في الجيب!,staff_behavior,egy,False,refund_request,False,,0.118
+أنا ما كسبت إلا واجبي، هؤم عايزوا تقولوا كلمة شكر؟,staff_behavior,egy,False,inquiry,False,,0.097
+يا رب، بجد محتاجين تغيير، ما فيش خدمة يا إخواني!,staff_behavior,egy,False,inquiry,False,,0.097
+يا شباب، بجد تعبتني، تعبتني وشكوتي ما بتروح!,staff_behavior,egy,False,inquiry,False,,0.082
+هونك فين القلم، هكتب شكوى على ناس كده!,staff_behavior,egy,False,inquiry,False,,0.161
+يا إخوان، ما كناش هنقدروا نشكو إلا بجد!,staff_behavior,egy,False,inquiry,False,,0.057
+أنا محتاج فلوس، بس هشكو على ناس كده!,staff_behavior,egy,False,refund_request,False,,0.138
+يا فندم، هشكو على ناس كده وحاجة بتبقى جواز!,staff_behavior,egy,False,inquiry,False,,0.095
+يا بطل، هشكو على ناس كده وحاجة بتبقى شهادة صحية!,staff_behavior,egy,False,inquiry,False,,0.088
+ملاك خدمة اللي اتتصل بي كنت بتعمل كأنك حاسس بلياقة بدن! مش فرق بيني وبين المشتري العادي!,staff_behavior,egy,False,staff_behavior,True,,0.131
+خليك مهذب يا ناس! جبت حاجة هامة و بتاعكم صار بصوت عال وبعدين فتح الكاميرا علشان يراقبوني!,staff_behavior,egy,False,staff_behavior,True,,0.152
+يا جماعة، حضرتك يا صاحب الباب الخلفي، كملت 45 دقيقة وشيلولي مشممة عشان تفتح!,staff_behavior,egy,False,delivery_delay,False,,0.135
+مش عجبك العمل ولا عجبك العمل ولا عجبك العمل! شيلولي بطاقة Orvana Plus، هتخدمني على حسابك!,staff_behavior,egy,False,loyalty_points,False,,0.156
+يا دكتور، اعملك باللطف، مش هتنطق معايا إلا بعد ما استغلق الشمعة دي!,staff_behavior,egy,False,product_quality,False,,0.12
+يا رجل الأمن، مش عاوز تقول لي إن اللي هتقوله مش في القائمة، هتاخد حقك مني!,staff_behavior,egy,False,staff_behavior,True,,0.109
+يا سيد، بس تعرف إن اللي عايز تبعتلي خبر كله، هتقولي بعتلك رسالة؟,staff_behavior,egy,False,inquiry,False,,0.133
+يا رجل الأمن، شايلين كاميرا وتاكدو أنو مش هتقدر تاخد حقك بيها!,staff_behavior,egy,False,staff_behavior,True,,0.077
+يا سيد، مش عجبتك خدمتي؟ حضرتك بتعمل كأنك راح تروح فين آخر، مش في هذا المكان!,staff_behavior,egy,False,staff_behavior,True,,0.156
+يا صاحبي، بتاعك مش هتبقى طول العمر، خدلي أتكلم بسرعة قبل ما أنسى أقول أي حاجة!,staff_behavior,egy,False,inquiry,False,,0.086
+تعذروني، هل يمكنني توضيح سبب عدم الرضا حول الخدمة التي تلقيتها من أحد الموظفين في المتجر؟ كان سلوكه غير لائق وغير محترم.,staff_behavior,msa,False,staff_behavior,True,,0.246
+أود تقديم شكوى حول سلوك أحد الموظفين في المتجر. لقد كان غير لطيف ومرفوض.,staff_behavior,msa,False,staff_behavior,True,,0.177
+في يوم معين، تعاملت مع موظف متجر Orvana، وكان سلوكه غير محترم ومستفز.,staff_behavior,msa,False,staff_behavior,True,,0.24
+أود تقديم شكوى رسمية حول سلوك أحد موظفي المتجر، حيث عاملني بشكل غير مهذب.,staff_behavior,msa,False,staff_behavior,True,,0.165
+كان سلوك أحد موظفي Orvana غير مناسب، وكان ذلك غير محترم.,staff_behavior,msa,False,staff_behavior,True,,0.139
+أود التعبير عن عدم رضاي حول سلوك أحد موظفي المتجر، حيث تصرف بطريقة غير مهذبة.,staff_behavior,msa,False,staff_behavior,True,,0.174
+عذرا، أود تقديم شكوى حول سلوك أحد موظفي Orvana، حيث كان غير لائق.,staff_behavior,msa,False,staff_behavior,True,,0.175
+عذرا، أود تقديم شكوى حول سلوك أحد موظفي Orvana، حيث كان سلوكه غير محترم.,staff_behavior,msa,False,staff_behavior,True,,0.104
+أود توجيه رسالة رسمية لشركة Orvana لتقديم شكوى حول سلوك أحد موظفي المتجر، حيث كان سلوكه غير لائق.,staff_behavior,msa,False,staff_behavior,True,,0.155
+أود تقديم شكوى رسمية حول سلوك أحد موظفي Orvana، حيث كان سلوكه غير محترم وغير لائق.,staff_behavior,msa,False,staff_behavior,True,,0.172
+عزيزي العامل، لم يتم تقديم الخدمات كما هو متفق عليه. كان يجب أن يتم استبدال البند الذي فاتني في الطلبات، وما زال الأمر معلقا.,staff_behavior,msa,False,wrong_item,False,,0.15
+السلام عليكم، لقد لاحظت تصرفا غير لائق من أحد موظفي الصرف، فقد عارضني ورفض خدمة الاستبدال.,staff_behavior,msa,False,staff_behavior,True,,0.32
+السلام عليكم، كنت أتطلع لخدمة أفضل من أحد موظفي الصرح، الذي لم يظهر أي إهتمام بالزبائن.,staff_behavior,msa,False,staff_behavior,True,,0.335
+عزيزي العامل، كيف يمكنني أن أثق بجودة الخدمة إذا كان الموظفون غير محترفين؟ رفض أحد موظفي الصرح خدمة الاستبدال.,staff_behavior,msa,False,staff_behavior,True,,0.275
+مرحبا، لم يكن الموظف راقيا في التعامل معي. كان يجب أن يكون الاستقبال أكثر احتراما.,staff_behavior,msa,False,staff_behavior,True,,0.221
+السلام عليكم، لقد لاحظت تصرفات غير مهنية من أحد موظفي الصرح. كان يجب أن يكون الخدمة أكثر تعاونا.,staff_behavior,msa,False,staff_behavior,True,,0.322
+عزيزي العامل، كان تصرفك غير مقبول وغير محترم. كان يجب أن تكون الردود أكثر تفهما.,staff_behavior,msa,False,staff_behavior,True,,0.117
+مرحبا، أود أن أعرب عن غضبي تجاه أحد موظفي الصرح، الذي لم يظهر أي احترام للزبائن.,staff_behavior,msa,False,staff_behavior,True,,0.118
+سلام عليكم، لقد لاحظت تصرفات غير لائقة من أحد موظفي الصرح، الذي كان غير راقي في تعامله.,staff_behavior,msa,False,staff_behavior,True,,0.259
+سلام عليكم، كان التصرف غير مقبول من أحد موظفي الصرح، الذي لم يساعدني في استبدال البند.,staff_behavior,msa,False,staff_behavior,True,,0.225
+3la3d welkam 3lm al-3arab7 7nbyt5l 3ln5d? khlod5l wel7et5 3ly 7l2t7 3byt3l 2ln2 el72t7,staff_behavior,franco,False,inquiry,False,franco generation unusable,0.077
+7a2t el52l7l wel53t7 3ln5d? 5sh3l wel7et5 f7k khdmt5l 3lklm 5nbyt5 3ly 3byt3l 2ln2 el72t7,staff_behavior,franco,False,inquiry,False,franco generation unusable,0.071
+khlod 3ln5d 3n7ybt 3ln5d? 5sh3l wel7et5 f7k khdmt5l 3lklm 5nbyt5 3ly 3byt3l 2ln2 el72t7,staff_behavior,franco,False,inquiry,False,franco generation unusable,0.058
+7la3d welkam 7nbyt5l 3ln5d? khlod5l wel7et5 3ly 3byt3l 2ln2 el72t7 3ly khdt2l 5nbyt5 3ln5d,staff_behavior,franco,False,inquiry,False,franco generation unusable,0.065
+3nbyt5l 3ln5d 7la3d welkam? khlod5l wel7et5 3ly 72t7 3byt3l 2ln2 el72t7 3ly khdt2l 5nbyt5 3ln5d,staff_behavior,franco,False,inquiry,False,franco generation unusable,0.063
+7a2t 3ln5d 7la3d welkam 5sh3l 3ly 72t7 3byt3l 2ln2 el72t7 3ly khdt2l 5nbyt5 3ln5d,staff_behavior,franco,False,delivery_delay,False,franco generation unusable,0.069
+5nbyt5l 3ln5d 7la3d welkam? khlod5l wel7et5 3ly 72t7 3byt3l 2ln2 el72t7 3ly khdt2l 5nbyt5 3ln5d,staff_behavior,franco,False,inquiry,False,franco generation unusable,0.06
+3ln5d 7la3d welkam 5sh3l 3ly 72t7 3byt3l 2ln2 el72t7 3ly khdt2l 5nbyt5 3ln5d,staff_behavior,franco,False,delivery_delay,False,franco generation unusable,0.059
+"3la tkb5m al-kashir hna 7la 3la? 3lby kndm 3la al-tbdr! (3=ع, 7=ح, 2=ء, 5=خ)",staff_behavior,franco,False,staff_behavior,False,franco generation unusable,0.089
+"5ndm khsh 3lby 3lby 5srm! 7la 3la kb5m al-kashir? (3=ع, 7=ح, 2=ء, 5=خ)",staff_behavior,franco,False,staff_behavior,False,franco generation unusable,0.066
+"3lby 3nhm kb5m al-kashir 3la al-tbdr, 3mlt2 3la 2my? (3=ع, 7=ح, 2=ء, 5=خ)",staff_behavior,franco,False,staff_behavior,False,franco generation unusable,0.071
+"3lby 3ml2 3la kb5m al-kashir? 7la 3la 5srm 3la al-tbdr! (3=ع, 7=ح, 2=ء, 5=خ)",staff_behavior,franco,False,staff_behavior,False,franco generation unusable,0.102
+"3lby 3ml2 3la al-kashir 3la al-tbdr 5ndm 3la al-3rdm? (3=ع, 7=ح, 2=ء, 5=خ)",staff_behavior,franco,False,inquiry,False,franco generation unusable,0.095
+"3lby 3ml2 3la al-kashir 3la al-tbdr 7la 3la 3lby? (3=ع, 7=ح, 2=ء, 5=خ)",staff_behavior,franco,False,inquiry,False,franco generation unusable,0.109
+"3lby 3la 5ndm 3la kb5m al-kashir 3la al-tbdr 3ml2 3la 3lby? (3=ع, 7=ح, 2=ء, 5=خ)",staff_behavior,franco,False,price_complaint,False,franco generation unusable,0.119
+"3lby 3la 5ndm 3la kb5m al-kashir 3la al-tbdr 5ml 3la 3lby? (3=ع, 7=ح, 2=ء, 5=خ)",staff_behavior,franco,False,staff_behavior,False,franco generation unusable,0.121
+"3lby 3la 5ndm 3la kb5m al-kashir 3la al-tbdr 3ml2 3la 3lby 3la al-3rdm? (3=ع, 7=ح, 2=ء, 5=خ)",staff_behavior,franco,False,inquiry,False,franco generation unusable,0.126
+"3lby 3la 5ndm 3la kb5m al-kashir 3la al-tbdr 7la 3la 3lby 3la al-3rdm? (3=ع, 7=ح, 2=ء, 5=خ)",staff_behavior,franco,False,inquiry,False,franco generation unusable,0.13
+Why the heck are you ignoring me? I've been here for 15 minutes! 😡,staff_behavior,en,False,staff_behavior,True,,0.339
+"Can't you see I'm trying to pay and you're not even looking at me? Seriously, how hard is it? 😑",staff_behavior,en,False,staff_behavior,True,,0.19
+Why do you think I should wait in line for an hour? I have better things to do than stand here. 😡,staff_behavior,en,False,staff_behavior,True,,0.253
+"Hey, I asked you a question, not a question in a quiz. Can you help me, or not? 😠",staff_behavior,en,False,inquiry,False,,0.178
+Why are you so inattentive? It's like talking to a wall. Do you even care about your customers? 🤔,staff_behavior,en,False,staff_behavior,True,,0.242
+"Just a reminder, I'm waiting for my change. Have you even counted the money? 🤦",staff_behavior,en,False,refund_request,False,,0.221
+"Can't you just help me with this? It's not that hard, right? 😫",staff_behavior,en,False,inquiry,False,,0.188
+"I'm trying to pay, can you please help? It's not that complicated, is it? 🙄",staff_behavior,en,False,app_issue,False,,0.2
+"Excuse me, but I can't believe you're ignoring me again. Do you even work here? 😡",staff_behavior,en,False,staff_behavior,True,,0.187
+I asked for a receipt and you just ignored me. Can you just help me out? 😒,staff_behavior,en,False,inquiry,False,,0.278
+Why the heck do I have to wait so long at the checkout? It's like I'm in a queue for the pyramids!,staff_behavior,en,False,inquiry,False,,0.316
+"Guys, seriously, can you hire some less grumpy cashiers? It's not fun shopping when everyone looks like they're having a bad day.",staff_behavior,en,False,staff_behavior,True,,0.172
+Did I order takeout or what? I had to ask the security guard for help just to pay for my groceries. Way to make a customer feel valued!,staff_behavior,en,False,staff_behavior,True,,0.3
+"I tried to return a broken toaster, and the staff refused to help. Like, who even gets paid to work here?",staff_behavior,en,False,staff_behavior,True,,0.273
+Security over here is not just security; they're the most intimidating guards I've ever seen. Can't I just shop without feeling like I'm being interrogated?,staff_behavior,en,False,staff_behavior,True,,0.371
+Can someone please explain why my order took so long to come? The guy at the counter was too busy yelling at the computer to help me.,staff_behavior,en,False,delivery_delay,False,,0.28
+Why does every cashier look like they're on their way out? I'm not leaving until I find someone who can help with this issue!,staff_behavior,en,False,staff_behavior,True,,0.209
+I asked for help twice and got ignored both times. It's like the staff here are playing a game where ignoring customers is the goal.,staff_behavior,en,False,staff_behavior,True,,0.316
+"When will this madness end? I've been standing here for 20 minutes, and nobody is even looking my way.",staff_behavior,en,False,staff_behavior,True,,0.233
+"I'm just looking to buy some groceries, not to be treated like a criminal. Can't we just have a bit of normal service here?",staff_behavior,en,False,inquiry,False,,0.165
+أبو عايز تاني مرة تاني تانية تانية كمان!! حاسس إنهم يتجاهلوني,staff_behavior,mixed,False,wrong_item,False,,0.16
+عايز أسف اخباركم؟ دايما يحترفو الرد على الأسئلة ب 'نوعه',staff_behavior,mixed,False,inquiry,False,,0.122
+أنا حضرتك طالعت في الصباح الباكر واتعبت وانتوا عايزين تقولو 'نوعه'؟,staff_behavior,mixed,False,inquiry,False,,0.146
+عايز تعرف سرعة الدليفري؟ بسرعة الخشب بتاع البيت,staff_behavior,mixed,False,inquiry,False,,0.225
+أنا عارف إن خدمة العملاء بتكون نومانعة لكن خدمة الOrvana لسة كده,staff_behavior,mixed,False,app_issue,False,,0.339
+يا جنب يا فندم! معاذ الله أقول ليك حاجة بس! كمان بس,staff_behavior,mixed,False,inquiry,False,,0.197
+عايز تعرف كم من الوقت بقى؟ الOrvana Plus بتكون كده كلها,staff_behavior,mixed,False,inquiry,False,,0.146
+أنا فهمت إني طلبت معاك بس هتلاقيني محتاج لأية حاجة؟,staff_behavior,mixed,False,wrong_item,False,,0.103
+يا رب يا كافر! بس بس بس! هيعملوا الأصليين مشكلة,staff_behavior,mixed,False,inquiry,False,,0.11
+أنا عارف إن أنتوا عايزين تبيعوا لكن بس بتخبطون في العمل,staff_behavior,mixed,False,staff_behavior,True,,0.135
+أنا عايز استرد جهاز الأيفون اللي مش كايدفع، وهم قاموا باهانةي وشافوا بياطري، بس مش هقابلوش في الفرع.,staff_behavior,mixed,False,refund_request,False,,0.159
+أنا شاكر كفاية على ال order اللي استردته، بس اللي معاهم قاسي جدا، مش هعمل معهم فلوس بعد كدا.,staff_behavior,mixed,False,refund_request,False,,0.163
+ال order اللي استردته في الفرع بتاع Orvana، عامليني كناقل نوم، دلوقتي هشوف شغل تاني.,staff_behavior,mixed,False,refund_request,False,,0.174
+مش كباش هعمل معهم فلوس في Orvana، قافلة وهم قالولي معايا تانية، ويا عارفين اللي حصل.,staff_behavior,mixed,False,refund_request,False,,0.187
+مش كباش أشتري منهم بعد كده، القسامة بتاع Orvana Plus بتاع مغشوش، قافلة وتاني معايا.,staff_behavior,mixed,False,product_quality,False,,0.197
+ال order اتأخر، شفتهم في الفرع بس مش هشتري منهم مجدا، اللي بتاع Orvana ماكو فيهم مهذب.,staff_behavior,mixed,False,delivery_delay,False,,0.203
+ورق ال order اللي حصلت عليه كان عاوز معايا 200 جنيه، وهم قالوليا 150، فهم قافلة وتاني هشتري.,staff_behavior,mixed,False,price_complaint,False,,0.154
+ال order اللي أشتريته حضر بس محتاج تبديل، القسامة بتاع Orvana Plus متظهرش، قافلة وتاني هعمل معهم.,staff_behavior,mixed,False,wrong_item,False,,0.171
+أنا محتاج استرد جهاز الأيفون اللي مش كايدفع، والكاشير قالولي معايا تانية، مش كباش أعمل معهم تانية.,staff_behavior,mixed,False,refund_request,False,,0.246
+ال order اللي أشتريته حضر، وهم قالولي معايا تانية، مش كباش أعمل معهم تانية، خدموه مهذبين.,staff_behavior,mixed,False,wrong_item,False,,0.149
+بص رجل الامن شافني وراح يصرخ يعني ممكن يلاقي يصلي ايوه يعني ليش ما بقى هادئ,staff_behavior,voice,False,staff_behavior,True,,0.126
+توفيق خدمني يعني ايوه معي شي مشكلة برضو,staff_behavior,voice,False,inquiry,False,,0.129
+الممرضة بتصرخ يعني يعني ايوه يعني كل يوم بتقوللي جيتلك لازم ترجع,staff_behavior,voice,False,delivery_delay,False,,0.118
+في مرة محدش خدمني يعني يعني يعني ايوه يعني حتى عندني شي مشكلة,staff_behavior,voice,False,staff_behavior,True,,0.195
+خادم المتابعة يعني خدمني يعني يعني يعني يعني يعني يعني ايوه,staff_behavior,voice,False,inquiry,False,,0.209
+توفيق خدمني يعني يعني يعني يعني يعني يعني ايوه يعني يعني يعني يعني,staff_behavior,voice,False,inquiry,False,,0.216
+في مرة صافني خادم المتابعة يعني يعني يعني يعني يعني يعني ايوه,staff_behavior,voice,False,inquiry,False,,0.189
+بص رجل الأمن صافني يعني يعني يعني يعني يعني يعني ايوه,staff_behavior,voice,False,staff_behavior,True,,0.196
+بص صافني خادم المتابعة يعني يعني يعني يعني يعني يعني ايوه,staff_behavior,voice,False,inquiry,False,,0.188
+يعني موظفة المبيعات بتحتاج تقيل الشوية بص، ايوه بس محتاجة تتحسش معاها في الخدمة يعني,staff_behavior,voice,False,staff_behavior,True,,0.142
+بص خدمة الخدمة بص، ايوه موظفة المبيعات رحت وشكتتني في النقود يعني,staff_behavior,voice,False,staff_behavior,True,,0.235
+يعني موظف الأمن كان صايل في وجهي بص، ايوه نزلت من السيارة ومشيت للمتجر يعني,staff_behavior,voice,False,staff_behavior,True,,0.203
+بص موظفة الأمن كلها وحشية يعني، ايوه مشيت للمتجر وأخدت نقودي بيدي يعني,staff_behavior,voice,False,staff_behavior,True,,0.141
+يعني ايوه بص، موظفة المبيعات رحت تقولي اشتريت منتج بخصم يعني,staff_behavior,voice,False,inquiry,False,,0.154
+بص موظفة الأمن رحت تقولي نفسي يعني، ايوه بس مش كنت بسخاف يعني,staff_behavior,voice,False,staff_behavior,True,,0.165
+يعني موظف الأمن نظره فيني بص، ايوه مسحت موبايلني يعني,staff_behavior,voice,False,staff_behavior,True,,0.196
+بص موظف الأمن قاللي ما تفتحي يعني، ايوه فتحت يعني,staff_behavior,voice,False,staff_behavior,True,,0.215
+يعني موظف المبيعات كان رعيبة بص، ايوه خرجت من المتجر وعرفت ايوه,staff_behavior,voice,False,staff_behavior,True,,0.157
+بص موظف الأمن كان حكي عن أمن الدولة بص، ايوه نزلت من السيارة يعني,staff_behavior,voice,False,staff_behavior,True,,0.245
+يا دكتور! أو Ravna لازم تضيف النقاط اللي هى بتقدر تشتري بالبقالة دي. شتغل في البيت ولا ياخدوا نقاطي!,loyalty_points,egy,False,loyalty_points,True,,0.116
+يا ابني، النقاط دي بتكونوا تأخرونها بس ما بتقدروا تصرفها. يا حببنا أنتوا تصححوها.,loyalty_points,egy,False,loyalty_points,True,,0.081
+أنا قبضت في المرة دي، النقاط مش ضمنت! كأننا بنتظركم.,loyalty_points,egy,False,loyalty_points,True,,0.128
+أنا كنت هعمل سوبر تشارت ونقاطي بتزول. هعمل سوبر تشارت شغلة ونقاطي مفيده!,loyalty_points,egy,False,loyalty_points,True,,0.181
+يا ابني، أو Ravna تعرفوا النقاط بتكونوا عارفين بتكون، لكن برضو مش ضمنت.,loyalty_points,egy,False,loyalty_points,True,,0.103
+يا طيب، أو Ravna تعرفوا النقاط بتكونوا معرفين إنها بتكون، لكن عشان كده مش ضمنت.,loyalty_points,egy,False,loyalty_points,True,,0.1
+أنا بحاول أعرف كم نقاط أنا جابتها وليست جابتها. ده حقي.,loyalty_points,egy,False,loyalty_points,True,,0.086
+يا دكتور، النقاط بتكونوا ضمنت في التطبيق، لكن اللي في الحساب مش ضمنت.,loyalty_points,egy,False,loyalty_points,True,,0.214
+أنا بحاول أعرف كم نقاط أنا جابتها وليست جابتها. ده حقي. يا أخ.,loyalty_points,egy,False,loyalty_points,True,,0.086
+أنا قبضت في المرة دي، النقاط مش ضمنت. هعمل سوبر تشارت شغلة ونقاطي مفيده!,loyalty_points,egy,False,loyalty_points,True,,0.139
+يا حبيبي، أنا عايز أعرف أين نقلت نقاطي، بتاع Orvana Plus، فلوش، أنا بعت بطاقة بقالها شهرين ونقاطي بتقل كل يوم!,loyalty_points,egy,False,loyalty_points,True,,0.151
+يا ليلى، فلوش، النقاط بتاع Orvana Plus مش موجودة في حسابي، رغم ما بعت من مرات ومرات.,loyalty_points,egy,False,loyalty_points,True,,0.176
+يا عمرو، إيه اللي بيحصل مع نقاطي، نقلت منهم بس ما بجدش حاجة، أبعد من كده؟,loyalty_points,egy,False,loyalty_points,True,,0.125
+يا فرح، فلوش، النقاط بتاع Orvana Plus هيا بتاع بطاقة الشراء بتاعي بقى لازم أرجع لأسألك。,loyalty_points,egy,False,loyalty_points,True,,0.21
+يا أحمد، إيه اللي بيحصل مع النقاط؟ بعت بطاقة الشراء اللي بقى فيها نقاط ومش موجودش.,loyalty_points,egy,False,loyalty_points,True,,0.193
+يا سارة، فلوش، النقاط بتاع Orvana Plus بتاع البطاقة بتاعي بتقل كل يوم، كأنو ماماهم.,loyalty_points,egy,False,loyalty_points,True,,0.224
+يا عصام، فلوش، النقاط بتاع Orvana Plus مش بتظهر في الحساب، رغم اللي قدمته من المنتجات.,loyalty_points,egy,False,loyalty_points,True,,0.191
+يا شريف، إيه اللي بيحصل مع النقاط بتاع Orvana Plus؟ بعت بطاقة الشراء وبعت بضاعه، مش موجودش!,loyalty_points,egy,False,loyalty_points,True,,0.18
+يا ريم، النقاط بتاع Orvana Plus مش بتظهر، رغم ما بعته من المنتجات، كأنو ماماهم.,loyalty_points,egy,False,loyalty_points,True,,0.186
+يا سارة، إيه اللي بيحصل مع النقاط؟ مش موجودش في الحساب رغم اللي بعته من بضاعه.,loyalty_points,egy,False,loyalty_points,True,,0.202
+عزيزي فريق الخدمة، هل يمكنك التحقق من نقاط Orvana Plus الخاصة بي؟ لقد اتصلت قبل أسبوع ولم يتم إضافة النقاط.,loyalty_points,msa,False,loyalty_points,True,,0.168
+أود التحقق من نقاط Orvana Plus الخاصة بي. لقد دفعت النقود فعليا، ولكن لم ألاحظ نقاط جديدة في حسابي.,loyalty_points,msa,False,loyalty_points,True,,0.187
+أتمنى أن تكون لدي 100 نقطة Orvana Plus لاستخدامها في متجركم، لكن يبدو أنني أحتاج لتجديدها.,loyalty_points,msa,False,loyalty_points,True,,0.136
+لقد استخدمت نقاط Orvana Plus من قبل، ولكن يبدو أنها مفقودة. هل يمكنكم مساعدتي في هذا؟,loyalty_points,msa,False,loyalty_points,True,,0.135
+عندما أقوم بالتسوق في متاجر Orvana، فإنني أرغب في معرفة كيفية الحصول على نقاط Orvana Plus.,loyalty_points,msa,False,inquiry,False,,0.17
+لماذا لا أستطيع استخدام نقاط Orvana Plus التي ادخرتها لفترة طويلة؟ هل هناك خطوات إضافية يجب القيام بها؟,loyalty_points,msa,False,loyalty_points,True,,0.333
+لقد فات موعد إضافية النقاط Orvana Plus التي كتبتها في خدمة العملاء، هل يمكنك التحقق من هذا؟,loyalty_points,msa,False,loyalty_points,True,,0.243
+عندما أقوم بالتسوق في Orvana، هل يمكنني الحصول على نقاط Orvana Plus؟,loyalty_points,msa,False,inquiry,False,,0.296
+لقد رفضت خدمة العملاء تجديد نقاط Orvana Plus الخاصة بي، هل يمكنني التواصل مع مسؤول آخر؟,loyalty_points,msa,False,loyalty_points,True,,0.243
+هل يمكنني الحصول على تحديث حول نقاط Orvana Plus الخاصة بي؟ لقد كنت أتطلع لتلقي معلومات إضافية.,loyalty_points,msa,False,loyalty_points,True,,0.123
+يجب أن أتلقى ردا على طلبي للتحقق من نقاط Orvana Plus في أقرب وقت ممكن.,loyalty_points,msa,False,loyalty_points,True,,0.217
+لماذا لا تستطيعOrvana Plus تتبع نقاطي؟ لقد طلبت هذا أكثر من أسبوع و لا أعرف ما هي نقاطي الحالية.,loyalty_points,msa,False,loyalty_points,True,,0.293
+أرسلت طلبا للتحقق من نقاط Orvana Plus الخاصة بي ، لكنني لم أتلقى ردا حتى الآن.,loyalty_points,msa,False,loyalty_points,True,,0.164
+أحتاج إلى معرفة سبب اختفاء نقاطي في Orvana Plus. هل يمكنكم مراجعة ذلك؟,loyalty_points,msa,False,loyalty_points,True,,0.156
+كيف يمكنني تقييم طلب تحقق نقاط Orvana Plus؟,loyalty_points,msa,False,inquiry,False,,0.285
+لماذا لا يمكنني استخدام نقاط Orvana Plus في المتجر؟ لقد أرسلت طلبا للتحقق.,loyalty_points,msa,False,loyalty_points,True,,0.262
+لماذا لا أرى نقاط Orvana Plus في حسابي الإلكتروني؟,loyalty_points,msa,False,loyalty_points,True,,0.223
+لم أستلم تأكيدا على نقاط Orvana Plus التي تم تجديدها. هل يمكنك التحقق من ذلك؟,loyalty_points,msa,False,loyalty_points,True,,0.131
+لماذا لا أستطيع إضافة نقاط Orvana Plus إلى حسابي الإلكتروني؟,loyalty_points,msa,False,loyalty_points,True,,0.268
+لقد طلبت منOrvana Plus تجديد نقاطي ، لكنني لم أتلق أي رد.,loyalty_points,msa,False,loyalty_points,True,,0.151
+3n 3l 5rvn plns y7mn lw? khl 5ny 2l37h y3r7t b3l 7hny?,loyalty_points,franco,False,inquiry,False,franco generation unusable,0.044
+5ny 5n 3lmn 3l plns 7ny? khn bsh r3bdm 2byh mhn7 khl y3hr7t b3l 7hny?,loyalty_points,franco,False,inquiry,False,franco generation unusable,0.056
+3n 5rvn plns 7ml3 2byh bsh 3by7h? khn m7m2t b3l 7hny wkh 3ln khl r7m3d b3l m3hrn?,loyalty_points,franco,False,app_issue,False,franco generation unusable,0.051
+5ny 5n 3lmn 3l plns y3hr7t b3l 7hny? 5ny 2byh 7mn khl 5ln khl 3by7h l7mn khl r7m3d?,loyalty_points,franco,False,inquiry,False,franco generation unusable,0.057
+3n 5rvn plns 7ml3 2byh 7mn khl y7r7t b3l 7hny? 3lmn 2byh bsh 3by7h y3hr7t b3l m3hrn?,loyalty_points,franco,False,inquiry,False,franco generation unusable,0.051
+5n 3lmn 3l plns 3by7h 7ml3 m7m2t 3by7h bsh r7m3d khl 7mn khl y7r7t b3l 7hny?,loyalty_points,franco,False,inquiry,False,franco generation unusable,0.05
+3n 5rvn plns 7ml3 khl 3by7h y7r7t b3l 7hny? 3lmn 2byh khl 5ln m7m2t bsh r7m3d?,loyalty_points,franco,False,inquiry,False,franco generation unusable,0.049
+5n 5rvn plns 3by7h 7ml3 bkh khn bsh r7m3d khl 7mn khl 3by7h y7r7t b3l 7hny?,loyalty_points,franco,False,inquiry,False,franco generation unusable,0.056
+5n 5rvn plns 3by7h 7ml3 3lmn 2byh 7mn khl y7r7t b3l 7hny? 3lmn 3by7h khl r7m3d b3l m3hrn?,loyalty_points,franco,False,inquiry,False,franco generation unusable,0.049
+5n 5rvn plns 7ml3 2byh 7mn khl y7r7t b3l 7hny? 3lmn 2byh bsh 3by7h m7m2t khl 5ln 3by7h?,loyalty_points,franco,False,inquiry,False,franco generation unusable,0.051
+3r7b mn 5lm sh3ar5t al-pointy l3ln? 5ln knt l3l mstkhbar? 5ln 2b5d!,loyalty_points,franco,False,loyalty_points,False,franco generation unusable,0.06
+"3ln 5lm 2n7b al-pointy kh7d, w 3r7b 5lm 7trt al-ma5lub y7d. 3ln 5lm 3ln 2l mstkhbar!",loyalty_points,franco,False,loyalty_points,False,franco generation unusable,0.056
+7trt al-pointy l7t 3n 7lm 3ln 5lm mstkhbar? 7trt l3l 2lm 5lm 7b l-ma5lub. 3ln 5lm 2n7b y7d!,loyalty_points,franco,False,loyalty_points,False,franco generation unusable,0.051
+7b 5lm 3ln 77l l-ma5lub 7trt al-pointy? 5ln 2b5d 5lm 7trt l3l 5lm mstkhbar!,loyalty_points,franco,False,loyalty_points,False,franco generation unusable,0.052
+"5ln kh7d 5lm 2ln7b al-pointy, w y7d 5lm 5lm 3ln 3l mstkhbar. 7trt 5lm 2b5d!",loyalty_points,franco,False,loyalty_points,False,franco generation unusable,0.049
+7trt al-pointy l3n 7lm 3ln 5lm mstkhbar? 7trt l3lm 77l l-ma5lub 7b 5lm 2b5d!,loyalty_points,franco,False,loyalty_points,False,franco generation unusable,0.051
+5lm 3ln 77l l-ma5lub 7b 5lm 2b5d? 5ln kh7d 5lm 7trt al-pointy w y7d 5lm 3ln 5lm mstkhbar!,loyalty_points,franco,False,loyalty_points,False,franco generation unusable,0.048
+3ln 7trt al-pointy 5lm 2b5d w 7b 5lm 3ln 5lm mstkhbar? 7trt 5lm 3ln 77l l-ma5lub!,loyalty_points,franco,False,loyalty_points,False,franco generation unusable,0.051
+5ln 7trt al-pointy 5lm 2b5d w y7d 5lm 3ln 5lm mstkhbar? 3r7b 5lm 2b5d!,loyalty_points,franco,False,loyalty_points,False,franco generation unusable,0.048
+5ln 3ln 77l l-ma5lub 7b 5lm 2b5d 5lm 7trt al-pointy? 5ln kh7d 5lm 3ln 5lm mstkhbar!,loyalty_points,franco,False,loyalty_points,False,franco generation unusable,0.045
+"Orvana, why did my points disappear? I thought they were safe in Orvana Plus!",loyalty_points,en,False,loyalty_points,True,,0.275
+"Hey Orvana, how come I can't redeem my points? I've been shopping a lot!",loyalty_points,en,False,loyalty_points,True,,0.185
+"Why did my Orvana Plus points reset? I had 1,000 and now I have nothing!",loyalty_points,en,False,loyalty_points,True,,0.222
+"Orvana, can you add my points correctly? It's so frustrating not knowing how many I have.",loyalty_points,en,False,loyalty_points,True,,0.216
+When will I be able to use my Orvana Plus points? I've been saving them up!,loyalty_points,en,False,loyalty_points,True,,0.203
+"Orvana, why can't I get my points? I’ve been a loyal customer for years!",loyalty_points,en,False,loyalty_points,True,,0.251
+Why are my Orvana Plus points not showing up? I’ve been spending a lot there!,loyalty_points,en,False,loyalty_points,True,,0.23
+"Orvana, can I still use my Orvana Plus points? I’m confused and tired of this!",loyalty_points,en,False,loyalty_points,True,,0.268
+How do I get my Orvana Plus points back? I thought they would never go away!,loyalty_points,en,False,loyalty_points,True,,0.304
+"Orvana, can you explain why my points keep disappearing? I’m losing trust!",loyalty_points,en,False,loyalty_points,True,,0.207
+Why did my Orvana Plus points vanish? I've been a loyal customer for years!,loyalty_points,en,False,loyalty_points,True,,0.244
+"Orvana Plus, what's the deal with my points? They're nowhere to be found.",loyalty_points,en,False,loyalty_points,True,,0.211
+Didn't my purchases earn me some Orvana Plus points? Why can't I see them?,loyalty_points,en,False,loyalty_points,True,,0.303
+Why are my Orvana Plus points not showing up after my last few purchases?,loyalty_points,en,False,loyalty_points,True,,0.428
+Can someone please explain why my Orvana Plus points are always missing?,loyalty_points,en,False,loyalty_points,True,,0.322
+I just can't figure out why my Orvana Plus points keep disappearing.,loyalty_points,en,False,loyalty_points,True,,0.232
+When are my Orvana Plus points going to magically appear?,loyalty_points,en,False,loyalty_points,True,,0.274
+Why won't my Orvana Plus points show up in my account?,loyalty_points,en,False,loyalty_points,True,,0.282
+"I swear, Orvana Plus, I'm never using this card again if points keep vanishing!",loyalty_points,en,False,loyalty_points,True,,0.237
+Why can't I find my Orvana Plus points after redeeming them? This is so frustrating!,loyalty_points,en,False,loyalty_points,True,,0.215
+ال Orvana Plus points حرف الهمزة هيتلاش، حضرتك كاين علاش؟,loyalty_points,mixed,False,loyalty_points,True,,0.224
+انا اعمل طلب صيانة phone منذ اسبوع ونقاشي لاقي ال points ضيعت,loyalty_points,mixed,False,loyalty_points,True,,0.152
+اى كدة points بتضيع من الحساب بس ما بعمل صيانة، انا بخدها عاجل,loyalty_points,mixed,False,loyalty_points,True,,0.202
+بعت order وعندما طلبت نقاط، كان عندى 1000 نقطة، الان عندى 500 فقط، احنا بناقش شوية,loyalty_points,mixed,False,loyalty_points,True,,0.133
+عندما قمت برد product، النقاط اللي كانت بتاعها بتعادل 200 جنيه اختفت,loyalty_points,mixed,False,loyalty_points,True,,0.232
+انتم اللي تقولون ان ال Orvana Plus نقاط حلال، بس لما طلبت صيانة phone، النقاط بقت كلهة,loyalty_points,mixed,False,loyalty_points,True,,0.131
+قدمت طلب صيانة phone ونقاط 200 جنيه، النقاط ما بتعادل حاجة,loyalty_points,mixed,False,loyalty_points,True,,0.13
+عملت طلب صيانة phone ونقاط 200 جنيه، بس النقاط بقت زائفة,loyalty_points,mixed,False,loyalty_points,True,,0.191
+ردت product ونقاط 200 جنيه ما بتعادل حاجة,loyalty_points,mixed,False,loyalty_points,True,,0.156
+اول مرة اعمل طلب صيانة phone ونقاط 200 جنيه ونقاطى اختفت,loyalty_points,mixed,False,loyalty_points,True,,0.185
+ال order اتأخر ونقاط Orvana Plus مااخدتش!,loyalty_points,mixed,False,loyalty_points,True,,0.231
+عندنا سؤال حول Orvana Plus، النقاط مااخذوا في الحساب,loyalty_points,mixed,False,loyalty_points,True,,0.218
+المفروض النقاط بتزيد بس مااخدتش اي حاجة من الحساب!,loyalty_points,mixed,False,loyalty_points,True,,0.247
+رد عليا بسرعة، النقاط مااخدتش ومش عارف اعمل كام,loyalty_points,mixed,False,loyalty_points,True,,0.168
+النقاط مفيدهش، كل مااخدت اعمل مشكلة,loyalty_points,mixed,False,loyalty_points,True,,0.137
+معذرة لكن النقاط مااخدتش في الحساب رغم انني قمت بالشراء,loyalty_points,mixed,False,loyalty_points,True,,0.22
+مشكورين على Orvana Plus، النقاط مفيدهش يعني! مااخدتش حاجة,loyalty_points,mixed,False,loyalty_points,True,,0.158
+النقاط مااخدتش واي حاجة، حضرتك رايح تخسر الزبائن,loyalty_points,mixed,False,loyalty_points,True,,0.16
+توري النقاط اللي بعدي في الحساب، مااخدتش حاجة,loyalty_points,mixed,False,loyalty_points,True,,0.21
+عندنا شكوى حول Orvana Plus، النقاط مااخدتش وبس,loyalty_points,mixed,False,loyalty_points,True,,0.176
+أيوه يعني Orvana Plus لا تعمل بص، النقاط بتختفي يعني,loyalty_points,voice,False,loyalty_points,True,,0.188
+مشكورين يعني على Orvana Plus لكن النقاط مش موجودة بص، أين النقاط؟,loyalty_points,voice,False,loyalty_points,True,,0.161
+بص، النقاط بتقل كل يوم يعني، كيف أ Redemption Product يعني؟,loyalty_points,voice,False,loyalty_points,True,,0.268
+أيوه يعني، النقاط بتزيد بص، لكن أنا عاوز أ Redemption ومش بجد يعني,loyalty_points,voice,False,loyalty_points,True,,0.25
+Orvana Plus يعني، النقاط مش موجودة يعني، مش شاكرين يعني,loyalty_points,voice,False,loyalty_points,True,,0.165
+بص، النقاط بتقل يعني، مش هعمل Orvana Plus يعني,loyalty_points,voice,False,loyalty_points,True,,0.218
+أيوه يعني، النقاط مش موجودة يعني، كيف أ Add Points يعني,loyalty_points,voice,False,loyalty_points,True,,0.14
+Orvana Plus يعني، النقاط بتختفي يعني، مش عارفين تعاملوا بالطريقة الصحيحة يعني,loyalty_points,voice,False,loyalty_points,True,,0.162
+بص، النقاط بتقل يعني، متى بتعمل Add Points يعني,loyalty_points,voice,False,loyalty_points,True,,0.182
+أيوه يعني، النقاط بتقل يعني، مش عارف استخدمهم يعني,loyalty_points,voice,False,loyalty_points,True,,0.146
+بص ايوه يا سلام يعني شراءاتي كلها ولا بس النقاط ما زادتش يعني ماكو مميز فيOrvana يعني؟,loyalty_points,voice,False,loyalty_points,True,,0.16
+يا رحمة يعني النقاط ما فيش فيهاش يعني خسرت وقتي والنقاط,loyalty_points,voice,False,loyalty_points,True,,0.111
+يا للحسرة يعني نقاطي ضاعت يعني مش معاهم يعني مفروض معاهم,loyalty_points,voice,False,loyalty_points,True,,0.127
+يعني نقاطي ما اكتملت يعني بس شغلة صغيرة يعني,loyalty_points,voice,False,loyalty_points,True,,0.15
+يا للأسف يعني النقاط اللي بعتهم فيها شغلة ما بجد يعني,loyalty_points,voice,False,loyalty_points,True,,0.159
+بص يعني النقاط ما فيهمش يعني بس شغلة صغيرة يعني,loyalty_points,voice,False,loyalty_points,True,,0.147
+يا للخيبة يعني النقاط ما زادت يعني ماكو ميزات بجد يعني,loyalty_points,voice,False,loyalty_points,True,,0.209
+يا ترى يعني نقاطي ضاعت يعني بس مش كتير يعني,loyalty_points,voice,False,loyalty_points,True,,0.164
+بص يعني نقاطي ما فيش يعني بس بضاعة صغيرة يعني,loyalty_points,voice,False,loyalty_points,True,,0.152
+يا للتعصب يعني النقاط ما زادت يعني مش محتاجهم يعني,loyalty_points,voice,False,loyalty_points,True,,0.219
+أنت شيلك كم سنة تعرفين متين المكتب مفتوح؟,inquiry,egy,False,inquiry,True,,0.175
+عندي سؤال تاني، محتاج تعرف عليا التغطية في الطلبية البيتية؟,inquiry,egy,False,inquiry,True,,0.175
+أيوة، متين يدخلون البنزين على المحطة؟,inquiry,egy,False,inquiry,True,,0.101
+أنا عايز أعرف، متى ترجع السيارة الكهربائية السبعة أضعاف الثمن؟,inquiry,egy,False,inquiry,True,,0.252
+بس كله جد، متين تنزل الأسعار في التكييفات؟,inquiry,egy,False,price_complaint,False,,0.214
+يا مهنس، متين تجيبوا الأجهزة الذكية الشهيرة دي؟,inquiry,egy,False,inquiry,True,,0.195
+أكتر من أسبوع في الجراج، متين تبيعوا السيارة الكهربائية دي؟,inquiry,egy,False,delivery_delay,False,,0.254
+أنا قلت لك كام مرة، متين تفتحوا الحمامات في المركز التجاري؟,inquiry,egy,False,inquiry,True,,0.107
+أيوة، محتاج تعرف مين اللي بيباع البنزين منكم؟,inquiry,egy,False,inquiry,True,,0.098
+يا فندم، متين تجيبي التكييفات دي؟,inquiry,egy,False,wrong_item,False,,0.108
+هلا وسلام، ممكن تضيف تفاصيل التوصيل في جمهورية مصر العربية؟,inquiry,egy,False,inquiry,True,,0.176
+يا شيخ، عندك فرع في المنيا؟,inquiry,egy,False,inquiry,True,,0.137
+مازالت البالوعة بقى في فرع الزقازيق؟,inquiry,egy,False,inquiry,True,,0.126
+أهلا وسهلا، اللي استفسره عن ساعات عمل فرع القاهرة عندك؟,inquiry,egy,False,inquiry,True,,0.148
+يا سيدي، عندك توصيل لقرية بسيون؟,inquiry,egy,False,inquiry,True,,0.105
+هلا، عندك فرع في أسيوط؟,inquiry,egy,False,inquiry,True,,0.326
+يا حبيب، اللي عندك في التوصيل لحي الحامول؟,inquiry,egy,False,inquiry,True,,0.145
+أهلا، اللي عندك في فرع شبين الكوم؟,inquiry,egy,False,inquiry,True,,0.155
+يا بابا، عندك توصيل لقرية العبدلي؟,inquiry,egy,False,inquiry,True,,0.118
+هلا، اللي عندك في فرع السنبلاوين؟,inquiry,egy,False,inquiry,True,,0.146
+عزيزي سيد مشرف الخدمة، كيف يمكنني تقديم الاستفسار عن مواعيد عمل فرع Orvana بالقرب من我家附近?能否查询您门店的营业时间?,inquiry,msa,False,inquiry,False,foreign script,0.211
+أهلا بكم، هل تستلمون الشحنات من الساعة 6 مساء إلى 9 مساء؟ هل يمكنني تأكيد ذلك من خلال الموقع الإلكتروني؟,inquiry,msa,False,inquiry,True,,0.162
+أنا مهتم بشراء جهاز غسالة ملابس جديد، هل يمكنك تزويدنا بالمزيد من المعلومات حول متاحفته في فرع Orvana بمدينة القاهرة؟,inquiry,msa,False,inquiry,True,,0.115
+أرغب في التعرف على مناطق التوصيل المتاحة في محافظة القليوبية، هل يمكنكم تقديم هذه المعلومات؟,inquiry,msa,False,inquiry,True,,0.278
+هل يمكنني الحصول على تحديثات حول توفر المنتجات في فرع Orvana في شارع الزعفران؟,inquiry,msa,False,inquiry,True,,0.152
+أود معرفة المزيد عن حملات التخفيضات القادمة في Orvana، هل يمكنكم إعلامي بالمعلومات؟,inquiry,msa,False,inquiry,True,,0.101
+أنا مستعد لشراء تلفزيون جديد من Orvana، هل يمكنني استفساركم عن الموديلات المتاحة حاليا في فرعكم؟,inquiry,msa,False,inquiry,True,,0.149
+أتمنى الاستفسار عن المنتجات الرقمية المتاحة في Orvana، مع التركيز على تجهيزات الكمبيوتر الشخصية.,inquiry,msa,False,inquiry,True,,0.183
+أود معرفة المزيد عن سياسة إرجاع المنتجات في Orvana، خاصة فيما يتعلق بالمنتجات الإلكترونية.,inquiry,msa,False,inquiry,True,,0.253
+أرغب في الحصول على معلومات حول سياسة التوصيل التي تتبعها Orvana، هل يمكنكم توفير ذلك؟,inquiry,msa,False,inquiry,True,,0.152
+هل يمكنني التحقق من توافر منتج ما في متجركم؟,inquiry,msa,False,inquiry,True,,0.152
+أود معرفة ساعات عمل متجر Orvana في هذه المنطقة.,inquiry,msa,False,inquiry,True,,0.125
+كيف يمكنني الحصول على خدمة التوصيل إلى هذا العنوان؟,inquiry,msa,False,inquiry,True,,0.25
+هل تغطي Orvana خدمة التوصيل في هذه المنطقة؟,inquiry,msa,False,inquiry,True,,0.179
+أرجو التعرف على خطة الشحن الخاصة بمنتجاتكم.,inquiry,msa,False,inquiry,True,,0.118
+متى يعود منتج X إلى المتجر؟,inquiry,msa,False,inquiry,True,,0.157
+أود معرفة الأماكن المتاحة لتوصيل الطلبات。,inquiry,msa,False,inquiry,True,,0.178
+هل يمكنني الاطلاع على ساعات العمل في متجر Orvana القريب مني؟,inquiry,msa,False,inquiry,True,,0.153
+أرغب في الاستفسار عن طرق الدفع المتاحة لدى Orvana.,inquiry,msa,False,inquiry,True,,0.204
+أرجو معرفة طرق التواصل مع خدمة العملاء في Orvana.,inquiry,msa,False,inquiry,True,,0.326
+3lm 7st5r khshby? 2lm k5nm 7st5r b2n 5l2l? (31/3/2023),inquiry,franco,False,inquiry,False,franco generation unusable,0.025
+5ln m7r5b l2dhl n7dr 2b7l 5t3r k3n 2lm k5nm? (25/2/2023),inquiry,franco,False,inquiry,False,franco generation unusable,0.041
+3lm 3hmd 2b3lm 5t3r k3n 2lm k5nm? (2/3/2023),inquiry,franco,False,inquiry,False,franco generation unusable,0.029
+5ln 3lm l5n3h 2lm 5t3r khshby? 2lm k5nm 5t3r k3n 2lm k5nm? (17/4/2023),inquiry,franco,False,inquiry,False,franco generation unusable,0.041
+2lm 7st5r 2b3lm k3n k5nm 5t3r khshby? (20/5/2023),inquiry,franco,False,inquiry,False,franco generation unusable,0.032
+5ln 3lm 3lshy b3lm 5t3r 2b7l k3n 2lm k5nm? (12/6/2023),inquiry,franco,False,inquiry,False,franco generation unusable,0.038
+5ln 3lm 5t3r 2b7l k3n 2lm k5nm 2b3lm 5t3r khshby? (30/7/2023),inquiry,franco,False,price_complaint,False,franco generation unusable,0.053
+5ln 5t3r 3lm 5n5hm 5l2l 3lm 7st5r 2b7l k3n 2lm k5nm? (15/8/2023),inquiry,franco,False,inquiry,False,franco generation unusable,0.039
+5ln m7r5b l3lm b3lm 3lshy 2lm 5t3r 2b7l k3n 2lm k5nm? (9/9/2023),inquiry,franco,False,inquiry,False,franco generation unusable,0.033
+5ln 2lm 5t3r 3lm 7bsh 3lm 5n5hm 5l2l 3lm 7st5r k3n 2lm k5nm? (22/10/2023),inquiry,franco,False,inquiry,False,franco generation unusable,0.032
+3l7 b3n 7lm 2sh 23lm l7lm7 l3lm7 k2lm3 ?,inquiry,franco,False,inquiry,False,franco generation unusable,0.138
+2y5t 3lm 5l7dm k3n k2lm3 b3n n5b3d ?,inquiry,franco,False,inquiry,False,franco generation unusable,0.156
+2y5t 3lm w5l7 k3n kh2lm3 b3n n5b3d ?,inquiry,franco,False,inquiry,False,franco generation unusable,0.152
+7lm7 k2lm3 b3n 3l5r3 m3m3r ?,inquiry,franco,False,inquiry,False,franco generation unusable,0.166
+3lm7 k2lm3 b3n 2y5t 3l5r3 3t7lm ?,inquiry,franco,False,inquiry,False,franco generation unusable,0.156
+3lm7 k2lm3 b3n 7lm7 l3lm7 k2lm3 b3n k5lm3 ?,inquiry,franco,False,inquiry,False,franco generation unusable,0.107
+2y5t 3lm 7lm7 b3n 7lm7 k2lm3 7lm k5lm3 ?,inquiry,franco,False,inquiry,False,franco generation unusable,0.129
+7lm7 k2lm3 b3n 2y5t 7lm7 2sh k2lm3 2y5t ?,inquiry,franco,False,inquiry,False,franco generation unusable,0.114
+3lm7 k2lm3 b3n 2y5t 3lm 5l7dm 2sh 3lm7 ?,inquiry,franco,False,inquiry,False,franco generation unusable,0.139
+2y5t 3lm 7lm7 b3n 2y5t 3lm 7lm7 2sh 3lm7 ?,inquiry,franco,False,inquiry,False,franco generation unusable,0.119
+"Hey Orvana, can you tell me your opening hours on Fridays? I've been trying to figure it out but can't find it online.",inquiry,en,False,inquiry,True,,0.192
+"Orvana app, can you please update your coverage area? I live in 6th October City and can't find any stores nearby.",inquiry,en,False,inquiry,True,,0.213
+I ordered a new TV from your website but I'm not sure if your stores deliver to my area. Can you help?,inquiry,en,False,inquiry,True,,0.247
+When is the new iPhone model coming back in stock at your stores? I've been waiting for it for ages!,inquiry,en,False,inquiry,True,,0.318
+I want to know if you have Orvana Plus points at your stores in Maadi. I can't find anything on your website.,inquiry,en,False,inquiry,True,,0.235
+Can you please add my Orvana Plus points after I redeemed a coupon? I've been waiting for days now.,inquiry,en,False,loyalty_points,False,,0.34
+"Hi, I saw a promotion on your app for a 20% discount on headphones. Can you confirm if it's still valid?",inquiry,en,False,inquiry,True,,0.196
+I saw some new speakers you just put on sale. Can you tell me if they're available in any stores near me?,inquiry,en,False,inquiry,True,,0.232
+"I tried to order some gaming consoles online, but I'm not sure if they're available in stores. Can you check?",inquiry,en,False,inquiry,True,,0.241
+I saw your store in Nasr City has some new speakers. Can you confirm if they're in stock and available for delivery?,inquiry,en,False,inquiry,True,,0.245
+"Hey Orvana, can you tell me if your delivery is available in 6th of October? I couldn’t find it on your app.",inquiry,en,False,inquiry,True,,0.35
+"Hi there, do you deliver to Maadi? The app doesn’t show anything. Can someone confirm?",inquiry,en,False,inquiry,True,,0.213
+"Orvana, do you have that iPhone 13 in store? I checked the app, but it says no stock. When’s the next delivery?",inquiry,en,False,inquiry,True,,0.266
+"Hey, can you tell me what time your branch in Heliopolis opens? The app is acting up again.",inquiry,en,False,app_issue,False,,0.353
+"Orvana Plus members, do you know when the Samsung fridge I ordered will be restocked?",inquiry,en,False,inquiry,True,,0.237
+Can someone from Orvana tell me if your delivery services cover 10th of Ramadan Street? I couldn’t find it.,inquiry,en,False,inquiry,True,,0.195
+"Hey, do you guys deliver to Nasr City? I tried but the app is acting weird.",inquiry,en,False,app_issue,False,,0.244
+"Orvana, can you confirm your delivery hours for the branch in Zamalek? It’s not clear on the app.",inquiry,en,False,inquiry,True,,0.234
+"Hey there, can you confirm if your delivery is available in Shobra El-Kheima? The app is being a pain.",inquiry,en,False,inquiry,True,,0.289
+"Orvana, can someone tell me when the new line of air purifiers will be in stock? I’m interested.",inquiry,en,False,inquiry,True,,0.194
+أهلا بكم، متى ترجع المنتجات دي في محلكم؟,inquiry,mixed,False,inquiry,True,,0.198
+يا شباب، محل الأورvana شغال كمل؟,inquiry,mixed,False,inquiry,True,,0.158
+أنا عايز أعرف ال opening hours عندكم في الجيزة.,inquiry,mixed,False,inquiry,True,,0.249
+يا جماعة، متى توصل ال order اللي اشترته بس قبل أسبوع؟,inquiry,mixed,False,delivery_delay,False,,0.233
+ال app مش فاهمش، من عندكم حل؟,inquiry,mixed,False,app_issue,False,,0.193
+أهلا بكم، تغطية ال delivery عندنا في المعادي؟,inquiry,mixed,False,inquiry,True,,0.294
+أنا عايز أعرف أي فرع عندكم في شبين الكوم؟,inquiry,mixed,False,inquiry,True,,0.311
+يا فضله، كم من الوقت ترجع المنتج اللي طلبتة؟,inquiry,mixed,False,inquiry,True,,0.16
+أهلا بكم، متى ترجع ال order اللي اشتريتة بس قبل يومين؟,inquiry,mixed,False,delivery_delay,False,,0.179
+أنا عايز أعرف ال opening hours عندكم في المعادلة?,inquiry,mixed,False,inquiry,True,,0.243
+هلا بكم، متى يتوفر السامسونج الجديد؟,inquiry,mixed,False,inquiry,True,,0.248
+يا سلام، اللي في الشوب يفتح الساعة الجاية؟,inquiry,mixed,False,inquiry,True,,0.303
+أنا بحاجة لأيكونس نقل، أي مسافات؟,inquiry,mixed,False,inquiry,True,,0.092
+أريد نعرف عندكم في كورونا جار؟,inquiry,mixed,False,inquiry,True,,0.156
+ال توصيل اتأخر، تأكد من عندي؟,inquiry,mixed,False,delivery_delay,False,,0.148
+محتاج سكنر وايمينت، هل عندك تغطية بالجوار؟,inquiry,mixed,False,inquiry,True,,0.08
+متى يفتح التورنتو مول، احنا جوا النادي؟,inquiry,mixed,False,inquiry,True,,0.119
+أنا نزلت تطبيق أوورانا، شو خطوات التسجيل؟,inquiry,mixed,False,inquiry,True,,0.203
+أنا بسألك عن الساعات الافتتاحية لأمازون بوكس؟,inquiry,mixed,False,inquiry,True,,0.117
+أهلا وسهلا، متى يعود المنتج اللي اشتريته؟,inquiry,mixed,False,inquiry,True,,0.224
+بص بس بدي تعرف متى يرجع البيض بالجعبه يعني بالضبط,inquiry,voice,False,inquiry,True,,0.083
+أيوه شغلتكم تحت الحضارة افتكرت اللي جابوه من قبل يعني اللي بعده الديلفيري,inquiry,voice,False,wrong_item,False,,0.123
+بص بدي نعرف متى المفتوح يعني ساعات العمل,inquiry,voice,False,inquiry,True,,0.255
+بص شو الغازولين يعني الامكانية دي,inquiry,voice,False,inquiry,True,,0.074
+أيوه ايوه بدي أسأل عما الميزة الجديدة يعني اللي شوفتها في الفيديو,inquiry,voice,False,inquiry,True,,0.222
+بص بس بدي تعرف اين الكافيه يعني هل في فرع,inquiry,voice,False,inquiry,True,,0.202
+أيوه فعلا بدي نعرف اذا تاني بعت الشاي عشان نعرف اذا في الجوبه,inquiry,voice,False,inquiry,True,,0.107
+بص بدي اعرف اذا كان عندكم اجهزة منزلية يعني غسالة صح,inquiry,voice,False,inquiry,True,,0.154
+أيوه بدي نعرف اذا في خدمة التوصيل يعني الشحن,inquiry,voice,False,inquiry,True,,0.154
+بص بس بدي تعرف اذا كان عندكم منتج جديد يعني جهاز الكهرباء,inquiry,voice,False,inquiry,True,,0.241
+بص مش مهم متى المفتوح دا؟ يعني يوم الجمعة ايوه,inquiry,voice,False,inquiry,True,,0.265
+يا حكيم متى المنتج اللي طلبت ايوه يرجع؟ يعني متى يوصل؟,inquiry,voice,False,inquiry,True,,0.153
+صباح الخير يارب يكون في التوصيل يوم الاحد يعني بص,inquiry,voice,False,inquiry,True,,0.572
+مش فهمت متى المحطة تانية تفتح يعني يوم الجمعة؟,inquiry,voice,False,inquiry,True,,0.344
+بص متعرفش متى اعيد تفعيل Orvana Plus؟ يعني يارب يكون قريبا,inquiry,voice,False,loyalty_points,False,,0.22
+يا ربي متعرفش متى تفتح المحطة اللي في الجيزة يعني بص,inquiry,voice,False,inquiry,True,,0.126
+يا فندم متعرفش امتى يكون المنتج اللي اشترته؟ يعني يوم السبت,inquiry,voice,False,inquiry,True,,0.287
+بص متعرفش متى تفتح المحطة اللي في القاهرة الجديدة يعني بص,inquiry,voice,False,inquiry,True,,0.223
+يا هابس متعرفش متى تعيد تفعيل Orvana Plus؟ يعني يوم الأحد,inquiry,voice,False,loyalty_points,False,,0.227
+يا حكيم متعرفش متى تفتح المحطة الجديدة في الزمالك يعني بص,inquiry,voice,False,inquiry,True,,0.311
+هلا والله، محتاج فاوندر بالكشة جدا 🍀,inquiry,egy,True,inquiry,True,,0.099
+شكرا على الخدمة الجيدة اللي تقدموها، إيه الوضع في الجملة دي؟,inquiry,egy,True,inquiry,True,,0.288
+أهلا بنا في Orvana، نفسي أعرف إزاي يمكن أعمل توصيل خارج الجهة دي؟,inquiry,egy,True,inquiry,True,,0.268
+أنا بحاجة لصياغة الشوكلاته دي بتتقلص، كملوا الجروب!,inquiry,egy,True,product_quality,False,,0.091
+هاتولي نساجة صوف، مش نساجة صوفة بالعربي!,inquiry,egy,True,wrong_item,False,,0.096
+أنتوا عندي 100 نقطة Orvana Plus، متقدر أحولها بره؟,inquiry,egy,True,loyalty_points,False,,0.137
+أهلا بنا، دا هيستغاتي دي ولا إيه؟,inquiry,egy,True,inquiry,True,,0.095
+أنا حابب أعرف أعمل إيه لو حصلت لي مشكلة بالخدمة؟,inquiry,egy,True,inquiry,True,,0.16
+أهلا بنا، هديتي لكواحد عيد ميلادي، احنا في أي مكان؟,inquiry,egy,True,inquiry,True,,0.102
+أهلا بنا، أنتوا شو اللي حيصل في سوبر ماركت بني سويف؟,inquiry,egy,True,inquiry,True,,0.358
+يا سلام عليكم في Orvana، المنتجات كلها طيبة؟ 😊,inquiry,egy,True,inquiry,True,,0.384
+أهلا بكم في Orvana، بجد أنتو بس ما فهمت الطلب؟ 😂,inquiry,egy,True,inquiry,True,,0.198
+مشكووووووووووووووووووووووووووووور 😍,inquiry,egy,True,inquiry,False,too short,0.004
+أنا حابب أعرف عندكم متى فتح السوق الجديد؟,inquiry,egy,True,inquiry,True,,0.162
+أنا ناوي أعمل طلب مشويات، متعرفش أين التعبئة؟,inquiry,egy,True,inquiry,True,,0.094
+أنا عايز أعرف عندكم أكتر من كده؟ 🤔,inquiry,egy,True,inquiry,True,,0.28
+أهلا وسهلا في Orvana، شنو الخطة الجديدة؟ 😎,inquiry,egy,True,inquiry,True,,0.191
+أنا هعمل طلب في Orvana، محتاج عربة تسوق 😂,inquiry,egy,True,inquiry,True,,0.096
+أنا فهمت شنو يعني خدمة Orvana Plus؟,inquiry,egy,True,inquiry,True,,0.335
+أهلا في Orvana، نايم حاليا غير متاح للرد 😴,inquiry,egy,True,inquiry,True,,0.105
+"Hey Orvana, just checking in! Love the service, keep it up!",inquiry,en,True,inquiry,True,,0.187
+Thanks Orvana! You guys rock for delivering so fast and on time. Gotta love that!,inquiry,en,True,delivery_delay,False,,0.234
+"Hey Orvana, just wanted to say thanks for the great delivery. I love your service!",inquiry,en,True,inquiry,True,,0.283
+Just heard you opened a new store in Giza! Congrats and can't wait to check it out!,inquiry,en,True,inquiry,True,,0.197
+"Orvana, I've been meaning to ask, do you have any jobs available for delivery guys?",inquiry,en,True,inquiry,True,,0.255
+Anyone know if Orvana has a store in 6th October area? Been trying to find one there.,inquiry,en,True,inquiry,True,,0.277
+"Orvana, do you ever do discounts on weekends? I saw something cool but not sure when you run those deals.",inquiry,en,True,inquiry,True,,0.199
+Just tried the new Orvana Plus app and it's pretty sweet. Can't wait to see what else you have in store!,inquiry,en,True,inquiry,True,,0.214
+"Hey there Orvana, hope you're doing well! Got any upcoming events or sales I should know about?",inquiry,en,True,inquiry,True,,0.276
+"Orvana, your delivery is always so fast! I just wanted to say a big thank you!",inquiry,en,True,delivery_delay,False,,0.325
+"Hey Orvana, hope you're doing well! Just wanted to say thanks for the quick delivery last week. See you soon!",inquiry,en,True,delivery_delay,False,,0.372
+"Hi there! Love your store, especially the electronics section. Keep up the good work!",inquiry,en,True,inquiry,True,,0.153
+Hey Orvana! Can you help me find a place near Al-Azhar for a new laptop? I heard you have a good one here.,inquiry,en,True,inquiry,True,,0.184
+Hi! Got a job for you. My friend is looking for a new fridge. Could you let me know when you get the new models?,inquiry,en,True,inquiry,True,,0.216
+"Hey Orvana, just curious—do you deliver to Helwan now? I saw something there that I really need.",inquiry,en,True,inquiry,True,,0.19
+"Orvana, thanks a ton for the great service! Can't wait to come back. Take care!",inquiry,en,True,inquiry,True,,0.217
+"Just wanted to say I had a great experience at your store. Keep it up, Orvana!",inquiry,en,True,inquiry,True,,0.201
+Hey! I heard Orvana has a loyalty programme? Can you tell me more about it? It sounds interesting!,inquiry,en,True,inquiry,True,,0.177
+"Orvana, I just bought a new TV and I'm excited to set it up. Thanks again for the speedy delivery!",inquiry,en,True,inquiry,True,,0.227
+Hi! Just wanted to say thanks for all the great deals and products. Can't wait for the next sale!,inquiry,en,True,inquiry,True,,0.232
+3la bda3i 3la khali7 lsho2o7? l3ml7 l5ala7? ملوحا للسلام كيف أنت؟ هل هى جيدة؟,inquiry,franco,True,inquiry,False,franco generation unusable,0.124
+7a7t3 l3nna7 5a2t3 khairy l5ala7؟ أشكرك على الخصم الليلة هل هى جيدة؟,inquiry,franco,True,price_complaint,False,franco generation unusable,0.114
+3ml 5adwe7 n7ml3 5ala7؟ هل أستطيع العمل معكم في متجركم؟,inquiry,franco,True,inquiry,False,franco generation unusable,0.185
+"3la7 l3la 2la7, 3la3la l5ala7؟ في البداية، كيف حالك؟ كيف حالك؟",inquiry,franco,True,inquiry,False,franco generation unusable,0.078
+2l7 l5ala7 3l9t3 5a2t3? هل يمكنني معرفة وقت فتح المتجر؟,inquiry,franco,True,inquiry,False,franco generation unusable,0.091
+"2ml7 5ala7, 3la3la l5ala7؟ في البداية، كيف حالك؟ كيف حالك؟",inquiry,franco,True,inquiry,False,franco generation unusable,0.056
+5a2t3 2la7 n7ml3 l5ala7؟ هل هناك خصم في المنتج الذي سأشتريه الليلة؟,inquiry,franco,True,inquiry,False,franco generation unusable,0.102
+"3la3la l5ala7, 3la bda3i 3la khali7 lsho2o7؟ كيف حالك؟ في البداية، كيف أنت؟",inquiry,franco,True,inquiry,False,franco generation unusable,0.095
+"3la7 2la7, 3la3la l5ala7؟ في البداية، كيف حالك؟ كيف حالك؟",inquiry,franco,True,inquiry,False,franco generation unusable,0.064
+"2ml7 5ala7, 2ml 2la7 n7ml3 l5ala7؟ في البداية، كيف حالك؟ هل يمكنني معرفة وقت فتح المتجر؟",inquiry,franco,True,inquiry,False,franco generation unusable,0.075
+3l7met k3n b7n2r3t! مرحبا بك دائما!,inquiry,franco,True,inquiry,False,franco generation unusable,0.023
+Shkran k3n y5t5r3m! شكران كن يعطيهم!,inquiry,franco,True,inquiry,False,franco generation unusable,0.1
+5shk3l m5lka b7n5l7? بس كملة بنتلها?,inquiry,franco,True,inquiry,False,franco generation unusable,0.032
+5shk3l y5l7t 2l7y3n? بس كملة يلتى بنين؟,inquiry,franco,True,inquiry,False,franco generation unusable,0.056
+3lm k5n y3lm3t3n 5shk3l y5l7t 2l7y3n? اعلم كن يلمتن شكران كملة بنين؟,inquiry,franco,True,inquiry,False,franco generation unusable,0.096
+K5n 2l7y3n l3ml7 2l7y3n كن بنين املنت بنين,inquiry,franco,True,inquiry,False,franco generation unusable,0.049
+Sh3kln l7r7t7 b7n3l7 رحbi في نبأ بنين,inquiry,franco,True,staff_behavior,False,franco generation unusable,0.035
+5shk3l 7l7t7 k3n y5t5r3m؟ بس كملة يلتى يعطيهم؟,inquiry,franco,True,inquiry,False,franco generation unusable,0.031
+33ml7 3ml7 23ntn؟ اهلا وسهلا بك دائما,inquiry,franco,True,inquiry,False,franco generation unusable,0.035
+K5n b7n5l7 b3shkln 5shk3l 7r7t7 كن بنين رحbi في نبأ بنين,inquiry,franco,True,inquiry,False,franco generation unusable,0.047

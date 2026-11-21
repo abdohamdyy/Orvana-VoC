@@ -1,0 +1,21 @@
+{
+  "_note": "DEMO DATA. Fictional orders for the chatbot demo and tests only. In production, DemoOrderService is replaced by the real order-management system behind the same OrderService interface.",
+  "today": "2026-07-15",
+  "orders": [
+    {"order_id": "ORV-10001", "customer_id": "DEMO-1", "governorate": "Cairo",      "promised": "2026-07-13", "delivered": null,         "status": "out_for_delivery", "payment": "card",   "total_egp": 640,  "items": ["Tornado blender"]},
+    {"order_id": "ORV-10002", "customer_id": "DEMO-1", "governorate": "Alexandria", "promised": "2026-07-10", "delivered": null,         "status": "out_for_delivery", "payment": "wallet", "total_egp": 210,  "items": ["Juhayna milk"]},
+    {"order_id": "ORV-10003", "customer_id": "DEMO-1", "governorate": "Giza",       "promised": "2026-07-06", "delivered": null,         "status": "processing",       "payment": "card",   "total_egp": 1890, "items": ["VoltX earbuds"]},
+    {"order_id": "ORV-10004", "customer_id": "DEMO-1", "governorate": "Cairo",      "promised": "2026-07-12", "delivered": "2026-07-12", "status": "delivered",        "payment": "cod",    "total_egp": 95,   "items": ["Edita Molto"]},
+    {"order_id": "ORV-10005", "customer_id": "DEMO-2", "governorate": "Dakahlia",   "promised": "2026-07-08", "delivered": "2026-07-13", "status": "delivered",        "payment": "card",   "total_egp": 430,  "items": ["VoltX charger"]},
+    {"order_id": "ORV-10006", "customer_id": "DEMO-2", "governorate": "Cairo",      "promised": "2026-07-05", "delivered": null,         "status": "out_for_delivery", "payment": "card",   "total_egp": 300,  "items": ["Juhayna milk"], "voucher_issued": true},
+    {"order_id": "ORV-10007", "customer_id": "DEMO-2", "governorate": "Cairo",      "promised": "2026-07-09", "delivered": "2026-07-09", "status": "returned",         "payment": "card",   "total_egp": 520,  "items": ["Tornado blender"]},
+    {"order_id": "ORV-10008", "customer_id": "DEMO-2", "governorate": "Giza",       "promised": "2026-07-09", "delivered": "2026-07-09", "status": "returned",         "payment": "wallet", "total_egp": 180,  "items": ["Edita Molto"]},
+    {"order_id": "ORV-10009", "customer_id": "DEMO-3", "governorate": "Qalyubia",   "promised": "2026-07-10", "delivered": "2026-07-10", "status": "returned",         "payment": "cod",    "total_egp": 260,  "items": ["Juhayna milk"]},
+    {"order_id": "ORV-10010", "customer_id": "DEMO-3", "governorate": "Cairo",      "promised": "2026-07-11", "delivered": "2026-07-11", "status": "delivered",        "payment": "card",   "total_egp": 1950, "items": ["VoltX earbuds"], "double_charged": true},
+    {"order_id": "ORV-10011", "customer_id": "DEMO-3", "governorate": "Cairo",      "promised": "2026-07-12", "delivered": null,         "status": "out_for_delivery", "payment": "card",   "total_egp": 150,  "items": ["Juhayna milk"]},
+    {"order_id": "ORV-10012", "customer_id": "DEMO-3", "governorate": "Aswan",      "promised": "2026-07-08", "delivered": null,         "status": "out_for_delivery", "payment": "wallet", "total_egp": 720,  "items": ["Tornado blender"]},
+    {"order_id": "ORV-10013", "customer_id": "DEMO-1", "governorate": "Minya",      "promised": "2026-07-07", "delivered": null,         "status": "out_for_delivery", "payment": "cod",    "total_egp": 330,  "items": ["VoltX charger"]},
+    {"order_id": "ORV-10014", "customer_id": "DEMO-2", "governorate": "Cairo",      "promised": "2026-07-16", "delivered": null,         "status": "processing",       "payment": "card",   "total_egp": 115,  "items": ["Edita Molto"]},
+    {"order_id": "ORV-10015", "customer_id": "DEMO-3", "governorate": "Giza",       "promised": "2026-07-13", "delivered": "2026-07-13", "status": "delivered",        "payment": "card",   "total_egp": 480,  "items": ["Tornado blender"]}
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "backend": "cascade(finetuned:intfloat/multilingual-e5-small-int8 -> ollama:qwen3:4b@359d7dd4bcda:v3 if conf<0.0 or disagree)",
+  "tickets": 150,
+  "total_s": 0.97,
+  "per_ticket_ms": 6.5
+}

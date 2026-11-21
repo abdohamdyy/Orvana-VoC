@@ -1,0 +1,48 @@
+ticket_id,message_text,category,secondary_category,product_mentioned,store_mentioned,sentiment,urgency
+CH001,الطلبية بتاعتي لسه مجتش بقالها 6 أيام ومحدش بيرد على التليفون,delivery_delay,,,,negative,2
+CH002,يا جماعة الشحنة اتأخرت جدا والمفروض كانت توصل يوم الخميس,delivery_delay,,,,negative,2
+CH003,my package was supposed to arrive on Sunday and it's Wednesday now,delivery_delay,,,,negative,2
+CH004,el shohna lsa mawsletsh w el app bey2ool delivered,delivery_delay,,,,negative,2
+CH005,برافو عليكم، الأوردر وصل بعد 10 أيام بس 👏,delivery_delay,,,,negative,2
+CH006,فتحت الكرتونة لقيت شامبو دوف بدل الزيت اللي طلبته,wrong_item,,Dove,,negative,2
+CH007,"the delivery had 3 items instead of 5, but I paid for all of them",wrong_item,,,,negative,2
+CH008,gali size ghalat fel order kollo,wrong_item,,,,negative,2
+CH009,طلبت تلاجة كريازي بيضا وجتلي فضي,wrong_item,,Kiriazi,,negative,2
+CH010,I received someone else's order with a different name on it,wrong_item,,,,negative,2
+CH011,لسه مستني فلوس المرتجع من 3 أسابيع,refund_request,,,,negative,2
+CH012,the refund for my returned Samsung phone still hasn't reached my card,refund_request,,Samsung,,negative,2
+CH013,el felous bta3et el order el melghy lessa marga3etsh,refund_request,,,,negative,2
+CH014,اتخصم مني 3000 جنيه مرتين على نفس الطلب عايز فلوسي,refund_request,,,,negative,3
+CH015,"I was charged twice for 200 EGP, please refund",refund_request,,,,negative,2
+CH016,المكواة فريش بتطلع شرار وريحتها محروقة,product_quality,,Fresh,,negative,3
+CH017,لبن جهينة طعمه بايظ ومنتهي الصلاحية من امبارح,product_quality,,Juhayna,,negative,3
+CH018,the Xiaomi power bank is swollen and gets really hot while charging,product_quality,,Xiaomi,,negative,3
+CH019,khalat Tornado el motor bta3o wa2ef,product_quality,,Tornado,,negative,2
+CH020,Dove shampoo bottle arrived leaking,product_quality,,Dove,,negative,2
+CH021,الكاشير حاسبني على السعر القديم مع إن العرض شغال,price_complaint,,,,negative,2
+CH022,سعر برسيل في الفرع أغلى من الأبلكيشن ب 50 جنيه,price_complaint,,Persil,,negative,2
+CH023,the price tag said 120 but I paid 150 at Smouha branch,price_complaint,,,ALX-01,negative,2
+CH024,el as3ar f far3 Mokattam a3la men ay makan,price_complaint,,,CAI-09,negative,2
+CH025,why did the Molto price double in two weeks?,price_complaint,,Edita,,negative,2
+CH026,الأبلكيشن مش بيفتح خالص بعد التحديث,app_issue,,,,negative,2
+CH027,"can't add items to the cart in the app, it keeps showing an error",app_issue,,,,negative,2
+CH028,el OTP mesh bywsal 3ashan a3mel login,app_issue,,,,negative,2
+CH029,الدفع بالفيزا في الأبلكيشن بيفشل كل مرة,app_issue,,,,negative,2
+CH030,the app logged me out and deleted my saved addresses,app_issue,,,,negative,2
+CH031,موظف الأمن في فرع الزمالك اتكلم معايا بقلة أدب,staff_behavior,,,CAI-06,negative,2
+CH032,the delivery guy was rude and threw the bag at the door,staff_behavior,,,,negative,2
+CH033,el kashier f far3 Tanta kan bytkalem fel mobile w sabni mestani,staff_behavior,,,DLT-01,negative,2
+CH034,مدير الفرع رفض يسمع الشكوى بتاعتي,staff_behavior,,,,negative,2
+CH035,staff at the Maadi branch laughed at me when I asked for help,staff_behavior,,,CAI-02,negative,2
+CH036,نقاط أورفانا بلس مش ظاهرة في الحساب من أسبوع,loyalty_points,,,,negative,2
+CH037,"I can't use my points at checkout, it says insufficient balance",loyalty_points,,,,negative,2
+CH038,el points bta3et el shahr elly fat mat7asbetsh,loyalty_points,,,,negative,2
+CH039,"my Orvana Plus points expired early, they should last 12 months",loyalty_points,,,,negative,2
+CH040,اشتريت ب 2000 جنيه ومفيش ولا نقطة اتضافت دي تالت مرة أشتكي,loyalty_points,,,,negative,3
+CH041,هل فيه فرع مفتوح 24 ساعة في المعادي؟,inquiry,,,CAI-02,neutral,1
+CH042,do you sell Samsung phones with installments?,inquiry,,Samsung,,neutral,1
+CH043,emta el offers bta3et el Black Friday hatebda2?,inquiry,,,,neutral,1
+CH044,ممكن أعرف رقم خدمة العملاء لفرع طنطا؟,inquiry,,,DLT-01,neutral,1
+CH045,is the Kiriazi fridge available in the October branch?,inquiry,,Kiriazi,GIZ-05,neutral,1
+CH046,الأوردر اتأخر 5 أيام وكمان لما وصل كان ناقص حاجة,delivery_delay,wrong_item,,,negative,2
+CH047,the app keeps crashing and also my points are gone,app_issue,loyalty_points,,,negative,2

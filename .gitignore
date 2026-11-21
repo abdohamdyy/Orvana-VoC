@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+state/
+*.db
+outputs/logs/*.log
+.ipynb_checkpoints/
+.venv-train/
+# models: only the production model and the baseline are versioned; the 118 MB ONNX is stored with Git LFS
+# (.gitattributes). The other experiment folders can be rebuilt with Stage 3.
+models/*
+!models/tfidf.joblib
+!models/stage3/
+outputs/mailbox/*.eml.tmp
+
+# the demo video is shared through Google Drive (link in README), not stored in the repo (286 MB)
+*.mp4
+*.mov
+*.mkv
+
+# web UI: dependencies are installed locally; the built UI (web/dist) IS committed so no Node is needed to run
+web/node_modules/

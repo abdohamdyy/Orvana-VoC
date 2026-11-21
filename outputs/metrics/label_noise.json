@@ -1,0 +1,22 @@
+{
+  "rows_after_leak_removal": 8756,
+  "gold_ids_removed": 150,
+  "gold_text_rows_removed": 94,
+  "segments": 9913,
+  "distinct_cores": 534,
+  "reliable_cores": 98,
+  "segments_with_clean_label": 0.9954605064057298,
+  "staff_label_noise_estimate": 0.15283220520128252,
+  "label_distribution_clean": {
+    "delivery_delay": 1915,
+    "product_quality": 1470,
+    "refund_request": 1156,
+    "price_complaint": 1040,
+    "app_issue": 971,
+    "wrong_item": 960,
+    "loyalty_points": 952,
+    "staff_behavior": 714,
+    "inquiry": 690
+  },
+  "dev_messages": 1021
+}

@@ -1,0 +1,710 @@
+{
+ "backend": "finetuned:intfloat/multilingual-e5-small-int8",
+ "split": "dev",
+ "ms_per_ticket": 2.6,
+ "base": {
+  "n": 161,
+  "category_macro_f1": 0.8355,
+  "category_accuracy": 0.8447,
+  "secondary_category_accuracy": 0.9752,
+  "product_exact_match": 1.0,
+  "store_exact_match": 1.0,
+  "sentiment_accuracy": 0.9752,
+  "urgency_accuracy": 0.9689,
+  "overall": 0.9243,
+  "overall_ci95": [
+   0.8944109509511171,
+   0.9493583963789657
+  ],
+  "by_lang": [
+   {
+    "lang": "franco",
+    "n": 27,
+    "overall": 0.818,
+    "category_acc": 0.593,
+    "category_acc_ci95": [
+     0.407,
+     0.755
+    ],
+    "urgency_acc": 1.0,
+    "entities_acc": 1.0
+   },
+   {
+    "lang": "en",
+    "n": 40,
+    "overall": 0.918,
+    "category_acc": 0.875,
+    "category_acc_ci95": [
+     0.739,
+     0.945
+    ],
+    "urgency_acc": 0.95,
+    "entities_acc": 1.0
+   },
+   {
+    "lang": "voice",
+    "n": 9,
+    "overall": 0.924,
+    "category_acc": 0.889,
+    "category_acc_ci95": [
+     0.565,
+     0.98
+    ],
+    "urgency_acc": 1.0,
+    "entities_acc": 1.0
+   },
+   {
+    "lang": "egy",
+    "n": 53,
+    "overall": 0.925,
+    "category_acc": 0.849,
+    "category_acc_ci95": [
+     0.729,
+     0.921
+    ],
+    "urgency_acc": 0.943,
+    "entities_acc": 1.0
+   },
+   {
+    "lang": "mixed",
+    "n": 13,
+    "overall": 1.0,
+    "category_acc": 1.0,
+    "category_acc_ci95": [
+     0.772,
+     1.0
+    ],
+    "urgency_acc": 1.0,
+    "entities_acc": 1.0
+   },
+   {
+    "lang": "msa",
+    "n": 19,
+    "overall": 1.0,
+    "category_acc": 1.0,
+    "category_acc_ci95": [
+     0.832,
+     1.0
+    ],
+    "urgency_acc": 1.0,
+    "entities_acc": 1.0
+   }
+  ],
+  "by_phenomenon": [
+   {
+    "phenomenon": "out_of_scope",
+    "n": 5,
+    "overall": 0.728,
+    "category_acc": 0.8,
+    "category_acc_ci95": [
+     0.376,
+     0.964
+    ],
+    "urgency_acc": 0.8,
+    "entities_acc": 1.0
+   },
+   {
+    "phenomenon": "style_noise",
+    "n": 6,
+    "overall": 0.778,
+    "category_acc": 0.667,
+    "category_acc_ci95": [
+     0.3,
+     0.903
+    ],
+    "urgency_acc": 0.667,
+    "entities_acc": 1.0
+   },
+   {
+    "phenomenon": "entities",
+    "n": 20,
+    "overall": 0.81,
+    "category_acc": 0.85,
+    "category_acc_ci95": [
+     0.64,
+     0.948
+    ],
+    "urgency_acc": 1.0,
+    "entities_acc": 1.0
+   },
+   {
+    "phenomenon": "multi_issue",
+    "n": 17,
+    "overall": 0.824,
+    "category_acc": 0.765,
+    "category_acc_ci95": [
+     0.527,
+     0.904
+    ],
+    "urgency_acc": 0.941,
+    "entities_acc": 1.0
+   },
+   {
+    "phenomenon": "paraphrase",
+    "n": 94,
+    "overall": 0.932,
+    "category_acc": 0.84,
+    "category_acc_ci95": [
+     0.753,
+     0.901
+    ],
+    "urgency_acc": 0.989,
+    "entities_acc": 1.0
+   },
+   {
+    "phenomenon": "incident",
+    "n": 2,
+    "overall": 1.0,
+    "category_acc": 1.0,
+    "category_acc_ci95": [
+     0.342,
+     1.0
+    ],
+    "urgency_acc": 1.0,
+    "entities_acc": 1.0
+   },
+   {
+    "phenomenon": "sentiment_edge",
+    "n": 3,
+    "overall": 1.0,
+    "category_acc": 1.0,
+    "category_acc_ci95": [
+     0.438,
+     1.0
+    ],
+    "urgency_acc": 1.0,
+    "entities_acc": 1.0
+   },
+   {
+    "phenomenon": "urgency_edge",
+    "n": 14,
+    "overall": 1.0,
+    "category_acc": 1.0,
+    "category_acc_ci95": [
+     0.785,
+     1.0
+    ],
+    "urgency_acc": 1.0,
+    "entities_acc": 1.0
+   }
+  ],
+  "ambiguous_lenient_category_acc": 0.692,
+  "errors": [
+   {
+    "id": "S0001",
+    "text": "الطلب كان المفروض يوصل الحد وإحنا النهارده الخميس",
+    "category": [
+     "delivery_delay",
+     "price_complaint"
+    ]
+   },
+   {
+    "id": "S0003",
+    "text": "el order bta3y lesa mawsalsh mn yom el sabt",
+    "category": [
+     "delivery_delay",
+     "wrong_item"
+    ]
+   },
+   {
+    "id": "S0008",
+    "text": "Where is my order? It said out for delivery yesterday",
+    "category": [
+     "delivery_delay",
+     "inquiry"
+    ],
+    "sentiment": [
+     "negative",
+     "neutral"
+    ],
+    "urgency": [
+     "2",
+     1
+    ]
+   },
+   {
+    "id": "S0020",
+    "text": "3ayez arga3 felousy 3ala el order elly et3amalo cancel",
+    "category": [
+     "refund_request",
+     "wrong_item"
+    ]
+   },
+   {
+    "id": "S0038",
+    "text": "The buy-one-get-one offer wasn't applied at the cashier",
+    "category": [
+     "price_complaint",
+     "staff_behavior"
+    ]
+   },
+   {
+    "id": "S0056",
+    "text": "الراجل اللي على الباب اتريق عليا قدام الناس",
+    "category": [
+     "staff_behavior",
+     "product_quality"
+    ]
+   },
+   {
+    "id": "S0079",
+    "text": "بالإضافة لتأخير الطلب، الموظف اتكلم معايا بطريقة وحشة",
+    "category": [
+     "delivery_delay",
+     "staff_behavior"
+    ],
+    "secondary_category": [
+     "staff_behavior",
+     ""
+    ]
+   },
+   {
+    "id": "S0080",
+    "text": "التلاجة باظت بعد يومين. والأسعار كمان غليت",
+    "secondary_category": [
+     "price_complaint",
+     ""
+    ]
+   },
+   {
+    "id": "S0081",
+    "text": "الطلب ما وصلش\nوالفلوس اتخصمت مرتين 1500 جنيه",
+    "category": [
+     "delivery_delay",
+     "wrong_item"
+    ]
+   },
+   {
+    "id": "S0083",
+    "text": "طلبت شامبو دوف جالي برسيل وكمان المندوب كان بيزعق",
+    "category": [
+     "wrong_item",
+     "inquiry"
+    ],
+    "secondary_category": [
+     "staff_behavior",
+     "product_quality"
+    ],
+    "sentiment": [
+     "negative",
+     "neutral"
+    ],
+    "urgency": [
+     "2",
+     1
+    ]
+   },
+   {
+    "id": "S0092",
+    "text": "el refund mesh rage3 w el app kaman wa2ef",
+    "category": [
+     "refund_request",
+     "app_issue"
+    ],
+    "secondary_category": [
+     "app_issue",
+     ""
+    ]
+   },
+   {
+    "id": "S0095",
+    "text": "f far3 el Maadi el se3r mesh mazboot",
+    "category": [
+     "price_complaint",
+     "staff_behavior"
+    ]
+   },
+   {
+    "id": "S0113",
+    "text": "the iPhone charger I bought stopped working",
+    "category": [
+     "product_quality",
+     "app_issue"
+    ]
+   },
+   {
+    "id": "S0114",
+    "text": "طلبت مكواة فريش وموبايل سامسونج والمكواة ما وصلتش",
+    "category": [
+     "delivery_delay",
+     "wrong_item"
+    ]
+   },
+   {
+    "id": "S0144",
+    "text": "test test",
+    "category": [
+     "inquiry",
+     "wrong_item"
+    ],
+    "sentiment": [
+     "neutral",
+     "negative"
+    ],
+    "urgency": [
+     "1",
+     2
+    ]
+   },
+   {
+    "id": "S0154",
+    "text": "الطلب فين",
+    "category": [
+     "delivery_delay",
+     "inquiry"
+    ],
+    "sentiment": [
+     "negative",
+     "neutral"
+    ],
+    "urgency": [
+     "2",
+     1
+    ]
+   },
+   {
+    "id": "S0157",
+    "text": "انا عميل من 10 سنين وكنت بحب الخدمة جدا وبشتري كل حاجة منكم بس للأسف المرة دي زيت Orvana S",
+    "category": [
+     "product_quality",
+     "delivery_delay"
+    ],
+    "urgency": [
+     "3",
+     2
+    ]
+   },
+   {
+    "id": "S0205",
+    "text": "gali el talaga Kiriazi maksoura",
+    "category": [
+     "product_quality",
+     "staff_behavior"
+    ]
+   },
+   {
+    "id": "S0208",
+    "text": "3ayez felousy, el order etlagha mn 10 ayam",
+    "category": [
+     "refund_request",
+     "delivery_delay"
+    ]
+   },
+   {
+    "id": "S0217",
+    "text": "el se3r fel app gher el se3r fel far3",
+    "category": [
+     "price_complaint",
+     "app_issue"
+    ]
+   },
+   {
+    "id": "S0243",
+    "text": "el shohna lsa mawsletsh w el app bey2ool delivered",
+    "category": [
+     "delivery_delay",
+     "app_issue"
+    ]
+   },
+   {
+    "id": "S0245",
+    "text": "فتحت الكرتونة لقيت شامبو دوف بدل الزيت اللي طلبته",
+    "category": [
+     "wrong_item",
+     "product_quality"
+    ]
+   },
+   {
+    "id": "S0247",
+    "text": "gali size ghalat fel order kollo",
+    "category": [
+     "wrong_item",
+     "price_complaint"
+    ]
+   },
+   {
+    "id": "S0252",
+    "text": "el felous bta3et el order el melghy lessa marga3etsh",
+    "category": [
+     "refund_request",
+     "wrong_item"
+    ]
+   },
+   {
+    "id": "S0263",
+    "text": "el as3ar f far3 Mokattam a3la men ay makan",
+    "category": [
+     "price_complaint",
+     "staff_behavior"
+    ]
+   },
+   {
+    "id": "S0266",
+    "text": "can't add items to the cart in the app, it keeps showing an error",
+    "category": [
+     "app_issue",
+     "wrong_item"
+    ]
+   }
+  ]
+ },
+ "perturb": [
+  {
+   "perturbation": "padding",
+   "n": 161,
+   "overall": 0.866,
+   "category_acc": 0.696,
+   "invariance": 0.708
+  },
+  {
+   "perturbation": "no_punct",
+   "n": 44,
+   "overall": 0.837,
+   "category_acc": 0.75,
+   "invariance": 0.864
+  },
+  {
+   "perturbation": "pii_suffix",
+   "n": 161,
+   "overall": 0.901,
+   "category_acc": 0.795,
+   "invariance": 0.87
+  },
+  {
+   "perturbation": "arabic_digits",
+   "n": 44,
+   "overall": 0.848,
+   "category_acc": 0.682,
+   "invariance": 0.886
+  },
+  {
+   "perturbation": "typo_double",
+   "n": 161,
+   "overall": 0.912,
+   "category_acc": 0.814,
+   "invariance": 0.901
+  },
+  {
+   "perturbation": "html_wrap",
+   "n": 161,
+   "overall": 0.916,
+   "category_acc": 0.82,
+   "invariance": 0.913
+  },
+  {
+   "perturbation": "typo_drop",
+   "n": 161,
+   "overall": 0.914,
+   "category_acc": 0.839,
+   "invariance": 0.919
+  },
+  {
+   "perturbation": "elongate",
+   "n": 161,
+   "overall": 0.913,
+   "category_acc": 0.82,
+   "invariance": 0.925
+  },
+  {
+   "perturbation": "emoji_punct",
+   "n": 161,
+   "overall": 0.916,
+   "category_acc": 0.826,
+   "invariance": 0.925
+  },
+  {
+   "perturbation": "upper_latin",
+   "n": 83,
+   "overall": 0.9,
+   "category_acc": 0.795,
+   "invariance": 0.94
+  },
+  {
+   "perturbation": "glue_words",
+   "n": 159,
+   "overall": 0.921,
+   "category_acc": 0.849,
+   "invariance": 0.956
+  },
+  {
+   "perturbation": "injection_suffix",
+   "n": 161,
+   "overall": 0.929,
+   "category_acc": 0.857,
+   "invariance": 0.957
+  },
+  {
+   "perturbation": "tashkeel",
+   "n": 94,
+   "overall": 0.956,
+   "category_acc": 0.904,
+   "invariance": 0.957
+  },
+  {
+   "perturbation": "bidi_marks",
+   "n": 161,
+   "overall": 0.92,
+   "category_acc": 0.839,
+   "invariance": 0.969
+  },
+  {
+   "perturbation": "zero_width",
+   "n": 159,
+   "overall": 0.926,
+   "category_acc": 0.843,
+   "invariance": 0.975
+  },
+  {
+   "perturbation": "tatweel",
+   "n": 89,
+   "overall": 0.962,
+   "category_acc": 0.921,
+   "invariance": 0.978
+  }
+ ],
+ "security": {
+  "n": 59,
+  "label_unaffected_rate": 0.932,
+  "flag_rate_on_attacks": 0.881,
+  "html_escaped": true,
+  "by_type": [
+   {
+    "attack_type": "authority",
+    "n": 2,
+    "unaffected": 1.0,
+    "flagged": 1.0
+   },
+   {
+    "attack_type": "chat_template",
+    "n": 5,
+    "unaffected": 1.0,
+    "flagged": 1.0
+   },
+   {
+    "attack_type": "delimiter",
+    "n": 2,
+    "unaffected": 1.0,
+    "flagged": 1.0
+   },
+   {
+    "attack_type": "direct_ar",
+    "n": 3,
+    "unaffected": 1.0,
+    "flagged": 1.0
+   },
+   {
+    "attack_type": "direct_en",
+    "n": 5,
+    "unaffected": 1.0,
+    "flagged": 1.0
+   },
+   {
+    "attack_type": "direct_franco",
+    "n": 2,
+    "unaffected": 1.0,
+    "flagged": 1.0
+   },
+   {
+    "attack_type": "exfiltration",
+    "n": 5,
+    "unaffected": 1.0,
+    "flagged": 1.0
+   },
+   {
+    "attack_type": "indirect_ar",
+    "n": 3,
+    "unaffected": 1.0,
+    "flagged": 1.0
+   },
+   {
+    "attack_type": "indirect_franco",
+    "n": 2,
+    "unaffected": 1.0,
+    "flagged": 1.0
+   },
+   {
+    "attack_type": "indirect_polite",
+    "n": 3,
+    "unaffected": 1.0,
+    "flagged": 1.0
+   },
+   {
+    "attack_type": "long",
+    "n": 1,
+    "unaffected": 1.0,
+    "flagged": 0.0
+   },
+   {
+    "attack_type": "obfuscated",
+    "n": 9,
+    "unaffected": 1.0,
+    "flagged": 1.0
+   },
+   {
+    "attack_type": "pii",
+    "n": 2,
+    "unaffected": 1.0,
+    "flagged": 0.0
+   },
+   {
+    "attack_type": "reply_attack",
+    "n": 5,
+    "unaffected": 0.6,
+    "flagged": 1.0
+   },
+   {
+    "attack_type": "roleplay",
+    "n": 3,
+    "unaffected": 0.667,
+    "flagged": 1.0
+   },
+   {
+    "attack_type": "summary_attack",
+    "n": 3,
+    "unaffected": 0.667,
+    "flagged": 1.0
+   },
+   {
+    "attack_type": "web",
+    "n": 4,
+    "unaffected": 1.0,
+    "flagged": 0.0
+   }
+  ],
+  "failures": [
+   {
+    "ticket_id": "X0009",
+    "attack_type": "roleplay",
+    "position": "pure",
+    "expected_category": "INVALID_OR_INQUIRY",
+    "pred": "staff_behavior"
+   },
+   {
+    "ticket_id": "X0065",
+    "attack_type": "reply_attack",
+    "position": "pure",
+    "expected_category": "INVALID_OR_INQUIRY",
+    "pred": "refund_request"
+   },
+   {
+    "ticket_id": "X0069",
+    "attack_type": "reply_attack",
+    "position": "pure",
+    "expected_category": "INVALID_OR_INQUIRY",
+    "pred": "staff_behavior"
+   },
+   {
+    "ticket_id": "X0071",
+    "attack_type": "summary_attack",
+    "position": "prefix",
+    "expected_category": "app_issue",
+    "pred": "inquiry"
+   }
+  ]
+ },
+ "contamination": {
+  "suite_texts": 174,
+  "near_duplicates_of_training": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,16 @@
+device=cuda gpu=NVIDIA GeForce RTX 5050 Laptop GPU args={'data': 'data/processed/segments.csv', 'model': 'intfloat/multilingual-e5-small', 'out': 'models/e5small_syn', 'epochs': 6, 'lr': 5e-05, 'batch_size': 32, 'seed': 42, 'device': 'cuda', 'extra_data': 'data/processed/synthetic.csv'}
+train segments=6563 dev segments (held-out templates)=986
+extra synthetic: 609 train + 108 selection
+{"epoch": 1, "train_loss": 1.6441, "seconds": 18.7, "dev_macro_f1": 0.8452, "synth_dev_macro_f1": 0.8644, "select_score": 0.8548}
+{"epoch": 2, "train_loss": 0.3121, "seconds": 17.2, "dev_macro_f1": 0.9992, "synth_dev_macro_f1": 0.926, "select_score": 0.9626}
+{"epoch": 3, "train_loss": 0.0922, "seconds": 16.6, "dev_macro_f1": 0.992, "synth_dev_macro_f1": 0.9621, "select_score": 0.977}
+{"epoch": 4, "train_loss": 0.0458, "seconds": 16.5, "dev_macro_f1": 0.997, "synth_dev_macro_f1": 0.9379, "select_score": 0.9674}
+{"epoch": 5, "train_loss": 0.0311, "seconds": 16.5, "dev_macro_f1": 0.9996, "synth_dev_macro_f1": 0.9439, "select_score": 0.9718}
+{"epoch": 6, "train_loss": 0.0255, "seconds": 16.5, "dev_macro_f1": 0.9996, "synth_dev_macro_f1": 0.9523, "select_score": 0.976}
+best epoch = 3
+{"epoch": 1, "train_loss": 1.3765, "seconds": 19.4}
+{"epoch": 2, "train_loss": 0.2396, "seconds": 19.0}
+{"epoch": 3, "train_loss": 0.1008, "seconds": 19.0}
+exported models\e5small_syn\model.int8.onnx (118 MB)
+ONNX int8 vs torch agreement on 500 texts: 1.0000
+total time 3.4 min

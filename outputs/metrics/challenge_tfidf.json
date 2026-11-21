@@ -1,0 +1,34 @@
+{
+  "file": "challenge_tfidf.csv",
+  "category_macro_f1": 0.8769,
+  "category_accuracy": 0.8723,
+  "secondary_category_accuracy": 1.0,
+  "product_exact_match": 1.0,
+  "store_exact_match": 1.0,
+  "sentiment_accuracy": 0.9787,
+  "urgency_accuracy": 0.9787,
+  "overall": 0.9455,
+  "overall_ci95": [
+    0.8889,
+    0.9809
+  ],
+  "per_class_f1": {
+    "app_issue": 0.909,
+    "delivery_delay": 0.769,
+    "inquiry": 0.889,
+    "loyalty_points": 0.889,
+    "price_complaint": 1.0,
+    "product_quality": 0.727,
+    "refund_request": 0.8,
+    "staff_behavior": 1.0,
+    "wrong_item": 0.909
+  },
+  "errors_per_field": {
+    "category": 6,
+    "secondary_category": 0,
+    "product_mentioned": 0,
+    "store_mentioned": 0,
+    "sentiment": 1,
+    "urgency": 1
+  }
+}

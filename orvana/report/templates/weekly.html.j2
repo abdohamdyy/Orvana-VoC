@@ -1,0 +1,218 @@
+{#- Email-safe layout: tables + inline styles only (Gmail drops <style> blocks), no scripts, no remote images or fonts.
+    Colours come from render.TONES; every coloured chip also carries its label (colour never carries meaning alone).
+    Jinja autoescape is ON: customer text cannot inject HTML. -#}
+{%- macro chip(tone, label) -%}
+<span style="display:inline-block;padding:2px 9px;border-radius:10px;background:{{ tones[tone][1] }};color:{{ tones[tone][2] }};font-size:11px;font-weight:700;white-space:nowrap;">{{ label }}</span>
+{%- endmacro -%}
+{%- macro reason_chip(r) -%}
+{%- if r.startswith("safety, to confirm") -%}{{ chip("warning", "Safety · to confirm") }}
+{%- elif r.startswith("safety") -%}{{ chip("critical", "Safety") }}
+{%- elif r.startswith("repeat") -%}{{ chip("violet", "Repeat complaint") }}
+{%- elif r.startswith("double") -%}{{ chip("serious", "Double charge " ~ r[14:]) }}
+{%- else -%}{{ chip("neutral", r or "Urgent") }}{%- endif -%}
+{%- endmacro -%}
+{%- macro delta(pp) -%}
+{%- if pp > 0 -%}<span style="color:#d03b3b;">&#9650;</span>&nbsp;+{{ "%.1f"|format(pp) }} pp
+{%- elif pp < 0 -%}<span style="color:#0ca30c;">&#9660;</span>&nbsp;{{ "%.1f"|format(pp) }} pp
+{%- else -%}<span style="color:#7b8794;">&ndash;</span>&nbsp;0.0 pp{%- endif -%}
+{%- endmacro -%}
+{%- macro card(title="", note="", bg="#ffffff", border="#e3e7ed") -%}
+<tr><td style="padding-top:14px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:{{ bg }};border:1px solid {{ border }};border-radius:10px;"><tr><td style="padding:16px 18px;">
+{%- if title %}<div style="font-size:15px;font-weight:700;color:#1f2933;">{{ title }}</div>{% endif %}
+{%- if note %}<div style="font-size:12px;color:#7b8794;margin-top:3px;line-height:1.5;">{{ note }}</div>{% endif %}
+{{ caller() }}
+</td></tr></table>
+</td></tr>
+{%- endmacro -%}
+{%- set TH = "padding:6px 8px 6px 0;font-size:11px;color:#7b8794;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;border-bottom:1px solid #e3e7ed;" -%}
+{%- set TD = "padding:7px 8px 7px 0;border-bottom:1px solid #eef1f5;" -%}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="supported-color-schemes" content="light">
+<title>Orvana weekly complaints report {{ f.period.start }} to {{ f.period.end }}</title>
+</head>
+<body style="margin:0;padding:0;background:#eef1f5;font-family:'Segoe UI',Tahoma,Arial,sans-serif;color:#1f2933;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#eef1f5;"><tr><td align="center" style="padding:20px 10px 28px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:720px;">
+
+  <!-- header -->
+  <tr><td style="background:#0d366b;border-radius:12px 12px 0 0;padding:22px 24px 20px;">
+    <div style="font-size:11px;letter-spacing:1.6px;color:#9ec5f4;font-weight:700;">ORVANA &middot; VOICE OF THE CUSTOMER</div>
+    <div style="font-size:23px;font-weight:700;color:#ffffff;margin-top:6px;">Weekly complaints report</div>
+    <div style="font-size:13px;color:#cde2fb;margin-top:4px;">{{ f.period.start }} &rarr; {{ f.period.end }} &middot; {{ f.volume.valid_tickets }} valid complaints &middot; file <span style="font-family:Consolas,monospace;">{{ f.week_key }}</span></div>
+  </td></tr>
+  <tr><td style="background:#2a78d6;height:4px;line-height:4px;font-size:0;border-radius:0 0 4px 4px;">&nbsp;</td></tr>
+
+  <!-- KPI tiles -->
+  <tr><td style="padding-top:14px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+    {%- for k in kpis %}
+      <td width="25%" valign="top" style="padding-right:{{ '0' if loop.last else '8px' }};">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#ffffff;border:1px solid #e3e7ed;border-top:4px solid {{ tones[k.tone][0] }};border-radius:8px;"><tr><td style="padding:12px 12px 13px;">
+          <div style="font-size:26px;font-weight:700;color:#1f2933;line-height:1.1;">{{ k.value }}</div>
+          <div style="font-size:12px;font-weight:600;color:#3e4c59;margin-top:4px;">{{ k.label }}</div>
+          <div style="font-size:11px;color:#7b8794;margin-top:2px;">{{ k.sub }}</div>
+        </td></tr></table>
+      </td>
+    {%- endfor %}
+    </tr></table>
+  </td></tr>
+
+  <!-- Arabic summary written by the local LLM (numbers verified) -->
+  {% call card() %}
+    <div dir="rtl" lang="ar" style="text-align:right;border-right:4px solid #2a78d6;padding:2px 14px 2px 0;">
+      <div style="font-size:13px;font-weight:700;color:#1c5cab;margin-bottom:6px;">الملخص</div>
+      <div style="font-size:15px;line-height:1.9;color:#1f2933;">{{ summary }}</div>
+      <div style="font-size:11px;color:#7b8794;margin-top:8px;">
+        {% if summary_source == "llm" %}كتبه نموذج لغوي يعمل محلياً، وتم التحقق آلياً من أن كل رقم فيه موجود في البيانات.{% else %}ملخص آلي من قالب ثابت (لم يجتز ملخص النموذج اللغوي فحص الأرقام).{% endif %}
+      </div>
+    </div>
+  {% endcall %}
+
+  {%- for e in f.emerging_issues %}
+  <!-- Emerging issue: something that never appeared in the history -->
+  {% call card(bg="#fdf2f2", border="#f3c2c2") %}
+    <div>{{ chip("critical", "New issue") }}&nbsp; <span style="font-size:15px;font-weight:700;color:#9b2222;">{{ e.tickets }} tickets ({{ e.share_pct }}% of the week), never seen in the history</span></div>
+    <div style="font-size:13px;color:#3e4c59;margin-top:8px;line-height:1.6;">Shared terms: <b>{{ e.terms|join(", ") }}</b> &middot; first seen {{ e.first_seen[:16] }} &middot;
+      classified as {% for k, v in e.categories.items() %}{{ k }} {{ v }}{% if not loop.last %}, {% endif %}{% endfor %}</div>
+    <ul style="font-size:13px;margin:8px 0 0;padding-left:18px;color:#3e4c59;line-height:1.6;">
+      {% for ex in e.examples %}<li dir="auto">{{ ex }}</li>{% endfor %}
+    </ul>
+  {% endcall %}
+  {%- endfor %}
+
+  <!-- Actions -->
+  {% call card("Actions this week", "Derived from the policy (section 5) and this week's facts, most urgent first.") %}
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:8px;">
+      {%- for a in actions %}
+      <tr>
+        <td width="96" valign="top" style="padding:9px 10px 9px 0;border-top:{{ '0' if loop.first else '1px solid #eef1f5' }};">{{ chip(a.tone, a.tag) }}</td>
+        <td valign="top" style="padding:9px 0;font-size:13px;line-height:1.55;color:#1f2933;border-top:{{ '0' if loop.first else '1px solid #eef1f5' }};">{{ a.text }}</td>
+      </tr>
+      {%- endfor %}
+    </table>
+  {% endcall %}
+
+  <!-- Categories -->
+  {% call card("Complaints by category", "History is a sample (~86 tickets a week), so it is compared by share, not by count. ▲ = a bigger share than usual.") %}
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:8px;font-size:13px;">
+      <tr>
+        <td style="{{ TH }}">Category</td>
+        <td align="right" style="{{ TH }}">Tickets</td>
+        <td style="{{ TH }}padding-left:6px;">Share of the week</td>
+        {% if has_prev %}<td align="right" style="{{ TH }}">vs last week</td>{% endif %}
+        <td align="right" style="{{ TH }}padding-right:0;">vs history</td>
+      </tr>
+      {%- for c in f.categories %}
+      <tr>
+        <td style="{{ TD }}white-space:nowrap;">{{ c.category|replace("_", " ")|capitalize }}</td>
+        <td align="right" style="{{ TD }}font-weight:700;">{{ c.count }}</td>
+        <td width="38%" style="{{ TD }}padding-left:6px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+            <td style="padding-right:8px;"><div style="background:#e8eef7;border-radius:4px;height:10px;line-height:10px;font-size:0;"><div style="width:{{ (100 * c.share_pct / max_share)|round(1) }}%;background:#2a78d6;border-radius:4px;height:10px;line-height:10px;font-size:0;">&nbsp;</div></div></td>
+            <td width="42" align="right" style="font-size:12px;color:#3e4c59;white-space:nowrap;">{{ c.share_pct }}%</td>
+          </tr></table>
+        </td>
+        {% if has_prev %}<td align="right" style="{{ TD }}color:#3e4c59;white-space:nowrap;">{{ "%+d"|format(c.change_vs_prev) }}</td>{% endif %}
+        <td align="right" style="{{ TD }}padding-right:0;color:#3e4c59;white-space:nowrap;">{{ delta(c.vs_history_pp) }}</td>
+      </tr>
+      {%- endfor %}
+    </table>
+  {% endcall %}
+
+  {%- if f.safety_tickets %}
+  <!-- Safety reports: policy section 5, 2-hour escalation -->
+  {% call card("Safety reports for the Quality team: " ~ f.safety.confirmed ~ " confirmed, " ~ f.safety.to_confirm ~ " to confirm",
+               "Policy section 5: any complaint about an expired, overheating or burning product, even when it is the second problem in the message. \"To confirm\" = the product type rarely has that hazard (an \"expired\" phone, milk that \"gets very hot\"): call the customer before pulling stock.") %}
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:8px;font-size:12px;">
+      <tr><td style="{{ TH }}">Status</td><td style="{{ TH }}">Ticket</td><td style="{{ TH }}">Brand &middot; store</td><td style="{{ TH }}">Urgency</td><td style="{{ TH }}padding-right:0;">Message</td></tr>
+      {%- for s in f.safety_tickets[:max_urgent_rows] %}
+      <tr valign="top">
+        <td style="{{ TD }}">{{ chip("critical", "Confirmed") if s.check == "confirmed" else chip("warning", "To confirm") }}</td>
+        <td style="{{ TD }}white-space:nowrap;"><b>{{ s.ticket_id }}</b><br><span style="color:#7b8794;">{{ s.created_at[:16] }}</span></td>
+        <td style="{{ TD }}">{{ s.product_mentioned or "&ndash;"|safe }}{% if s.store_mentioned %}<br><span style="color:#7b8794;">{{ s.store_mentioned }}</span>{% endif %}</td>
+        <td style="{{ TD }}white-space:nowrap;">{{ s.urgency }}{% if s.where == "second issue" %}<br><span style="color:#7b8794;">2nd issue</span>{% endif %}</td>
+        <td dir="auto" style="{{ TD }}padding-right:0;color:#3e4c59;line-height:1.5;">{{ s.text }}</td>
+      </tr>
+      {%- endfor %}
+    </table>
+    {% if f.safety_tickets|length > max_urgent_rows %}<div style="font-size:12px;color:#7b8794;margin-top:8px;">&hellip; {{ f.safety_tickets|length - max_urgent_rows }} more in the attached CSV.</div>{% endif %}
+  {% endcall %}
+  {%- endif %}
+
+  <!-- Urgent tickets that are not already in the safety list above -->
+  {%- set safety_ids = f.safety_tickets|map(attribute="ticket_id")|list %}
+  {%- set others = f.urgent_tickets|rejectattr("ticket_id", "in", safety_ids)|list %}
+  {% call card("Urgent tickets (urgency 3): " ~ f.urgent_tickets|length,
+               (("The " ~ (f.urgent_tickets|length - others|length) ~ " safety ones are listed above. ") if others|length < f.urgent_tickets|length else "")
+               ~ "Below: the other " ~ others|length ~ " (repeat complaints, large double charges). Every urgent ticket is in the attached urgent_tickets.csv.") %}
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:8px;font-size:12px;">
+      <tr><td style="{{ TH }}">Why urgent</td><td style="{{ TH }}">Ticket</td><td style="{{ TH }}">Category</td><td style="{{ TH }}">Brand &middot; store</td><td style="{{ TH }}padding-right:0;">Message</td></tr>
+      {%- for u in others[:max_other_rows] %}
+      <tr valign="top">
+        <td style="{{ TD }}">{{ reason_chip(u.reason) }}</td>
+        <td style="{{ TD }}white-space:nowrap;"><b>{{ u.ticket_id }}</b><br><span style="color:#7b8794;">{{ u.created_at[:16] }}</span></td>
+        <td style="{{ TD }}">{{ u.category|replace("_", " ") }}</td>
+        <td style="{{ TD }}">{{ u.product_mentioned or "&ndash;"|safe }}{% if u.store_mentioned %}<br><span style="color:#7b8794;">{{ u.store_mentioned }}</span>{% endif %}</td>
+        <td dir="auto" style="{{ TD }}padding-right:0;color:#3e4c59;line-height:1.5;">{{ u.text }}</td>
+      </tr>
+      {%- endfor %}
+    </table>
+    {% if others|length > max_other_rows %}<div style="font-size:12px;color:#7b8794;margin-top:8px;">&hellip; {{ others|length - max_other_rows }} more in the attached CSV.</div>{% endif %}
+  {% endcall %}
+
+  <!-- Stores and products -->
+  {% call card() %}
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+      <td width="50%" valign="top" style="padding-right:12px;">
+        <div style="font-size:15px;font-weight:700;color:#1f2933;">Stores with most complaints</div>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:8px;font-size:12px;">
+          <tr><td style="{{ TH }}">Store</td><td align="right" style="{{ TH }}">Tickets</td><td style="{{ TH }}padding-right:0;">Top issue</td></tr>
+          {%- for s in f.top_stores %}
+          <tr><td style="{{ TD }}"><b>{{ s.key }}</b><br><span style="color:#7b8794;">{{ s.name }}</span></td><td align="right" style="{{ TD }}font-weight:700;">{{ s.count }}</td><td style="{{ TD }}padding-right:0;color:#3e4c59;">{{ s.top_category|replace("_", " ") }}</td></tr>
+          {%- endfor %}
+        </table>
+      </td>
+      <td width="50%" valign="top" style="padding-left:12px;">
+        <div style="font-size:15px;font-weight:700;color:#1f2933;">Products with most complaints</div>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:8px;font-size:12px;">
+          <tr><td style="{{ TH }}">Brand</td><td align="right" style="{{ TH }}">Tickets</td><td style="{{ TH }}padding-right:0;">Top issue</td></tr>
+          {%- for p in f.top_products %}
+          <tr><td style="{{ TD }}"><b>{{ p.key }}</b></td><td align="right" style="{{ TD }}font-weight:700;">{{ p.count }}</td><td style="{{ TD }}padding-right:0;color:#3e4c59;">{{ p.top_category|replace("_", " ") }}</td></tr>
+          {%- endfor %}
+        </table>
+      </td>
+    </tr></table>
+  {% endcall %}
+
+  <!-- Channels, data quality and model health -->
+  {% call card("Data quality, security and model health", bg="#f7f9fb") %}
+    <div style="margin-top:10px;">
+      {%- for k, v in f.channels.items() %}<span style="display:inline-block;margin:0 6px 6px 0;padding:3px 10px;border-radius:10px;background:#ffffff;border:1px solid #e3e7ed;font-size:12px;color:#3e4c59;">{{ k }} <b>{{ v }}</b></span>{% endfor %}
+    </div>
+    <ul style="font-size:12px;color:#3e4c59;margin:6px 0 0;padding-left:18px;line-height:1.7;">
+      <li>Rows received: {{ f.volume.rows_received }}. Duplicate rows removed: {{ f.volume.duplicate_rows_removed }}. Empty or invalid messages: {{ f.volume.invalid_messages }}.</li>
+      <li>Prompt-injection attempts detected and neutralised: {{ f.volume.injection_attempts }}.</li>
+      <li>Tickets mentioning two problems: {{ f.multi_issue_tickets }}.</li>
+      <li>Category counts are model estimates ({{ f.model_version }}; category macro-F1 {{ model_quality }} on the reviewed dev set).</li>
+      <li>Model health: {{ f.monitoring.sent_to_llm_pct }}% of tickets were decided by the LLM because the two cheap models disagreed;
+        category-mix PSI vs history {{ f.monitoring.category_psi_vs_history }}; unmatched store mentions {{ f.monitoring.unmatched_store_mentions }}.</li>
+      {%- for a in f.monitoring.alerts %}<li style="color:#9a4119;">Monitoring alert: {{ a }}</li>{% endfor %}
+    </ul>
+  {% endcall %}
+
+  <!-- footer -->
+  <tr><td align="center" style="padding:18px 10px 0;font-size:11px;color:#7b8794;line-height:1.6;">
+    Generated automatically by the Orvana VoC pipeline, every Monday 08:00 Cairo time.<br>
+    Attachment: urgent_tickets.csv (urgency-3 tickets plus safety reports that are urgency 2).
+  </td></tr>
+
+</table>
+</td></tr></table>
+</body>
+</html>

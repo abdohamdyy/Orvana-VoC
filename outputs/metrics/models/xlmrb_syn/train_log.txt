@@ -1,0 +1,16 @@
+device=cuda gpu=NVIDIA GeForce RTX 5050 Laptop GPU args={'data': 'data/processed/segments.csv', 'model': 'FacebookAI/xlm-roberta-base', 'out': 'models/xlmrb_syn', 'epochs': 5, 'lr': 3e-05, 'batch_size': 32, 'seed': 42, 'device': 'cuda', 'extra_data': 'data/processed/synthetic.csv'}
+train segments=6563 dev segments (held-out templates)=986
+extra synthetic: 609 train + 108 selection
+{"epoch": 1, "train_loss": 1.1725, "seconds": 33.3, "dev_macro_f1": 0.9149, "synth_dev_macro_f1": 0.8234, "select_score": 0.8692}
+{"epoch": 2, "train_loss": 0.0984, "seconds": 32.3, "dev_macro_f1": 0.8476, "synth_dev_macro_f1": 0.932, "select_score": 0.8898}
+{"epoch": 3, "train_loss": 0.0347, "seconds": 32.2, "dev_macro_f1": 0.9571, "synth_dev_macro_f1": 0.911, "select_score": 0.9341}
+{"epoch": 4, "train_loss": 0.0143, "seconds": 32.4, "dev_macro_f1": 0.9509, "synth_dev_macro_f1": 0.9618, "select_score": 0.9564}
+{"epoch": 5, "train_loss": 0.0096, "seconds": 32.4, "dev_macro_f1": 0.9512, "synth_dev_macro_f1": 0.9438, "select_score": 0.9475}
+best epoch = 4
+{"epoch": 1, "train_loss": 1.0823, "seconds": 41.3}
+{"epoch": 2, "train_loss": 0.064, "seconds": 39.9}
+{"epoch": 3, "train_loss": 0.0259, "seconds": 40.2}
+{"epoch": 4, "train_loss": 0.0128, "seconds": 39.9}
+exported models\xlmrb_syn\model.int8.onnx (279 MB)
+ONNX int8 vs torch agreement on 500 texts: 1.0000
+total time 6.8 min

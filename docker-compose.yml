@@ -1,0 +1,57 @@
+# Stage 4 runtime.   docker compose up -d     then open http://localhost:8025 (Mailpit) to read the emails.
+#
+# scheduler : runs the weekly job every Monday 08:00 Africa/Cairo (and once on start-up, catch-up)
+# mailpit   : local SMTP server + web UI, so emails can be inspected without a real mail server
+# ollama    : the local LLM (profile "ollama"). If Ollama already runs on the host, skip it: the
+#             default OLLAMA_URL points to the host. With the profile: docker compose --profile ollama up -d
+services:
+  scheduler:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      SMTP_HOST: mailpit
+      SMTP_PORT: "1025"
+      OLLAMA_URL: ${OLLAMA_URL:-http://host.docker.internal:11434}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./data:/app/data:ro
+      - ./incoming:/app/incoming:ro
+      - ./models:/app/models:ro
+      - ./state:/app/state
+      - ./outputs:/app/outputs
+    depends_on:
+      - mailpit
+
+  mailpit:
+    image: axllent/mailpit:v1.21
+    restart: unless-stopped
+    ports:
+      - "8025:8025"   # web UI
+      - "1025:1025"   # SMTP
+    volumes:
+      - mailpit-data:/data
+    environment:
+      MP_DATABASE: /data/mailpit.db   # keep emails across restarts
+
+  ollama:
+    image: ollama/ollama:0.6.8
+    profiles: ["ollama"]
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-models:/root/.ollama
+    # GPU is optional; remove this block on machines without an NVIDIA GPU (CPU works, just slower)
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+volumes:
+  mailpit-data:
+  ollama-models:

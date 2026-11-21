@@ -1,0 +1,111 @@
+{
+  "$defs": {
+    "Category": {
+      "enum": [
+        "delivery_delay",
+        "wrong_item",
+        "refund_request",
+        "product_quality",
+        "price_complaint",
+        "app_issue",
+        "staff_behavior",
+        "loyalty_points",
+        "inquiry"
+      ],
+      "title": "Category",
+      "type": "string"
+    },
+    "Sentiment": {
+      "enum": [
+        "negative",
+        "neutral",
+        "positive"
+      ],
+      "title": "Sentiment",
+      "type": "string"
+    }
+  },
+  "properties": {
+    "ticket_id": {
+      "title": "Ticket Id",
+      "type": "string"
+    },
+    "category": {
+      "$ref": "#/$defs/Category"
+    },
+    "secondary_category": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Category"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "product_mentioned": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Product Mentioned"
+    },
+    "store_mentioned": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Store Mentioned"
+    },
+    "sentiment": {
+      "$ref": "#/$defs/Sentiment"
+    },
+    "urgency": {
+      "maximum": 3,
+      "minimum": 1,
+      "title": "Urgency",
+      "type": "integer"
+    },
+    "is_valid": {
+      "default": true,
+      "title": "Is Valid",
+      "type": "boolean"
+    },
+    "injection_flag": {
+      "default": false,
+      "title": "Injection Flag",
+      "type": "boolean"
+    },
+    "confidence": {
+      "default": 1.0,
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "model_version": {
+      "default": "",
+      "title": "Model Version",
+      "type": "string"
+    }
+  },
+  "required": [
+    "ticket_id",
+    "category",
+    "sentiment",
+    "urgency"
+  ],
+  "title": "TicketRecord",
+  "type": "object"
+}

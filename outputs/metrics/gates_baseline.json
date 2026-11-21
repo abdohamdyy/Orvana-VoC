@@ -1,0 +1,19 @@
+{
+ "gold": {
+  "product": 1.0,
+  "store": 1.0,
+  "secondary": 1.0,
+  "urgency": 1.0,
+  "sentiment": 1.0
+ },
+ "history_rates": {
+  "split_two": 0.1317,
+  "product": 0.3648,
+  "store": 0.2326,
+  "safety_flag": 0.0966,
+  "repeat_flag": 0.0708,
+  "double_charge_flag": 0.043,
+  "injection_flag": 0.0009,
+  "invalid": 0.0004
+ }
+}
