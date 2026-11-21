@@ -38,7 +38,7 @@ Full stories: [STAGE1_DATA](docs/STAGE1_DATA.md) · [STAGE2_REPORT](docs/STAGE2_
 
 ## Demo video (4 min 39 s)
 
-**[Watch on Google Drive](DRIVE_LINK)**. It is recorded from the local UI (`python app.py`), with no external API.
+**[Watch on Google Drive](https://drive.google.com/file/d/19o6JnvKcflRhiRToRoRfdC8eOyuGNPBn/view?usp=sharing)**. It is recorded from the local UI (`python app.py`), with no external API.
 
 | Time | What it shows |
 |---|---|
